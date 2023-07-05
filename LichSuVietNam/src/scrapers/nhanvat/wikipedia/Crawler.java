@@ -22,8 +22,7 @@ public class Crawler {
 		Document doc;
 		String[] tmp;
 		try {
-			reader = new BufferedReader(
-					new FileReader("C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\url-figure-source-2.txt"));
+			reader = new BufferedReader(new FileReader("file\\url-figure-source-2.txt"));
 			String line = reader.readLine();
 			while (line != null) {
 
@@ -121,8 +120,7 @@ public class Crawler {
 
 		}
 
-		try (BufferedWriter writer = new BufferedWriter(new FileWriter(
-				"C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\figure-source-2.txt"))) {
+		try (BufferedWriter writer = new BufferedWriter(new FileWriter("file\\figure-source-2.txt"))) {
 			for (String element : set) {
 				writer.write(element);
 				writer.newLine();

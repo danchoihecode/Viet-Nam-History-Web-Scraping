@@ -176,7 +176,7 @@ public class ScraperChuTich {
 
 		try {
 
-			String newJsonFilePath = "C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\figure-source-2.json";
+			String newJsonFilePath = "file\\figure-source-2.json";
 
 			String existingJson = new String(Files.readAllBytes(Paths.get(newJsonFilePath)));
 

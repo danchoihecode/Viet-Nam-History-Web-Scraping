@@ -28,7 +28,7 @@ public class Crawler {
             }
         }
 
-        try (FileWriter writer = new FileWriter("C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\nhanvat.txt")) {
+        try (FileWriter writer = new FileWriter("file\\nhanvat.txt")) {
             writer.write(stringBuffer.toString());
             System.out.println("Đã ghi dữ liệu vào tệp tin nhanvat.txt");
         } catch (IOException e) {

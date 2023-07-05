@@ -21,11 +21,11 @@ public class AddFestival {
 	public static void main(String[] args) {
 		// Đọc dữ liệu từ file site-source-2.json
 		List<DiTich> diTichList = readDiTichFromJson(
-				"C:\\Users\\pc\\Documents\\OOPProject\\LichSuVietNam\\file\\site-source-2.json");
+				"file\\site-source-2.json");
 
 		// Tạo map<String, ArrayList<String>> từ file festival-source-2.json
 		Map<String, ArrayList<String>> festivalMap = readFestivalMapFromFile(
-				"C:\\Users\\pc\\Documents\\OOPProject\\LichSuVietNam\\file\\festival-source-2.json");
+				"file\\festival-source-2.json");
 
 		// Duyệt qua danh sách DiTich và kiểm tra lễ hội liên quan
 		for (DiTich diTich : diTichList) {
@@ -40,7 +40,7 @@ public class AddFestival {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		String json = gson.toJson(diTichList);
 
-		String outputFile = "C:\\Users\\pc\\Documents\\OOPProject\\LichSuVietNam\\file\\site-source-2.json";
+		String outputFile = "file\\site-source-2.json";
 		try (FileWriter writer = new FileWriter(outputFile)) {
 			writer.write(json);
 			System.out.println("Dữ liệu đã được ghi vào file " + outputFile);
