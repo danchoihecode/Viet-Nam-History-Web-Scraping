@@ -21,11 +21,11 @@ public class AddEvent {
 	public static void main(String[] args) {
 		// Đọc dữ liệu từ file figure-source-2.json
 		List<NhanVat> nhanVatList = readNhanVatFromJson(
-				"C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\figure-source-2.json");
+				"C:\\Users\\pc\\Documents\\OOPProject\\LichSuVietNam\\file\\figure-source-2.json");
 
 		// Tạo map<String, ArrayList<String>> từ file event-source-2.json
 		Map<String, ArrayList<String>> eventMap = readEventMapFromFile(
-				"C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\event-source-2.json");
+				"C:\\Users\\pc\\Documents\\OOPProject\\LichSuVietNam\\file\\event-source-2.json");
 
 		// Duyệt qua danh sách nhanVat và kiểm tra sự kiện liên quan
 		for (NhanVat nhanVat : nhanVatList) {
@@ -40,7 +40,7 @@ public class AddEvent {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		String json = gson.toJson(nhanVatList);
 
-		String outputFile = "C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\figure-source-2.json";
+		String outputFile = "C:\\Users\\pc\\Documents\\OOPProject\\LichSuVietNam\\file\\figure-source-2.json";
 		try (FileWriter writer = new FileWriter(outputFile)) {
 			writer.write(json);
 			System.out.println("Dữ liệu đã được ghi vào file " + outputFile);

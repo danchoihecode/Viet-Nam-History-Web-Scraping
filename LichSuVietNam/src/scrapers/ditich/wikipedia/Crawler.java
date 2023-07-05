@@ -26,7 +26,7 @@ public class Crawler {
 		String s;
 		try {
 			reader = new BufferedReader(new FileReader(
-					"C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\url-site-source-2.txt"));
+					"C:\\Users\\pc\\Documents\\OOPProject\\LichSuVietNam\\file\\url-site-source-2.txt"));
 			String line = reader.readLine();
 			while (line != null) {
 
@@ -65,7 +65,7 @@ public class Crawler {
 		}
 
 		try (BufferedWriter writer = new BufferedWriter(
-				new FileWriter("C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\site-source-2.txt"))) {
+				new FileWriter("C:\\Users\\pc\\Documents\\OOPProject\\LichSuVietNam\\file\\site-source-2.txt"))) {
 			for (String element : set) {
 				writer.write(element);
 				writer.newLine();
