@@ -156,7 +156,7 @@ public class Scraper {
 			if(!p.isEmpty()) {
 				String mieuTa = doc.select("div.mw-parser-output > p:has(b)").first().html().replaceAll("(?s)<sup.*?</sup>", "");
 				String str = Jsoup.parse(mieuTa).text();
-				String[] mieuTaItems = {"phim", "bài hát", "nhạc sĩ", "là con đường", "đơn vị nghiên cứu và phát triển"};
+				String[] mieuTaItems = {"phim", "bài hát", "nhạc sĩ", "ca sĩ", "là con đường", "đơn vị nghiên cứu và phát triển", "ca khúc", "chương trình", "hỏa hoạn", "vụ nổ", "câu chuyện", "công ty"};
 				if(stringContains(str, mieuTaItems)) {
 					return;
 				}
