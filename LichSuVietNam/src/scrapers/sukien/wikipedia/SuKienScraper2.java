@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -29,6 +30,7 @@ public class SuKienScraper2 extends Scraper implements GetData {
 	@Override
 	public void getData() {
 		getSavedUrl();
+		
 		try {
 			BufferedReader reader = new BufferedReader(new FileReader("file\\event-source-2.txt"));
 			String line = reader.readLine();
@@ -48,12 +50,12 @@ public class SuKienScraper2 extends Scraper implements GetData {
 			e.printStackTrace();
 		}
 		
-//		String line = "https://vi.wikipedia.org/wiki/Hi%E1%BB%87p_%C4%91%E1%BB%8Bnh_Paris_1973";
+//		String line = "https://vi.wikipedia.org/wiki/Tr%E1%BA%ADn_%C4%90%E1%BB%93_B%C3%A0n_(1377)";
 //		try {
-//			doc = Jsoup.connect(line).get();
-//			if(!suKienJson.contains(line)) scrape(line, doc);	
+//			Document doc = Jsoup.connect(line).get();
+//			scrape(line, doc);	
 //		} catch (IOException e) {
-//			System.out.println("Không thể kết nối tới trang web.");
+//			System.out.println("Không thể kết nối tới trang web." + line);
 //			return;
 //		}	
 	}

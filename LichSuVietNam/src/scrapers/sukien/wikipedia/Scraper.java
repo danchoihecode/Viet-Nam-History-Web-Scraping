@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -27,10 +29,9 @@ import sukien.SuKien;
 public class Scraper {
 	
 	protected ArrayList<SuKien> suKiens = new ArrayList<>();
-	protected HashSet<String> nhanVatJson = new HashSet<>();
+	protected HashMap<String, String> nhanVatJson = new HashMap<>();
 	protected HashSet<String> suKienJson = new HashSet<>();
 	protected int count = 0;
-	
 	
 	public boolean stringContains(String inputStr, String[] items) {
 	    return Arrays.stream(items).anyMatch(inputStr::contains);
@@ -108,11 +109,12 @@ public class Scraper {
 			
 			// Nhan Vat Lien Quan
 			ArrayList<String> nhanVatLienQuan = new ArrayList<>();
-			Elements aTags  = e.select("tr:has(th:contains(Chỉ huy và lãnh đạo)) + tr").select("a:not(.new)");
+			Elements aTags  = doc.select("div.mw-parser-output > *:not(h2:contains(Chú thích) ~ *, h2:contains(Tham khảo) ~ *, h2:contains(Xem thêm) ~ *)").select("*");	
 			for(Element aTag:aTags) {
 				String url = "https://vi.wikipedia.org" + aTag.attr("href");
-				if(nhanVatJson.contains(url)) {
-					if(!nhanVatLienQuan.contains(url)) nhanVatLienQuan.add(url);
+				if(nhanVatJson.containsKey(url)) {
+					String nhanVat = nhanVatJson.get(url);
+					if(!nhanVatLienQuan.contains(nhanVat)) nhanVatLienQuan.add(nhanVat);
 				}			
 				if(aTag.text().contains("Những nhà lãnh đạo")) {
 					try {
@@ -120,12 +122,12 @@ public class Scraper {
 						Elements as = document.select("a:not(.new)");
 						for(Element a:as) {
 							String str = "https://vi.wikipedia.org" + a.attr("href");
-							if(nhanVatJson.contains(str)) {
-								if(!nhanVatLienQuan.contains(str)) nhanVatLienQuan.add(str);
+							if(nhanVatJson.containsKey(str)) {
+								if(!nhanVatLienQuan.contains(nhanVatJson.get(str))) nhanVatLienQuan.add(nhanVatJson.get(str));
 							}
 						}
 					} catch (IOException ex) {
-						System.out.println("Không thể kết nối tới trang web.");
+						System.out.println("Không thể kết nối tới trang web." + url);
 					}
 				}
 			}
@@ -176,7 +178,8 @@ public class Scraper {
 			for(JsonElement jsonElement:jsonArray) {
 				JsonObject jsonObject = jsonElement.getAsJsonObject();
 				String url = jsonObject.get("url").getAsString();
-				nhanVatJson.add(url);
+				String ten = jsonObject.get("ten").getAsString();
+				nhanVatJson.put(url, ten);
 			}
 		}catch(IOException e) {
 			e.printStackTrace();

@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -24,7 +25,7 @@ import com.google.gson.JsonParser;
 import sukien.SuKien;
 
 public class SuKienScraper1 extends Scraper implements GetData {
-	
+
 	@Override
 	public void getData() {
 		getSavedUrl();
@@ -80,8 +81,9 @@ public class SuKienScraper1 extends Scraper implements GetData {
 		Elements hrefs  = ele.select("td:nth-child(2), td:nth-child(3)").select("a:not(.new)");
 		for(Element href:hrefs) {
 			String url = "https://vi.wikipedia.org" + href.attr("href");
-			if(nhanVatJson.contains(url)) {
-				if(!nhanVatLienQuan.contains(url)) nhanVatLienQuan.add(url);
+			if(nhanVatJson.containsKey(url)) {
+				String nhanVat = nhanVatJson.get(url);
+				if(!nhanVatLienQuan.contains(nhanVat)) nhanVatLienQuan.add(nhanVat);
 			}
 		}
 		if(!nhanVatLienQuan.isEmpty()) suKien.setNhanVatLienQuan(nhanVatLienQuan);
