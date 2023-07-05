@@ -21,6 +21,10 @@ public class NhanVat {
 		this.ten = ten;
 	}
 
+	public String getTen() {
+		return ten;
+	}
+
 	public void setNamSinh(String namSinh) {
 		this.namSinh = namSinh;
 	}
@@ -95,5 +99,5 @@ public class NhanVat {
 	public void setUrl(String url) {
 		this.url = url;
 	}
-	
+
 }

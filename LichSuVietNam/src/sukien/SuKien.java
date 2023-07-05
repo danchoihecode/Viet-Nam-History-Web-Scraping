@@ -23,6 +23,10 @@ public class SuKien {
 		this.ten = ten;
 	}
 
+	public String getTen() {
+		return ten;
+	}
+
 	public void setThoiGian(String thoiGian) {
 		this.thoiGian = thoiGian;
 	}
@@ -53,6 +57,10 @@ public class SuKien {
 
 	public void setNhanVatLienQuan(ArrayList<String> nhanVatLienQuan) {
 		this.nhanVatLienQuan = nhanVatLienQuan;
+	}
+
+	public ArrayList<String> getNhanVatLienQuan() {
+		return nhanVatLienQuan;
 	}
 
 	public void setThamChien(ArrayList<ArrayList<String>> thamChien) {
