@@ -5,7 +5,10 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -18,6 +21,8 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
+import nhanvat.LanhDaoQuocGia;
+import nhanvat.NhanVat;
 import sukien.SuKien;
 
 public class SuKienScraper {
@@ -26,7 +31,7 @@ public class SuKienScraper {
 	private static Document doc;
 	private static BufferedReader reader;
 	private static int count = 0;
-	private static HashSet<String> data = new HashSet<>();
+	private static HashMap<String, String> nhanVatJson = new HashMap<>();
 	
 	
 	public static void scrape(String url) {
@@ -111,14 +116,14 @@ public class SuKienScraper {
 		Elements a2 = mieuTa.select("a");
 		for(Element a:a1) {
 			String str = "https://nguoikesu.com" + a.attr("href");
-			if(data.contains(str)) {
-				if(!nhanVatLienQuan.contains(str)) nhanVatLienQuan.add(str);
+			if(nhanVatJson.containsKey(str)) {
+				if(!nhanVatLienQuan.contains(nhanVatJson.get(str))) nhanVatLienQuan.add(nhanVatJson.get(str));
 			}
 		}
 		for(Element a:a2) {
 			String str = "https://nguoikesu.com" + a.attr("href");
-			if(data.contains(str)) {
-				if(!nhanVatLienQuan.contains(str)) nhanVatLienQuan.add(str);
+			if(nhanVatJson.containsKey(str)) {
+				if(!nhanVatLienQuan.contains(nhanVatJson.get(str))) nhanVatLienQuan.add(nhanVatJson.get(str));
 			}
 		}
 		if(!nhanVatLienQuan.isEmpty()) suKien.setNhanVatLienQuan(nhanVatLienQuan);	
@@ -140,7 +145,8 @@ public class SuKienScraper {
 			for(JsonElement jsonElement:jsonArray) {
 				JsonObject jsonObject = jsonElement.getAsJsonObject();
 				String url = jsonObject.get("url").getAsString();
-				data.add(url);
+				String ten = jsonObject.get("ten").getAsString();
+				nhanVatJson.put(url, ten);
 			}
 		}catch(IOException e) {
 			e.printStackTrace();
@@ -165,13 +171,14 @@ public class SuKienScraper {
 			e.printStackTrace();
 		}
 	
+//		String url = "https://nguoikesu.com/tu-lieu/quan-su/tran-dinh-tuong-nam-1861";
 //		try {
-//			doc = Jsoup.connect("https://nguoikesu.com/tu-lieu/quan-su/tran-dinh-tuong-nam-1861").get();
+//			doc = Jsoup.connect(url).get();
 //		} catch (IOException e) {
 //			System.out.println("Không thể kết nối tới trang web.");
 //			return;
 //		}
-//		scrape();	
+//		scrape(url);	
 		
 		Gson gson1 = new GsonBuilder().setPrettyPrinting().create();
 		String json1;

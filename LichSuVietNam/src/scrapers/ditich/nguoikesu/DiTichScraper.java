@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 
 import org.jsoup.Jsoup;
@@ -29,15 +30,15 @@ public class DiTichScraper {
 	private static Document doc;
 	private static BufferedReader reader;
 	private static int count = 0;
-	private static HashSet<String> suKienUrl = new HashSet<>();
-	private static HashSet<String> nhanVatUrl = new HashSet<>();
+	private static HashMap<String, String> suKienJson = new HashMap<>();
+	private static HashMap<String, String> nhanVatJson = new HashMap<>();
 	
 	
 	public static void scrape() {
 		DiTich diTich = new DiTich();
-		
+		Elements body = doc.select("div.com-content-article__body > *:not(h2:contains(Tham khảo) ~ *)").select("*");
 		// Ten
-		String ten = doc.select("div.page-header>h2[itemprop=\"headline\"]").text();
+		String ten = doc.select("div.page-header>h2").text();
 		diTich.setTen(ten);
 		
 		// Dia Chi
@@ -45,9 +46,9 @@ public class DiTichScraper {
 		if(diaChi.length() != 0) diTich.setDiaChi(Jsoup.parse(diaChi).text());
 		
 		// Mieu Ta
-		Elements p = doc.select("div[itemprop=\"articleBody\"]  p:has(b)");
+		Elements p = body.select("p:has(b)");
 		if(!p.isEmpty()) {
-			String mieuTa = doc.selectFirst("div[itemprop=\"articleBody\"]  p:has(b)").html().replaceAll("(?s)<sup.*?</sup>", "");
+			String mieuTa = body.select("p:has(b)").first().html().replaceAll("(?s)<sup.*?</sup>", "");
 			String str = Jsoup.parse(mieuTa).text();	
 			if(mieuTa.length() != 0) diTich.setMieuTa(str);
 		}
@@ -63,14 +64,14 @@ public class DiTichScraper {
 		// Nhan Vat & Su Kien Lien Quan
 		ArrayList<String> nhanVatLienQuan = new ArrayList<>();
 		ArrayList<String> suKienLienQuan = new ArrayList<>();
-		Elements ele = doc.select("div[itemprop=\"articleBody\"] a");
+		Elements ele = body.select("a");
 		for(Element e:ele) {
 			String str = "https://nguoikesu.com" + e.attr("href");
-			if(suKienUrl.contains(str)) {
-				if(!suKienLienQuan.contains(str)) suKienLienQuan.add(str);
+			if(suKienJson.containsKey(str)) {
+				if(!suKienLienQuan.contains(suKienJson.get(str))) suKienLienQuan.add(suKienJson.get(str));
 			}
-			if(nhanVatUrl.contains(str)) {
-				if(!nhanVatLienQuan.contains(str)) nhanVatLienQuan.add(str);
+			if(nhanVatJson.containsKey(str)) {
+				if(!nhanVatLienQuan.contains(nhanVatJson.get(str))) nhanVatLienQuan.add(nhanVatJson.get(str));
 			}
 		}
 		if(!suKienLienQuan.isEmpty()) diTich.setSuKienLienQuan(suKienLienQuan);	
@@ -88,7 +89,8 @@ public class DiTichScraper {
 			for(JsonElement jsonElement:jsonArray) {
 				JsonObject jsonObject = jsonElement.getAsJsonObject();
 				String url = jsonObject.get("url").getAsString();
-				nhanVatUrl.add(url);
+				String ten = jsonObject.get("ten").getAsString();
+				nhanVatJson.put(url, ten);
 			}
 		}catch(IOException e) {
 			e.printStackTrace();
@@ -99,7 +101,8 @@ public class DiTichScraper {
 			for(JsonElement jsonElement:jsonArray) {
 				JsonObject jsonObject = jsonElement.getAsJsonObject();
 				String url = jsonObject.get("url").getAsString();
-				suKienUrl.add(url);
+				String ten = jsonObject.get("ten").getAsString();
+				suKienJson.put(url, ten);
 			}
 		}catch(IOException e) {
 			e.printStackTrace();
@@ -125,7 +128,7 @@ public class DiTichScraper {
 		}
 	
 //		try {
-//			doc = Jsoup.connect("https://nguoikesu.com/dia-danh/thanh-nha-ho").get();
+//			doc = Jsoup.connect("https://nguoikesu.com/dia-danh/co-do-hoa-lu").get();
 //		} catch (IOException e) {
 //			System.out.println("Không thể kết nối tới trang web.");
 //			return;
