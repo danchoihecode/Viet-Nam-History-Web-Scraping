@@ -23,7 +23,7 @@ public class Concatenation {
 			for (int i = 0; i <= 31; i++) {
 				// Đọc dữ liệu từ tệp JSON
 				String content = new String(Files.readAllBytes(
-						Paths.get("C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\figure-source-2-" + i
+						Paths.get("file\\figure-source-2-" + i
 								+ ".json")));
 
 				// Phân tích dữ liệu JSON thành JsonArray
@@ -38,7 +38,7 @@ public class Concatenation {
 
 			// Ghi kết quả vào tệp mới
 			FileWriter fileWriter = new FileWriter(
-					"C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\figure-source-2.json");
+					"file\\figure-source-2.json");
 			gson.toJson(resultArray, fileWriter);
 			fileWriter.close();
 

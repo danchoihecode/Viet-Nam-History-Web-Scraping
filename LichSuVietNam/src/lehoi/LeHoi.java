@@ -20,6 +20,42 @@ public class LeHoi {
 		this.ten = ten;
 	}
 
+	public String getDiaDiem() {
+		return diaDiem;
+	}
+
+	public String getThoiGian() {
+		return thoiGian;
+	}
+
+	public String getLanDauToChuc() {
+		return lanDauToChuc;
+	}
+
+	public String getMieuTa() {
+		return mieuTa;
+	}
+
+	public String getSuKienLienQuan() {
+		return suKienLienQuan;
+	}
+
+	public ArrayList<String> getNhanVatLienQuan() {
+		return nhanVatLienQuan;
+	}
+
+	public String getAnh() {
+		return anh;
+	}
+
+	public String getUrl() {
+		return url;
+	}
+
+	public int getNguon() {
+		return nguon;
+	}
+
 	public void setDiaDiem(String diaDiem) {
 		this.diaDiem = diaDiem;
 	}

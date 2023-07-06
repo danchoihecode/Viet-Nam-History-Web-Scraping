@@ -28,7 +28,7 @@ public class ScraperLeHoi {
 		HashSet<String> diTich = new HashSet<>();
 
 		try (FileReader reader = new FileReader(
-				"C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\figure-source-2.json")) {
+				"file\\figure-source-2.json")) {
 
 			JsonArray jsonArray = JsonParser.parseReader(reader).getAsJsonArray();
 
@@ -40,7 +40,7 @@ public class ScraperLeHoi {
 			e.printStackTrace();
 		}
 		try (FileReader reader = new FileReader(
-				"C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\site-source-2.json")) {
+				"file\\site-source-2.json")) {
 
 			JsonArray jsonArray = JsonParser.parseReader(reader).getAsJsonArray();
 
@@ -226,7 +226,7 @@ public class ScraperLeHoi {
 
 		try {
 
-			String newJsonFilePath = "C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\festival-source-2.json";
+			String newJsonFilePath = "file\\festival-source-2.json";
 
 			String existingJson = new String(Files.readAllBytes(Paths.get(newJsonFilePath)));
 

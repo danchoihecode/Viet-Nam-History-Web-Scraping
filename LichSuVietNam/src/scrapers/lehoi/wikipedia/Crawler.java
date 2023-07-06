@@ -38,7 +38,7 @@ public class Crawler {
 		}
 
 		try (BufferedWriter writer = new BufferedWriter(new FileWriter(
-				"C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\festival-source-2.txt"))) {
+				"file\\festival-source-2.txt"))) {
 
 			writer.write(str.toString());
 			System.out.println("Ghi thành công vào file.");

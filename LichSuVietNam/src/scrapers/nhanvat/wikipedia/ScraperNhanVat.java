@@ -25,7 +25,7 @@ public class ScraperNhanVat {
 		ArrayList<NhanVat> nhanVats = new ArrayList<NhanVat>();
 		try {
 			reader = new BufferedReader(new FileReader(
-					"C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\figure-source-2.txt"));
+					"file\\figure-source-2.txt"));
 			String line = reader.readLine();
 			while (line != null) {
 //				if (i < 3) {
@@ -137,7 +137,7 @@ public class ScraperNhanVat {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		String json = gson.toJson(nhanVats);
 
-		String outputFile = "C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\figure-source-2.json";
+		String outputFile = "file\\figure-source-2.json";
 		try (FileWriter writer = new FileWriter(outputFile)) {
 			writer.write(json);
 			System.out.println("Dữ liệu đã được ghi vào file " + outputFile);

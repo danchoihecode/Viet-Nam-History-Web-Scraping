@@ -27,7 +27,7 @@ public class Scraper {
 		HashSet<String> diTich = new HashSet<>();
 
 		try (FileReader reader = new FileReader(
-				"C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\figure-source-2.json")) {
+				"file\\figure-source-2.json")) {
 
 			JsonArray jsonArray = JsonParser.parseReader(reader).getAsJsonArray();
 
@@ -39,7 +39,7 @@ public class Scraper {
 			e.printStackTrace();
 		}
 		try (FileReader reader = new FileReader(
-				"C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\site-source-2.json")) {
+				"file\\site-source-2.json")) {
 
 			JsonArray jsonArray = JsonParser.parseReader(reader).getAsJsonArray();
 
@@ -57,7 +57,7 @@ public class Scraper {
 		ArrayList<LeHoi> leHois = new ArrayList<LeHoi>();
 		try {
 			reader = new BufferedReader(new FileReader(
-					"C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\festival-source-2.txt"));
+					"file\\festival-source-2.txt"));
 			String line = reader.readLine();
 			while (line != null) {
 //				if (i < 75) {
@@ -278,7 +278,7 @@ public class Scraper {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		String json = gson.toJson(leHois);
 
-		String outputFile = "C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\festival-source-2.json";
+		String outputFile = "file\\festival-source-2.json";
 		try (FileWriter writer = new FileWriter(outputFile)) {
 			writer.write(json);
 			System.out.println("Dữ liệu đã được ghi vào file " + outputFile);

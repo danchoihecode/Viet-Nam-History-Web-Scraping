@@ -42,7 +42,7 @@ public class ScraperWikipedia {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		String json = gson.toJson(periods);
 
-		String outputFile = "C:\\Users\\pc\\Documents\\OOPBigProject\\LichSuVietNam\\file\\period-source-2.json";
+		String outputFile = "file\\period-source-2.json";
 		try (FileWriter writer = new FileWriter(outputFile)) {
 			writer.write(json);
 			System.out.println("Dữ liệu đã được ghi vào file " + outputFile);
