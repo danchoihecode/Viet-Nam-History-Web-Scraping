@@ -11,7 +11,7 @@ public class JsonCounter {
 	public static void main(String[] args) {
 		try {
 			// Đường dẫn tới tệp JSON
-			String filePath = "file\\festival.json";
+			String filePath = "file\\site-source-3.json";
 
 			// Đọc tệp JSON
 			JsonElement jsonElement = JsonParser.parseReader(new FileReader(filePath));
