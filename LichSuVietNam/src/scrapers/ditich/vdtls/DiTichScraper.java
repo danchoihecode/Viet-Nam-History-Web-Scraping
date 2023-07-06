@@ -165,7 +165,7 @@ public class DiTichScraper {
 		Gson gson1 = new GsonBuilder().setPrettyPrinting().create();
 		String json1;
 		json1 = gson1.toJson(DiTichs);
-		String outputFile1 = "C:\\Users\\admin\\Desktop\\OOPBigProject\\LichSuVietNam\\file\\figure-source-4.json";
+		String outputFile1 = "file\\site-source-4.json";
 		
 		try (FileWriter writer = new FileWriter(outputFile1)){
 			writer.write(json1);

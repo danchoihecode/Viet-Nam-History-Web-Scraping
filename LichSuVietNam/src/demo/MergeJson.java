@@ -16,14 +16,14 @@ import java.util.Map;
 public class MergeJson {
 	public static void main(String[] args) {
 		// Đường dẫn tới file input.json và output.json
-		String inputFile = "C:\\Users\\pc\\Documents\\person.json";
-		String outputFile = "C:\\Users\\pc\\Documents\\output.json";
+		String inputFile = "file\\festival-concatenated.json";
+		String outputFile = "file\\festival.json";
 
 		try {
-			// Đọc file input.json
+			// Đọc file input
 			JsonArray jsonArray = new Gson().fromJson(new FileReader(inputFile), JsonArray.class);
 
-			// Tạo map để lưu trữ thông tin theo tên nhân vật
+			// Tạo map để lưu trữ thông tin theo tên lễ hội làm khóa
 			Map<String, JsonObject> mergedMap = new HashMap<>();
 
 			// Xử lí dữ liệu từ input.json
@@ -68,13 +68,13 @@ public class MergeJson {
 			// Chuyển đổi map thành list chứa các đối tượng đã xử lí
 			List<JsonObject> mergedList = new ArrayList<>(mergedMap.values());
 
-			// Ghi ra file output.json
+			// Ghi ra file output
 			Gson gson = new GsonBuilder().setPrettyPrinting().create();
 			FileWriter fileWriter = new FileWriter(outputFile);
 			fileWriter.write(gson.toJson(mergedList));
 			fileWriter.close();
 
-			System.out.println("Successfully merged JSON data.");
+			System.out.println("Hợp nhất dữ liệu thành công.");
 
 		} catch (IOException e) {
 			e.printStackTrace();

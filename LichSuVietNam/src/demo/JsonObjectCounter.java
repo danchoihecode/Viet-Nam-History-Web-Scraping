@@ -7,11 +7,11 @@ import com.google.gson.JsonParser;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class JsonCounter {
+public class JsonObjectCounter {
 	public static void main(String[] args) {
 		try {
 			// Đường dẫn tới tệp JSON
-			String filePath = "file\\site-source-3.json";
+			String filePath = "file\\festival-source-2.json";
 
 			// Đọc tệp JSON
 			JsonElement jsonElement = JsonParser.parseReader(new FileReader(filePath));

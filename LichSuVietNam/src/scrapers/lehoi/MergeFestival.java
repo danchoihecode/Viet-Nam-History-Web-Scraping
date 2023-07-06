@@ -1,118 +1,125 @@
 package scrapers.lehoi;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
-import com.google.gson.Gson;
-import com.google.gson.JsonArray;
-import com.google.gson.reflect.TypeToken;
-
-import lehoi.LeHoi;
+import java.util.*;
 
 public class MergeFestival {
-    public static void main(String[] args) {
-        // Đường dẫn tới các file input.json và output.json
-        String[] inputFileNames = {
-            "file\\festival-source-2.json",
-            "file\\festival-source-8.json",
-            "file\\festival-source-9.json",
-            "file\\festival-source-10.json"
-        };
-        String outputFile = "file\\merged-festivals.json";
 
-        try {
-            // Tạo một danh sách để lưu trữ các lễ hội từ các file input.json
-            List<LeHoi> mergedFestivals = new ArrayList<>();
+	private static final String[] ATTRIBUTES = { "diaDiem", "thoiGian", "lanDauToChuc", "mieuTa", "suKienLienQuan",
+			"anh", "url", "diTichLienQuan", "nhanVatLienQuan" };
 
-            // Đọc dữ liệu từ các file input.json
-            Gson gson = new Gson();
-            for (String inputFileName : inputFileNames) {
-                JsonArray jsonArray = gson.fromJson(new FileReader(inputFileName), JsonArray.class);
+	public static void main(String[] args) {
+		// Đường dẫn tới file input và output
+		String inputFile = "file\\festival-concatenated.json";
+		String outputFile = "file\\festival.json";
 
-                // Chuyển đổi dữ liệu từ JsonObject thành các đối tượng LeHoi
-                Type festivalListType = new TypeToken<List<LeHoi>>() {}.getType();
-                List<LeHoi> festivals = gson.fromJson(jsonArray, festivalListType);
+		try {
+			// Đọc file input
+			JsonArray jsonArray = new Gson().fromJson(new FileReader(inputFile), JsonArray.class);
 
-                // Hợp nhất lễ hội với danh sách lễ hội đã có
-                mergeFestivals(mergedFestivals, festivals);
-            }
+			// Tạo map để lưu trữ thông tin, lấy tên lễ hội làm khóa
+			// Map<Tên lễ hội, đối tượng lễ hội>
+			Map<String, JsonObject> mergedMap = new HashMap<>();
 
-            // Ghi ra file output.json
-            FileWriter fileWriter = new FileWriter(outputFile);
-            gson.toJson(mergedFestivals, fileWriter);
-            fileWriter.close();
+			// Xử lý dữ liệu từ input
+			for (int i = 0; i < jsonArray.size(); i++) {
+				JsonObject jsonObject = jsonArray.get(i).getAsJsonObject();
+				String ten = jsonObject.get("ten").getAsString();
+				int nguon = jsonObject.get("nguon").getAsInt();
 
-            System.out.println("Successfully merged festivals.");
+				if (mergedMap.containsKey(ten)) {
+					JsonObject existingObject = mergedMap.get(ten);
+					mergeAttributes(existingObject, jsonObject, nguon);
+				} else {
+					JsonObject newObject = new JsonObject();
+					newObject.addProperty("ten", ten);
+					mergeAttributes(newObject, jsonObject, nguon);
+					mergedMap.put(ten, newObject);
+				}
+			}
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+			// Chuyển đổi map thành list chứa các đối tượng đã xử lý
+			List<JsonObject> mergedList = new ArrayList<>(mergedMap.values());
 
-    private static void mergeFestivals(List<LeHoi> mergedFestivals, List<LeHoi> festivals) {
-        for (LeHoi festival : festivals) {
-            boolean merged = false;
+			// Ghi ra file output
+			Gson gson = new GsonBuilder().setPrettyPrinting().create();
+			FileWriter fileWriter = new FileWriter(outputFile);
+			fileWriter.write(gson.toJson(mergedList));
+			fileWriter.close();
 
-            // Kiểm tra xem lễ hội đã được hợp nhất hay chưa
-            for (LeHoi mergedFestival : mergedFestivals) {
-                if (isSameFestival(festival, mergedFestival)) {
-                    mergeFestivalAttributes(festival, mergedFestival);
-                    merged = true;
-                    break;
-                }
-            }
+			System.out.println("Hợp nhất dữ liệu thành công.");
 
-            // Nếu chưa được hợp nhất, thêm lễ hội vào danh sách hợp nhất
-            if (!merged) {
-                mergedFestivals.add(festival);
-            }
-        }
-    }
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 
-    private static boolean isSameFestival(LeHoi festival1, LeHoi festival2) {
-        // So sánh thuộc tính "Tên" của hai lễ hội (không phân biệt hoa thường)
-        return festival1.getTen().equalsIgnoreCase(festival2.getTen());
-    }
+	private static void mergeAttributes(JsonObject targetObject, JsonObject sourceObject, int nguon) {
+		for (String attribute : ATTRIBUTES) {
+			if (sourceObject.has(attribute)) {
+				JsonElement attributeValue = sourceObject.get(attribute);
+				if (attribute.equals("diTichLienQuan") || attribute.equals("nhanVatLienQuan")) {
+					mergeArrayListAttribute(targetObject, attribute, attributeValue);
+				} else {
+					mergeAttributeValue(targetObject, attribute, attributeValue, nguon);
+				}
+			}
+		}
+	}
 
-    private static void mergeFestivalAttributes(LeHoi sourceFestival, LeHoi targetFestival) {
-        mergeStringAttribute(sourceFestival.getDiaDiem(), targetFestival.getDiaDiem());
-        mergeStringAttribute(sourceFestival.getThoiGian(), targetFestival.getThoiGian());
-        mergeStringAttribute(sourceFestival.getLanDauToChuc(), targetFestival.getLanDauToChuc());
-        mergeStringAttribute(sourceFestival.getMieuTa(), targetFestival.getMieuTa());
-        mergeStringAttribute(sourceFestival.getAnh(), targetFestival.getAnh());
-        mergeStringAttribute(sourceFestival.getUrl(), targetFestival.getUrl());
-        mergeStringListAttribute(sourceFestival.getDiTichLienQuan(), targetFestival.getDiTichLienQuan());
-        mergeStringListAttribute(sourceFestival.getNhanVatLienQuan(), targetFestival.getNhanVatLienQuan());
-        mergeStringAttribute(sourceFestival.getSuKienLienQuan(), targetFestival.getSuKienLienQuan());
-    }
+	private static void mergeArrayListAttribute(JsonObject targetObject, String attribute, JsonElement attributeValue) {
+		JsonArray targetArray = targetObject.has(attribute) ? targetObject.get(attribute).getAsJsonArray()
+				: new JsonArray();
+		Set<String> mergedSet = new HashSet<String>();
 
-    private static void mergeStringAttribute(String sourceValue, String targetValue) {
-        if (sourceValue != null && !sourceValue.equalsIgnoreCase(targetValue)) {
-            // Add sourceValue to targetValue if they are different
-            if (targetValue != null) {
-                targetValue += "; " + sourceValue;
-            } else {
-                targetValue = sourceValue;
-            }
-        }
-    }
+		for (JsonElement element : targetArray) {
+			mergedSet.add(element.getAsString());
+		}
 
+		JsonArray sourceArray = attributeValue.getAsJsonArray();
+		for (JsonElement element : sourceArray) {
+			mergedSet.add(element.getAsString());
+		}
 
-    private static void mergeStringListAttribute(List<String> sourceList, List<String> targetList) {
-        if (sourceList != null && targetList != null) {
-            Set<String> mergedSet = new HashSet<>(targetList);
-            mergedSet.addAll(sourceList);
-            targetList.clear();
-            targetList.addAll(mergedSet);
-        } else if (sourceList != null && targetList == null) {
-            targetList = new ArrayList<>(sourceList);
-        }
-    }
+		JsonArray mergedArray = new JsonArray();
+		for (String value : mergedSet) {
+			mergedArray.add(value);
+		}
 
+		targetObject.add(attribute, mergedArray);
+	}
+
+	private static void mergeAttributeValue(JsonObject targetObject, String attribute, JsonElement attributeValue,
+			int nguon) {
+		if (targetObject.has(attribute)) {
+			JsonObject attributeObject = targetObject.getAsJsonObject(attribute);
+			mergeAttributeValue(attributeObject, attributeValue, nguon);
+		} else {
+			JsonObject attributeObject = new JsonObject();
+			mergeAttributeValue(attributeObject, attributeValue, nguon);
+			targetObject.add(attribute, attributeObject);
+		}
+	}
+
+	private static void mergeAttributeValue(JsonObject attributeObject, JsonElement attributeValue, int nguon) {
+		String attributeValueAsString = attributeValue.getAsString();
+		JsonArray nguonArray;
+
+		if (attributeObject.has(attributeValueAsString)) {
+			nguonArray = attributeObject.getAsJsonArray(attributeValueAsString);
+		} else {
+			nguonArray = new JsonArray();
+			attributeObject.add(attributeValueAsString, nguonArray);
+		}
+
+		nguonArray.add(nguon);
+	}
 }
