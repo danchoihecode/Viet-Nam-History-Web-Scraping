@@ -1,8 +1,18 @@
 [
   {
     "ten": "Hội đình Bà Tía",
+    "diaDiem": {
+      "thôn Vĩnh Ninh, xã Vĩnh Quỳnh - Thanh Trì - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra trong khoảng thời gian từ ngày 8.2 đến hết ngày 10.2 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Diễn ra trong khoảng thời gian từ ngày 8.2 đến hết ngày 10.2 âm lịch hằng năm, hội đình Bà Tía được tổ chức tại thôn Vĩnh Ninh, xã Vĩnh Quỳnh - Thanh Trì - Hà Nội. Một số hoạt động thú vị tại hội đình này là thi cầu đập nồi niêu, đánh cờ, thi đấu vật...": [
+      "Một số hoạt động thú vị tại hội đình này là thi cầu đập nồi niêu, đánh cờ, thi đấu vật.": [
         9
       ]
     },
@@ -31,9 +41,37 @@
     }
   },
   {
-    "ten": "Hội đình Văn Khê",
+    "ten": "Lễ hội cầu mưa (người Chăm)",
+    "thoiGian": {
+      "Cứ vào đầu tháng hai âm lịch hàng năm (sau Tết Nguyên đán), dù trời hạn hay trời mưa, họ đều tổ chức lễ hội.": [
+        2
+      ]
+    },
     "mieuTa": {
-      "Hội đình này diễn ra trong khoảng thời gian từ ngày 17 đến hết ngày 18 tháng 5 âm lịch hằng năm tại địa chỉ xã Nghĩa Hương - Huyện Quốc Oai, Hà Nội. Hội đình Văn Khê diễn ra một số hoạt động thú vị, đó là đánh cờ, tổ tôm điếm, lễ rước nước, diễn chèo...": [
+      "Lễ hội cầu mưa người Chăm hay lễ mừng mưa tiếng Chăm wai le kau cahesan là một lễ hội của dân tộc Chăm H\u0027roi, Vân Canh, Bình Định, Việt Nam. Với quan niệm mọi biến chuyển của vũ trụ đều do Phật trời, thần linh hoặc ma quỷ điều khiển. Con người muốn đạt được sở nguyện thì phải cầu nguyện, cúng khấn để được thần linh trợ giúp. Tùy theo thời tiết mà có tên gọi cho từng dịp lễ hội - trời hạn thì gọi là lễ cầu mưa, còn có mưa mà hành lễ thì gọi là lễ mừng mưa.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_c%E1%BA%A7u_m%C6%B0a_(ng%C6%B0%E1%BB%9Di_Ch%C4%83m)": [
+        2
+      ]
+    }
+  },
+  {
+    "ten": "Hội đình Văn Khê",
+    "diaDiem": {
+      "địa chỉ xã Nghĩa Hương - Huyện Quốc Oai, Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra trong khoảng thời gian từ ngày 17 đến hết ngày 18 tháng 5 âm lịch hằng năm": [
+        9
+      ]
+    },
+    "mieuTa": {
+      "Hội đình Văn Khê diễn ra một số hoạt động thú vị, đó là đánh cờ, tổ tôm điếm, lễ rước nước, diễn chèo.": [
         9
       ]
     },
@@ -160,8 +198,18 @@
   },
   {
     "ten": "Hội chùa Tam Huyền",
+    "diaDiem": {
+      "phường Hạ Đình - quận Thanh Xuân - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào ngày 6.3 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Hội chùa này diễn ra vào ngày 6.3 âm lịch hằng năm tại phường Hạ Đình - quận Thanh Xuân - Hà Nội. Hoạt động chính mà hội chùa Tam Huyền mang lại, đó là vật tay, chọi gà, đấu roi, thi thổi xôi.": [
+      "Hoạt động chính mà hội chùa Tam Huyền mang lại, đó là vật tay, chọi gà, đấu roi, thi thổi xôi.": [
         9
       ]
     },
@@ -190,6 +238,24 @@
     }
   },
   {
+    "ten": "Lễ hội Mùa xuân (người Êđê)",
+    "thoiGian": {
+      "Các lễ hội bắt đầu từ cuối tháng 12 năm cũ đến hết tháng 3 dương lịch-năm mới. Trong lễ hội các buôn người ta mời các buôn làng gần xa đến dự, cứ lần lượt diễn ra trong suốt bảy ngày đêm. Do các già làng chủ trì trong các buôn làng của mình.": [
+        2
+      ]
+    },
+    "mieuTa": {
+      "Lễ hội Mùa xuân của người Êđê hay Lễ hội mừng lúa mới là lễ hội mà người Êđê tổ chức sau mùa gặt hái, đón năm mới. Một số dân tộc ở Tây Nguyên khác, như Gia Rai, Ba Na, Xơ-đăng, M\u0027Nông, cũng có lễ hội tương tự.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_M%C3%B9a_xu%C3%A2n_(ng%C6%B0%E1%BB%9Di_%C3%8A%C4%91%C3%AA)": [
+        2
+      ]
+    }
+  },
+  {
     "ten": "Hội Yên Lập (trong tháng 5 âm lịch)",
     "diaDiem": {
       "Xã Yên Lập, huyện Vĩnh Tường, tỉnh Vĩnh Phúc.": [
@@ -213,72 +279,12 @@
     }
   },
   {
-    "ten": "Lễ hội Gầu tào",
-    "thoiGian": {
-      "Thời gian mở hội thường trong khoảng từ ngày mồng một đến ngày 15 tháng giêng. Nếu hội tổ chức 3 năm liền thì mỗi năm tổ chức 3 ngày liền, hội làm gộp một năm sẽ tổ chức 9 ngày.": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Lễ hội Gầu tào là một lễ hội của người đồng bào dân tộc H\u0027Mông. Nội dung chính cho lễ hội là Cầu phúc hoặc cầu mệnh.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_g%E1%BA%A7u_t%C3%A0o": [
-        2
-      ]
-    }
-  },
-  {
-    "ten": "Festival Dừa Bến Tre",
-    "diaDiem": {
-      "tại tỉnh Bến Tre": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Festival Dừa Bến Tre là một lễ hội về dừa được tổ chức tại tỉnh Bến Tre. Lễ hội đã được tổ chức qua 5 kỳ vào các năm (Quang Đại) 2009, 2010, 2012, 2015 và 2019. Hai kỳ đầu tiên được tổ chức với quy mô địa phương. Từ năm 2012 được tổ chức với quy mô quốc gia.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/Festival_D%E1%BB%ABa": [
-        2
-      ]
-    }
-  },
-  {
     "ten": "Lễ hội Đền thờ Nguyễn Xí",
     "diaDiem": {
       "Đền thờ Nguyễn Xí, xã Nghi Hợp, huyện Nghi Lộc.": [
         8
       ]
     }
-  },
-  {
-    "ten": "Đại lễ 1.000 năm Thăng Long – Hà Nội",
-    "mieuTa": {
-      "Đại lễ 1.000 năm Thăng Long – Hà Nội được tổ chức từ ngày 1 tháng 10 đến ngày 10 tháng 10 năm 2010 ở Việt Nam với tâm điểm là thủ đô Hà Nội, nhằm kỷ niệm tròn 1.000 năm kể từ khi kinh đô Thăng Long chính thức là thủ đô của Việt Nam (được đánh dấu bằng mốc son vua Lý Thái Tổ ban Chiếu dời đô từ Hoa Lư về thành Đại La và đổi tên thành Thăng Long, nay là Hà Nội). Nhiều công trình được xây dựng cùng các sự kiện đã được tổ chức trong vòng 1 năm (từ 10 tháng 10 năm 2009 đến 9 tháng 10 năm 2010 để chào mừng Đại lễ với các lễ hội văn hóa truyền thống.": [
-        2
-      ]
-    },
-    "anh": {
-      "//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ChieuDoiDo2010.jpg/327px-ChieuDoiDo2010.jpg": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_l%E1%BB%85_1000_n%C4%83m_Th%C4%83ng_Long_%E2%80%93_H%C3%A0_N%E1%BB%99i": [
-        2
-      ]
-    },
-    "diTichLienQuan": [
-      "Hoa Lư"
-    ],
-    "nhanVatLienQuan": [
-      "Lý Thái Tổ"
-    ]
   },
   {
     "ten": "Lễ hội Hạn Khuống",
@@ -305,6 +311,27 @@
         8
       ]
     }
+  },
+  {
+    "ten": "Lễ hội Báo bản làng Nộn Khê",
+    "diaDiem": {
+      "tại làng Nộn Khê thuộc xã Yên Từ": [
+        2
+      ]
+    },
+    "mieuTa": {
+      "Lễ hội báo bản Nộn Khê là một lễ hội tại làng Nộn Khê thuộc xã Yên Từ, huyện Yên Mô, tỉnh Ninh Bình. Theo truyền thống thì mỗi năm vào ngày 14 tháng giêng âm lịch thì lễ hội này đều được tổ chức.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_B%C3%A1o_b%E1%BA%A3n_l%C3%A0ng_N%E1%BB%99n_Kh%C3%AA": [
+        2
+      ]
+    },
+    "nhanVatLienQuan": [
+      "Lê Thánh Tông"
+    ]
   },
   {
     "ten": "Đại lễ Đức Chí Tôn",
@@ -413,19 +440,6 @@
     ]
   },
   {
-    "ten": "Lễ hội Kơ Pan",
-    "mieuTa": {
-      "Lễ hội Kơ Pan là một lễ hội của người đồng bào dân tộc thiểu số Ê đê, Tây Nguyên. Tượng trưng cho sự giàu có của gia đình và là niềm tự hào của cả buôn.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_K%C6%A1_Pan": [
-        2
-      ]
-    }
-  },
-  {
     "ten": "Lễ hội Roya Phik Trok",
     "thoiGian": {
       "Lễ hội diễn ra trong ba ngày 1 đến 3 tháng 10 Hồi lịch.": [
@@ -444,9 +458,32 @@
     }
   },
   {
-    "ten": "Hội đền Dầm",
+    "ten": "Lễ hội Kơ Pan",
     "mieuTa": {
-      "Hội đền diễn ra từ ngày 5 đến ngày 7 tháng 2 âm lịch tại thôn Sâm Dương - Ninh Sở - Thường Tín - Hà Nội. Một số hoạt động tại đền Dầm trong thời gian diễn ra lễ hội, đó là: múa rồng, múa sư tử, kéo chữ, cờ người, chọi gà...": [
+      "Lễ hội Kơ Pan là một lễ hội của người đồng bào dân tộc thiểu số Ê đê, Tây Nguyên. Tượng trưng cho sự giàu có của gia đình và là niềm tự hào của cả buôn.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_K%C6%A1_Pan": [
+        2
+      ]
+    }
+  },
+  {
+    "ten": "Hội đền Dầm",
+    "diaDiem": {
+      "thôn Sâm Dương - Ninh Sở - Thường Tín - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra từ ngày 5 đến ngày 7 tháng 2 âm lịch": [
+        9
+      ]
+    },
+    "mieuTa": {
+      "Một số hoạt động tại đền Dầm trong thời gian diễn ra lễ hội, đó là: múa rồng, múa sư tử, kéo chữ, cờ người, chọi gà.": [
         9
       ]
     },
@@ -455,27 +492,6 @@
         9
       ]
     }
-  },
-  {
-    "ten": "Lễ hội báo bản Nộn Khê",
-    "diaDiem": {
-      "tại làng Nộn Khê thuộc xã Yên Từ": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Lễ hội báo bản Nộn Khê là một lễ hội tại làng Nộn Khê thuộc xã Yên Từ, huyện Yên Mô, tỉnh Ninh Bình. Theo truyền thống thì mỗi năm vào ngày 14 tháng giêng âm lịch thì lễ hội này đều được tổ chức.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_B%C3%A1o_b%E1%BA%A3n_l%C3%A0ng_N%E1%BB%99n_Kh%C3%AA": [
-        2
-      ]
-    },
-    "nhanVatLienQuan": [
-      "Lê Thánh Tông"
-    ]
   },
   {
     "ten": "Lễ hội làm chay",
@@ -603,6 +619,24 @@
     }
   },
   {
+    "ten": "Lễ hội tháp Bà Po Nagar",
+    "thoiGian": {
+      "Lễ hội Tháp Bà PoNagar Nha Trang diễn ra hàng năm từ ngày 20 đến 23 tháng 3 Âm lịch, tại di tích Tháp Bà PoNagar, thuộc phường Vĩnh Phước, thành phố Nha Trang, tỉnh Khánh Hòa.": [
+        2
+      ]
+    },
+    "mieuTa": {
+      "Lễ hội tháp Yang Po Nagar là một lễ hội của dân tộc Chăm ở Khánh Hòa, Việt Nam. Đây là lễ hội dân gian lớn nhất trong năm ở tỉnh Khánh Hòa để tưởng nhớ nữ thần Yang Po Inư Nagar - người đã có nhiều công lao giúp dân, đem lại những điều tốt lành và hạnh phúc cho mọi người.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_th%C3%A1p_B%C3%A0_Po_Nagar": [
+        2
+      ]
+    }
+  },
+  {
     "ten": "Lễ hội xên bản, xên mường",
     "thoiGian": {
       "Ngày 5 tháng Hai Âm lịch, trọn trong một ngày.": [
@@ -619,6 +653,30 @@
         2
       ]
     }
+  },
+  {
+    "ten": "Đại lễ 1000 năm Thăng Long",
+    "mieuTa": {
+      "Đại lễ 1.000 năm Thăng Long – Hà Nội được tổ chức từ ngày 1 tháng 10 đến ngày 10 tháng 10 năm 2010 ở Việt Nam với tâm điểm là thủ đô Hà Nội, nhằm kỷ niệm tròn 1.000 năm kể từ khi kinh đô Thăng Long chính thức là thủ đô của Việt Nam (được đánh dấu bằng mốc son vua Lý Thái Tổ ban Chiếu dời đô từ Hoa Lư về thành Đại La và đổi tên thành Thăng Long, nay là Hà Nội). Nhiều công trình được xây dựng cùng các sự kiện đã được tổ chức trong vòng 1 năm (từ 10 tháng 10 năm 2009 đến 9 tháng 10 năm 2010 để chào mừng Đại lễ với các lễ hội văn hóa truyền thống.": [
+        2
+      ]
+    },
+    "anh": {
+      "//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ChieuDoiDo2010.jpg/327px-ChieuDoiDo2010.jpg": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_l%E1%BB%85_1000_n%C4%83m_Th%C4%83ng_Long_%E2%80%93_H%C3%A0_N%E1%BB%99i": [
+        2
+      ]
+    },
+    "diTichLienQuan": [
+      "Hoa Lư"
+    ],
+    "nhanVatLienQuan": [
+      "Lý Thái Tổ"
+    ]
   },
   {
     "ten": "Hội làng Bồ Sao",
@@ -644,9 +702,37 @@
     }
   },
   {
-    "ten": "Hội đền Thanh Nhàn",
+    "ten": "Festival Dừa",
+    "diaDiem": {
+      "tại tỉnh Bến Tre": [
+        2
+      ]
+    },
     "mieuTa": {
-      "Hội đền diễn ra vào ngày 6.1 âm lịch hằng năm tại địa chỉ thôn Thanh Nhàn, xã Thanh Xuân, Huyện Sóc Sơn, Hà Nội. Đền Thanh Nhàn thờ Phù Đổng Thiên Vương. Hoạt động chính mà hội đền mang lại, đó là: tổ chức đám rước lớn của 9 làng.": [
+      "Festival Dừa Bến Tre là một lễ hội về dừa được tổ chức tại tỉnh Bến Tre. Lễ hội đã được tổ chức qua 5 kỳ vào các năm (Quang Đại) 2009, 2010, 2012, 2015 và 2019. Hai kỳ đầu tiên được tổ chức với quy mô địa phương. Từ năm 2012 được tổ chức với quy mô quốc gia.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/Festival_D%E1%BB%ABa": [
+        2
+      ]
+    }
+  },
+  {
+    "ten": "Hội đền Thanh Nhàn",
+    "diaDiem": {
+      "địa chỉ thôn Thanh Nhàn, xã Thanh Xuân, Huyện Sóc Sơn, Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào ngày 6.1 âm lịch hằng năm": [
+        9
+      ]
+    },
+    "mieuTa": {
+      "Hoạt động chính mà hội đền mang lại, đó là: tổ chức đám rước lớn của 9 làng.": [
         9
       ]
     },
@@ -671,8 +757,18 @@
   },
   {
     "ten": "Hội đình Quảng Bá",
+    "diaDiem": {
+      "thôn Quảng Bá - phường Quảng An - quận Tây Hồ - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra hội đình: từ ngày 10 đến ngày 12 tháng 2 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Thời gian diễn ra hội đình: từ ngày 10 đến ngày 12 tháng 2 âm lịch hằng năm tại thôn Quảng Bá - phường Quảng An - quận Tây Hồ - Hà Nội. Hoạt động thú vị của hội đình: chọi gà và cờ người cực kỳ thú vị...": [
+      "Hoạt động thú vị của hội đình: chọi gà và cờ người cực kỳ thú vị.": [
         9
       ]
     },
@@ -684,50 +780,24 @@
   },
   {
     "ten": "Hội đền Hạ Lôi",
+    "diaDiem": {
+      "làng Hạ Lôi, thuộc khu vực xã Mê Linh, huyện Mê Linh, Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào ngày 6 tháng 1 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Lễ hội này diễn ra vào ngày 6 tháng 1 âm lịch hằng năm tại làng Hạ Lôi, thuộc khu vực xã Mê Linh, huyện Mê Linh, Hà Nội. Một số hoạt động chính của hội đền Hạ Lôi cho các bạn tham gia, đó là: cúng bánh dày, giao kiệu và rước kiệu...": [
+      "Một số hoạt động chính của hội đền Hạ Lôi cho các bạn tham gia, đó là: cúng bánh dày, giao kiệu và rước kiệu.": [
         9
       ]
     },
     "anh": {
       "https://www.vietfuntravel.com.vn/image/data/Ha-Noi/le-hoi-ha-noi/le-hoi-26-den-ha-loi.jpg": [
         9
-      ]
-    }
-  },
-  {
-    "ten": "Lễ hội Mùa xuân của người Êđê",
-    "thoiGian": {
-      "Các lễ hội bắt đầu từ cuối tháng 12 năm cũ đến hết tháng 3 dương lịch-năm mới. Trong lễ hội các buôn người ta mời các buôn làng gần xa đến dự, cứ lần lượt diễn ra trong suốt bảy ngày đêm. Do các già làng chủ trì trong các buôn làng của mình.": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Lễ hội Mùa xuân của người Êđê hay Lễ hội mừng lúa mới là lễ hội mà người Êđê tổ chức sau mùa gặt hái, đón năm mới. Một số dân tộc ở Tây Nguyên khác, như Gia Rai, Ba Na, Xơ-đăng, M\u0027Nông, cũng có lễ hội tương tự.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_M%C3%B9a_xu%C3%A2n_(ng%C6%B0%E1%BB%9Di_%C3%8A%C4%91%C3%AA)": [
-        2
-      ]
-    }
-  },
-  {
-    "ten": "Lễ hội cầu mưa người Chăm",
-    "thoiGian": {
-      "Cứ vào đầu tháng hai âm lịch hàng năm (sau Tết Nguyên đán), dù trời hạn hay trời mưa, họ đều tổ chức lễ hội.": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Lễ hội cầu mưa người Chăm hay lễ mừng mưa tiếng Chăm wai le kau cahesan là một lễ hội của dân tộc Chăm H\u0027roi, Vân Canh, Bình Định, Việt Nam. Với quan niệm mọi biến chuyển của vũ trụ đều do Phật trời, thần linh hoặc ma quỷ điều khiển. Con người muốn đạt được sở nguyện thì phải cầu nguyện, cúng khấn để được thần linh trợ giúp. Tùy theo thời tiết mà có tên gọi cho từng dịp lễ hội - trời hạn thì gọi là lễ cầu mưa, còn có mưa mà hành lễ thì gọi là lễ mừng mưa.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_c%E1%BA%A7u_m%C6%B0a_(ng%C6%B0%E1%BB%9Di_Ch%C4%83m)": [
-        2
       ]
     }
   },
@@ -838,24 +908,6 @@
     }
   },
   {
-    "ten": "Lễ hội Ok Om Bok",
-    "diaDiem": {
-      "tổ chức ở Campuchia cũng như tỉnh Sóc Trăng là lớn nhất vì nơi đây tổ chức Hội đua ghe Ngo lớn thu hút nhiều vận động viên và người xem cực đông": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Lễ hội Ok Om Bok hay Óóc om bóóc (Phiên âm: Ak Ambok, tiếng Khmer: អកអំបុក, IPA: ) hay hội đút cốm dẹp. Đút cốm dẹp trong lúc cúng trăng nên còn gọi là Lễ cúng trăng của người Khmer. Lễ hội được tổ chức vào khoảng Rằm tháng 10 Âm lịch hằng năm (do cách tính thời gian có sự chênh lệch), như là chấm dứt lễ hội Bon Om Touk. Đây là lúc kết thúc vụ mùa, người Khmer tổ chức lễ đút cốm dẹp ước nguyện những điều tốt đẹp trước khi nuốt với sự chứng kiến của người lớn tuổi và thần Mặt Trăng, vật cúng trăng là thành quả mùa vụ để tỏ lòng biết ơn đến Thần Mặt Trăng - vị thần đang mang đến cho họ một vụ mùa tốt tươi và những điều ước tốt đẹp.. Trong dịp Lễ hội có các hoạt động văn hóa chính như: lễ cúng trăng, thả đèn gió, đèn nước; hội đua Ghe Ngo. Lễ Óok om bóoc được tổ chức ở Campuchia cũng như tỉnh Sóc Trăng là lớn nhất vì nơi đây tổ chức Hội đua ghe Ngo lớn thu hút nhiều vận động viên và người xem cực đông. Lễ thường có nhiều chùa từ khắp nơi đến để đóng những chiếc bè có hình dáng như những ngôi chùa thu nhỏ và có các nhà sư đến để làm lễ và đọc kinh.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Ok_om_bok": [
-        2
-      ]
-    }
-  },
-  {
     "ten": "Festival Diều Quốc tế Vũng Tàu",
     "diaDiem": {
       "tại thành phố Vũng Tàu": [
@@ -947,9 +999,49 @@
   },
   {
     "ten": "Hội làng Bà Già",
+    "diaDiem": {
+      "Đình Phú Gia, phường Phú Thượng - Tây Hồ - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra từ ngày 9 tháng 1 đến hết ngày 11 tháng 1 âm lịch": [
+        9
+      ]
+    },
     "mieuTa": {
       "Diễn ra từ ngày 9 tháng 1 đến hết ngày 11 tháng 1 âm lịch tại Đình Phú Gia, phường Phú Thượng - Tây Hồ - Hà Nội, hội làng Bà Già có tổ chức hoạt động hát ả đào, rước nước cực kỳ hấp dẫn cho các bạn thưởng thức.": [
         9
+      ]
+    }
+  },
+  {
+    "ten": "Lễ hội Tịch điền Đọi Sơn",
+    "mieuTa": {
+      "Lễ hội Tịch Điền Đọi Sơn, xã Tiên Sơn, thị xã Duy Tiên, Hà Nam là một lễ hội mang ý nghĩa khuyến nông và là nét đẹp văn hóa trở về nguồn cội. Lần đầu tiên nghi thức lễ tịch điền này được diễn ra vào thế kỷ X ở Hà Nam, trên quê hương vua Lê Đại Hành và sau nhiều năm thất truyền, được khôi phục từ năm 2009 vào mùng 7 tháng Giêng .": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_T%E1%BB%8Bch_%C4%91i%E1%BB%81n_%C4%90%E1%BB%8Di_S%C6%A1n": [
+        2
+      ]
+    },
+    "nhanVatLienQuan": [
+      "Lê Đại Hành",
+      "Khải Định"
+    ]
+  },
+  {
+    "ten": "Lễ hội kéo chày (người Pà Thẻn)",
+    "mieuTa": {
+      "Lễ hội kéo chày là một lễ hội của đồng bào dân tộc Pà Thẻn sinh sống chủ yếu ở vùng núi tỉnh Hà Giang, Việt Nam. Lễ hội này diễn ra vào ngày 16 tháng 10 âm lịch hàng năm. Lễ hội này cũng đi kèm với Lễ hội nhảy lửa.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_k%C3%A9o_ch%C3%A0y_(ng%C6%B0%E1%BB%9Di_P%C3%A0_Th%E1%BA%BBn)": [
+        2
       ]
     }
   },
@@ -989,8 +1081,27 @@
       "Đền Hùng"
     ],
     "nhanVatLienQuan": [
-      "Đinh Tiên Hoàng"
+      "Đinh Tiên Hoàng",
+      "Vua Hùng"
     ]
+  },
+  {
+    "ten": "Lễ hội Cầu mùa (người Thái)",
+    "thoiGian": {
+      "Lễ cầu mùa được tổ chức vào đầu vụ lúa mới hoặc một số nơi tổ chức sau khi thu hoạch, khoảng trung tuần tháng 9 đến đầu tháng 11 hàng năm.": [
+        2
+      ]
+    },
+    "mieuTa": {
+      "Lễ hội Cầu mùa của người Thái hay Lễ cơm mới, tiếng Thái: Lệ hạy, Kin khảu maứ, là một lễ hội của dân tộc Thái, miền tây Nghệ An, Việt Nam. Lễ này bày tỏ long thành kính của mình đối với những thế lực siêu nhiên thần linh, ma quỷ theo quan niệm của người Thái.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_C%E1%BA%A7u_m%C3%B9a_(ng%C6%B0%E1%BB%9Di_Th%C3%A1i)": [
+        2
+      ]
+    }
   },
   {
     "ten": "Lễ hội Đền Vua Mai (Gắn với kỷ niệm 1310 năm khởi nghĩa Hoan Châu, 1300 năm ngày mất Hoàng đế Mai Thúc Loan)",
@@ -1007,8 +1118,18 @@
   },
   {
     "ten": "Hội đình Thượng Lão",
+    "diaDiem": {
+      "thôn Lực Canh, xã Xuân Canh, Đông Anh, hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào ngày 7.1 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Hội đền Thượng Lão diễn ra vào ngày 7.1 âm lịch hằng năm tại thôn Lực Canh, xã Xuân Canh, Đông Anh, hà Nội. Hoạt động tại hội đình Thượng Lão: đấu vật, thả diều, ca trù, cờ người...": [
+      "Hoạt động tại hội đình Thượng Lão: đấu vật, thả diều, ca trù, cờ người.": [
         9
       ]
     }
@@ -1050,8 +1171,22 @@
       "Gò Đống Đa"
     ],
     "nhanVatLienQuan": [
-      "Đặng Văn Long"
+      "Đặng Văn Long",
+      "Sầm Nghi Đống"
     ]
+  },
+  {
+    "ten": "Lễ hội Cầu mùa (người Dao)",
+    "mieuTa": {
+      "Lễ hội Cầu mùa là một lễ hội của người Dao Tuyển. Đây là nét văn hóa truyền thống tốt đẹp của người Dao Tuyển, không cầu kỳ nhưng mang nhiều yếu tố tâm linh sâu sắc của cả cộng đồng.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_C%E1%BA%A7u_m%C3%B9a_(ng%C6%B0%E1%BB%9Di_Dao)": [
+        2
+      ]
+    }
   },
   {
     "ten": "Hội Đền Kiếp Bạc",
@@ -1101,19 +1236,19 @@
     }
   },
   {
-    "ten": "Lễ hội tháp Yang Po Nagar",
+    "ten": "Lễ hội nhảy lửa (người Pà Thẻn)",
     "thoiGian": {
-      "Lễ hội Tháp Bà PoNagar Nha Trang diễn ra hàng năm từ ngày 20 đến 23 tháng 3 Âm lịch, tại di tích Tháp Bà PoNagar, thuộc phường Vĩnh Phước, thành phố Nha Trang, tỉnh Khánh Hòa.": [
+      "Lễ nhảy lửa thường được tổ chức vào cuối năm, khi thời tiết đang bước vào thời kỳ khắc nghiệt nhất của mùa đông.": [
         2
       ]
     },
     "mieuTa": {
-      "Lễ hội tháp Yang Po Nagar là một lễ hội của dân tộc Chăm ở Khánh Hòa, Việt Nam. Đây là lễ hội dân gian lớn nhất trong năm ở tỉnh Khánh Hòa để tưởng nhớ nữ thần Yang Po Inư Nagar - người đã có nhiều công lao giúp dân, đem lại những điều tốt lành và hạnh phúc cho mọi người.": [
+      "Lễ hội nhảy lửa là một lễ hội của đồng bào dân tộc Pà Thẻn. Một sinh hoạt văn hóa mang tính tâm linh, có sức mạnh phi thường dám đương đầu với nguy hiểm, xua đuổi tà ma, bệnh tật.": [
         2
       ]
     },
     "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_th%C3%A1p_B%C3%A0_Po_Nagar": [
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_nh%E1%BA%A3y_l%E1%BB%ADa_(ng%C6%B0%E1%BB%9Di_P%C3%A0_Th%E1%BA%BBn)": [
         2
       ]
     }
@@ -1176,21 +1311,6 @@
     ]
   },
   {
-    "ten": "Lễ hội đâm trâu",
-    "mieuTa": {
-      "Lễ hội đâm trâu (người Ba Na gọi là x\u0027trǎng, người Cor gọi là xa-ố-piêu, người Gia Lai gọi là mnăm thu, người Lạch gọi là sa rơpu) là một lễ hội nhằm mục đích tế thần linh hoặc những người đã có công chủ trì thành lập buôn làng, ăn mừng chiến thắng, ăn mừng mùa màng bội thu hay ăn mừng các sự kiện quan trọng khác. Đây là một trong những lễ hội truyền thống của các dân tộc Tây Nguyên ở Việt Nam.": [
-        2,
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_%C4%91%C3%A2m_tr%C3%A2u_(ng%C6%B0%E1%BB%9Di_Ba_Na)": [
-        2,
-        2
-      ]
-    }
-  },
-  {
     "ten": "Lễ hội rước Đất, rước Nước",
     "thoiGian": {
       "Diễn ra vào từ ngày 11 đến hết ngày 16 tháng Giêng âm lịch.": [
@@ -1231,8 +1351,18 @@
   },
   {
     "ten": "Hội đua thuyền Yên Duyên",
+    "diaDiem": {
+      "xã Yên Duyên, huyện Thanh Trì - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào ngày 15 tháng 8 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Hội đua thuyền này khá hấp dẫn, diễn ra vào ngày 15 tháng 8 âm lịch hằng năm tại xã Yên Duyên, huyện Thanh Trì - Hà Nội. Hoạt động chính của lễ hội chính là đua thuyền.": [
+      "Hoạt động chính của lễ hội chính là đua thuyền.": [
         9
       ]
     },
@@ -1243,27 +1373,19 @@
     }
   },
   {
-    "ten": "Lễ Đôn-ta",
-    "thoiGian": {
-      "Tổ chức trong suốt ba ngày, hàng năm, từ ngày 29 tháng tám đến mùng 1 tháng chín âm lịch.[1] Trong ba ngày Đôn-ta có nhiều hoạt động tín ngưỡng, tôn giáo, phong tục, tập quán diễn ra đan xen với nhau.[2]": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Lễ Đôn-ta (còn gọi là lễ Sen Dolta, Campuchia thường gọi là Pchum Ben បុណ្យភ្ជុំបិណ្ឌ) là lễ hội truyền thống lớn nhất trong năm của người Khmer, còn được gọi là lễ cúng ông bà (Píth-sên đôn-ta). Lễ có ý nghĩa giống với lễ Vu Lan của người Việt nên còn được gọi là lễ \"Xá tội vong nhân\". Đây là lễ được tổ chức nhằm tưởng nhớ đến công ơn ông bà, cha mẹ và người thân, tạ ơn những người đã khuất và cầu phước cho những người còn sống, tạo nên sự gắn bó giữa bạn bè, người thân và cả cộng đồng.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_%C4%90%C3%B4n_ta": [
-        2
-      ]
-    }
-  },
-  {
     "ten": "Hội Đình Trần Đăng",
+    "diaDiem": {
+      "hội đình: ở làng Trần Đăng, xã Hoa Sơn, huyện Ứng Hòa, Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra hội đình: 6.1 âm lịch": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Thời gian diễn ra hội đình: 6.1 âm lịch. Địa điểm diễn ra hội đình: ở làng Trần Đăng, xã Hoa Sơn, huyện Ứng Hòa, Hà Nội. Hoạt động thú vị trong hội đình: hóa trang hổ, đuổi bắt giặc...": [
+      "Hoạt động thú vị trong hội đình: hóa trang hổ, đuổi bắt giặc.": [
         9
       ]
     },
@@ -1274,9 +1396,42 @@
     }
   },
   {
-    "ten": "Hội đình Thanh Liệt",
+    "ten": "Festival Hoa Đà Lạt 2012",
+    "diaDiem": {
+      "tại thành phố Đà Lạt": [
+        2
+      ]
+    },
     "mieuTa": {
-      "Hội đình Thanh Liệt diễn ra vào ngày 8 đến ngày 10 tháng 2 âm lịch hằng năm tại phường Thanh Liệt, huyện Thanh Trì, Hà Nội. Một số hoạt động mà đình Thanh Liệt mang lại: diễn tuồng, chọi gà, rước kiệu từ đình nội ra đình ngoại, đánh cờ bỏi...": [
+      "Festival hoa Đà Lạt 2012 là sự kiện lễ hội diễn ra từ ngày 31 tháng 12 năm 2011 đến ngày 03 tháng 01 năm 2012 tại thành phố Đà Lạt, tỉnh Lâm Đồng. Sự kiện đã thu hút hơn 300.000 du khách trong và ngoài nước tham dự.": [
+        2
+      ]
+    },
+    "anh": {
+      "//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/3-1-2012_Xuan_Huong_2.JPG/220px-3-1-2012_Xuan_Huong_2.JPG": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/Festival_Hoa_%C4%90%C3%A0_L%E1%BA%A1t_2012": [
+        2
+      ]
+    }
+  },
+  {
+    "ten": "Hội đình Thanh Liệt",
+    "diaDiem": {
+      "phường Thanh Liệt, huyện Thanh Trì, Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào ngày 8 đến ngày 10 tháng 2 âm lịch hằng năm": [
+        9
+      ]
+    },
+    "mieuTa": {
+      "Một số hoạt động mà đình Thanh Liệt mang lại: diễn tuồng, chọi gà, rước kiệu từ đình nội ra đình ngoại, đánh cờ bỏi.": [
         9
       ]
     },
@@ -1300,37 +1455,19 @@
     }
   },
   {
-    "ten": "Lễ hội dâng hoa măng",
+    "ten": "Lễ hội Đôn ta",
     "thoiGian": {
-      "Vào dịp đầu xuân năm mới, việc trên nương chưa nhiều, để con cháu, bà con bản dưới mường trên gặp nhau giao lưu văn hóa, văn nghệ. Trước ngày rằm hằng tháng trong ba tháng mùa xuân.": [
+      "Tổ chức trong suốt ba ngày, hàng năm, từ ngày 29 tháng tám đến mùng 1 tháng chín âm lịch.[1] Trong ba ngày Đôn-ta có nhiều hoạt động tín ngưỡng, tôn giáo, phong tục, tập quán diễn ra đan xen với nhau.[2]": [
         2
       ]
     },
     "mieuTa": {
-      "Lễ hội dâng hoa mănglà một lễ hội của đồng bào dân tộc người La Ha (Việt Nam), là để tỏ lòng cảm tạ, tri ân thầy lang có công vì sức khỏe cộng đồng, tổng kết khả năng cứu chữa bệnh tật của thầy lang, rồi truyền lại cách thờ cúng tổ tiên cho con cháu.": [
+      "Lễ Đôn-ta (còn gọi là lễ Sen Dolta, Campuchia thường gọi là Pchum Ben បុណ្យភ្ជុំបិណ្ឌ) là lễ hội truyền thống lớn nhất trong năm của người Khmer, còn được gọi là lễ cúng ông bà (Píth-sên đôn-ta). Lễ có ý nghĩa giống với lễ Vu Lan của người Việt nên còn được gọi là lễ \"Xá tội vong nhân\". Đây là lễ được tổ chức nhằm tưởng nhớ đến công ơn ông bà, cha mẹ và người thân, tạ ơn những người đã khuất và cầu phước cho những người còn sống, tạo nên sự gắn bó giữa bạn bè, người thân và cả cộng đồng.": [
         2
       ]
     },
     "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_d%C3%A2ng_hoa_m%C4%83ng_(ng%C6%B0%E1%BB%9Di_La_Ha)": [
-        2
-      ]
-    }
-  },
-  {
-    "ten": "Lễ tết nhảy",
-    "thoiGian": {
-      "hàng năm cứ đến ngày 15.12 âm lịch": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Lễ tết nhảy là lễ hội của đồng bào dân tộc Dao Quần Chẹt, nhằm hậu tạ tổ tiên và chuẩn bị làm lễ hứa đầu năm mới. Theo quan niệm của người Dao Quần Chẹt, trong cuộc sống con người phải trải qua nhiều trắc trở, rủi ro, hàng năm phải khấn trời đất, thần linh, tổ tiên để được cứu giúp, trừ giải những oan trái, bất hạnh, ban cho những điều may mắn, hạnh phúc.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_t%E1%BA%BFt_nh%E1%BA%A3y": [
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_%C4%90%C3%B4n_ta": [
         2
       ]
     }
@@ -1372,8 +1509,18 @@
   },
   {
     "ten": "Hội chùa Hàm Long",
+    "diaDiem": {
+      "xã Thụy Phương, huyện Từ Liêm - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào ngày 15.5 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Hội chùa này diễn ra vào ngày 15.5 âm lịch hằng năm tại xã Thụy Phương, huyện Từ Liêm - Hà Nội. Hoạt động mà hội chùa Hàm Long mang lại: lễ phát tấu cúng Phật, lễ rước văn...": [
+      "Hoạt động mà hội chùa Hàm Long mang lại: lễ phát tấu cúng Phật, lễ rước văn.": [
         9
       ]
     },
@@ -1418,8 +1565,18 @@
   },
   {
     "ten": "Đêm hội Giã La",
+    "diaDiem": {
+      "lễ hội nằm ở Xã Dương Nội, huyện Hoài Đức - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra trong 9 ngày, từ ngày 6 đến ngày 14 tháng 1 âm lịch": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Đêm hội diễn ra trong 9 ngày, từ ngày 6 đến ngày 14 tháng 1 âm lịch. Được biết lễ hội Giã La này 5 năm sẽ được tổ chức 1 lần. Địa điểm diễn ra lễ hội nằm ở Xã Dương Nội, huyện Hoài Đức - Hà Nội. Một số hoạt động trong đêm hội: diễn trò săn hổ, rước đêm, rước hoàn cung...": [
+      "Một số hoạt động trong đêm hội: diễn trò săn hổ, rước đêm, rước hoàn cung.": [
         9
       ]
     },
@@ -1431,28 +1588,36 @@
   },
   {
     "ten": "Lễ hội Chol Chnam Thmay",
-    "diaDiem": {
-      "Nam Bộ": [
-        2
-      ]
-    },
     "thoiGian": {
+      "Thường tổ chức khoảng đầu tháng Chét của lịch Phật giáo Khmer (khoảng giữa tháng 4 dương lịch, tương đương với tháng 3 âm lịch). Kéo dài trong 3 ngày, năm nhuận kéo dài 4 ngày, tên gọi mỗi ngày tết khác nhau.": [
+        2
+      ],
       "14/4": [
         2
       ]
     },
     "mieuTa": {
       "Chol Chnam Thmay (hoặc Chaul Chnam Thmay) là lễ hội mừng năm mới theo lịch cổ truyền của dân tộc Khmer. Chôl nghĩa là Vào và Chnăm Thmay là Năm Mới. Lễ Chôl Chnăm Thmay cũng là những ngày Tết của Campuchia, Lào, Thái Lan, Myanmar, Sri Lanka. Ngoài tôn giáo chính là Phật giáo, người Khmer còn tin rằng mỗi năm có một vị thần trên trời (Têvôđa) được sai xuống để chăm lo cho cuộc sống và con người trong năm đó, hết năm lại về trời để vị thần khác xuống hạ giới. Những ngày này trở thành, lễ hội truyền thống của cả cộng đồng. Tổ chức nhiều trò vui như đốt đèn trời, đốt ông lói, đánh quay lửa... Các cụ già kể cổ tích, thần thoại, chuyện cũ cho con cháu nghe.": [
+        2,
         2
       ]
     },
     "anh": {
+      "//upload.wikimedia.org/wikipedia/commons/thumb/1/12/Khmer_New_Year_GA2010-128.jpg/220px-Khmer_New_Year_GA2010-128.jpg": [
+        2
+      ],
       "//upload.wikimedia.org/wikipedia/commons/thumb/2/23/V%C3%A2n_C%C3%B4n%2C_r%C6%B0%E1%BB%9Bc_Th%C3%A1nh_qua_ao_l%C3%A0ng.JPG/220px-V%C3%A2n_C%C3%B4n%2C_r%C6%B0%E1%BB%9Bc_Th%C3%A1nh_qua_ao_l%C3%A0ng.JPG": [
         2
       ]
     },
     "url": {
       "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Chol_Chnam_Thmay": [
+        2,
+        2
+      ]
+    },
+    "diaDiem": {
+      "Nam Bộ": [
         2
       ]
     }
@@ -1467,24 +1632,6 @@
     "thoiGian": {
       "Ngày 31/6 - 1/7 năm 2023 (tức ngày 14 - 15/6 Âm lịch).": [
         8
-      ]
-    }
-  },
-  {
-    "ten": "Lễ hội Văn hóa Ẩm thực Thế giới 2010",
-    "diaDiem": {
-      "tại thành phố Vũng Tàu": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Lễ hội Văn hóa Ẩm thực Thế giới 2010 (tiếng Anh: World Food Festival) là một lễ hội được tổ chức trong vòng 5 ngày (từ ngày 21 tháng 7 đến ngày 25 tháng 7 năm 2010) tại thành phố Vũng Tàu, Việt Nam. Lễ hội có sự tham gia của 40 quốc gia và các vùng lãnh thổ trên thế giới (Úc, Hoa Kỳ, Canada, Tây Ban Nha, Đức, Iran, Hàn Quốc, CHDCND Triều Tiên, Nga, Trung Quốc, Ấn Độ, Lào,...) cùng 40 tỉnh thành của Việt Nam. Không gian lễ hội kéo dài dọc theo 3 km tuyến đường trước bãi biển Thùy Vân, Bãi Sau với những khu chợ đặc sản và quầy thức ăn dựng lên dưới dạng lều được trang trí theo màu sắc của từng quốc gia, vùng miền.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_V%C4%83n_h%C3%B3a_%E1%BA%A8m_th%E1%BB%B1c_Th%E1%BA%BF_gi%E1%BB%9Bi_2010_(V%C5%A9ng_T%C3%A0u)": [
-        2
       ]
     }
   },
@@ -1550,7 +1697,10 @@
       "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_ch%E1%BB%8Di_tr%C3%A2u_%C4%90%E1%BB%93_S%C6%A1n": [
         2
       ]
-    }
+    },
+    "nhanVatLienQuan": [
+      "Lữ Gia"
+    ]
   },
   {
     "ten": "Hội Bạch Lưu",
@@ -1576,32 +1726,14 @@
     }
   },
   {
-    "ten": "Lễ hội Ramưwan (Ramâwan)",
-    "diaDiem": {
-      "tại Nam Trung Bộ": [
-        2
-      ]
-    },
-    "thoiGian": {
-      "Do tôn giáo Chăm Bani có ảnh hưởng của Hồi Giáo, nên Ramưwan trùng ngày với Ramadan của Hồi Giáo. Lưu ý rằng, chỉ trùng ngày tháng, ngoài ra không giống gì khác.": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Lễ hội Ramưwan (Ramâwan) của người đồng bào dân tộc Chăm Bà ni tại Nam Trung Bộ. Được xem giống như là tết của người Việt Nam hay giáng sinh của phương Tây.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Ranuwan": [
-        2
-      ]
-    }
-  },
-  {
     "ten": "Hội đền Hữu Vĩnh",
+    "thoiGian": {
+      "Diễn ra hội đền này, đó là: - Hội xuân diễn ra từ ngày 10 đến ngày 12 tháng 1 âm lịch": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Có 2 khoảng thời gian chính diễn ra hội đền này, đó là: - Hội xuân diễn ra từ ngày 10 đến ngày 12 tháng 1 âm lịch. - Hội thu diễn ra vào ngày 12.8 âm lịch. Một số hoạt động của hội đền: rước kiệu, đấu vật, bơi trải...": [
+      "Một số hoạt động của hội đền: rước kiệu, đấu vật, bơi trải.": [
         9
       ]
     },
@@ -1643,8 +1775,18 @@
   },
   {
     "ten": "Hội Đình Mai",
+    "diaDiem": {
+      "xã Thanh mai, thuộc huyện Thanh Oai - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra : vào ngày 20/12 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Thời gian lễ hội Đình mai diễn ra: vào ngày 20/12 âm lịch hằng năm tại xã Thanh mai, thuộc huyện Thanh Oai - Hà Nội. Được biết Đình Mai thờ Hà Khôi đại vương - đây là một vị tướng tài có công giúp Đinh Bộ Lĩnh dẹp loạn 12 sứ quân. Một số hoạt động nổi bật của Hội Đình Mai: Chọi gà, chơi cờ tướng, tế thần...": [
+      "Một số hoạt động nổi bật của Hội Đình Mai: Chọi gà, chơi cờ tướng, tế thần.": [
         9
       ]
     },
@@ -1680,18 +1822,24 @@
     "diaDiem": {
       "Hà Nội, huyện Mỹ Đức": [
         2
+      ],
+      "xã Hương Sơn, huyện Mỹ Đức, Hà Nội": [
+        9
       ]
     },
     "thoiGian": {
       "6/1": [
         2
+      ],
+      "Diễn ra từ ngày 6 tháng giêng cho đến hết tháng 3 âm lịch hằng năm": [
+        9
       ]
     },
     "mieuTa": {
       "Lễ hội chùa Hương hay Trẩy hội chùa Hương là một lễ hội của Việt Nam, nằm ở Mỹ Đức, Hà Nội. Trong khu thắng cảnh Hương Sơn, được xem hành trình về một miền đất Phật - nơi Quan Thế Âm Bồ Tát ứng hiện tu hành. Đây là một lễ hội lớn về số lượng các phật tử tham gia hành hương.": [
         2
       ],
-      "Đây là một lễ hội dài, diễn ra từ ngày 6 tháng giêng cho đến hết tháng 3 âm lịch hằng năm tại xã Hương Sơn, huyện Mỹ Đức, Hà Nội. Hoạt động chính mà lễ hội mang lại, đó là múa rồng và bơi trải.": [
+      "Hoạt động chính mà lễ hội mang lại, đó là múa rồng và bơi trải.": [
         9
       ]
     },
@@ -1714,6 +1862,24 @@
     "nhanVatLienQuan": [
       "Quan Thế Âm Bồ Tát"
     ]
+  },
+  {
+    "ten": "Lễ hội rước bánh giầy",
+    "diaDiem": {
+      "tại làng Bá Dương Nội": [
+        2
+      ]
+    },
+    "mieuTa": {
+      "Hội rước bánh giầy, hay Hội làng Bá, là lễ hội truyền thống được tổ chức ngày 3 Tết Nguyên đán hằng năm tại làng Bá Dương Nội, xã Hồng Hà, huyện Đan Phượng (thành phố Hà Nội), lễ được tổ chức để tỏ lòng biết ơn vị quan triều thái phó nhà Hậu Lê tên là Thiếu Khanh có công tu sửa chùa, tậu ruộng đất cho dân cày ruộng ở thế kỷ thứ 15. Hội rước bánh giầy là lễ hội quan trọng của làng Bá Dương Nội. Sau khi tưởng niệm ghi nhớ công của ông, dân làng đi đến đền thờ Gìa Lê, là nơi thờ cúng của vị quan thái phó. Phẩm vật chủ yếu của lễ hội này là bánh giầy vì bánh giầy là bánh không tốn kém nhiều nhưng lại rất có ý nghĩa với người Việt Nam, một đất nước lúa nước.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_r%C6%B0%E1%BB%9Bc_b%C3%A1nh_gi%E1%BA%A7y": [
+        2
+      ]
+    }
   },
   {
     "ten": "Hội vật Liễu Đôi",
@@ -1771,8 +1937,18 @@
   },
   {
     "ten": "Lễ hội đền Bạch Mã",
+    "diaDiem": {
+      "đền bạch Mã, số 76 phố Hàng Buồm, khu vực quận Hoàn Kiếm vào ngày 12 và 13 tháng 2 âm lịch hàng năm": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra ở đền bạch Mã, số 76 phố Hàng Buồm, khu vực quận Hoàn Kiếm vào ngày 12 và 13 tháng 2 âm lịch hàng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Lễ hội này diễn ra ở đền bạch Mã, số 76 phố Hàng Buồm, khu vực quận Hoàn Kiếm vào ngày 12 và 13 tháng 2 âm lịch hàng năm. Hoạt động chính của lễ hội, đó là: múa rồng, tiến trâu, rước kiệu, dâng hương...": [
+      "Hoạt động chính của lễ hội, đó là: múa rồng, tiến trâu, rước kiệu, dâng hương.": [
         9
       ]
     },
@@ -1783,58 +1959,73 @@
     }
   },
   {
-    "ten": "Lễ hội cầu mưa",
-    "thoiGian": {
-      "Vào cứ mùa khô, đầu mùa mưa. Các vị Già làng và trưởng làng quy định thời gian hành lễ, sau đó họp cả bon để phân công công việc.": [
+    "ten": "Lễ hội Ok om bok",
+    "diaDiem": {
+      "tổ chức ở Campuchia cũng như tỉnh Sóc Trăng là lớn nhất vì nơi đây tổ chức Hội đua ghe Ngo lớn thu hút nhiều vận động viên và người xem cực đông": [
         2
       ]
     },
     "mieuTa": {
-      "Lễ hội cầu mưa (người Xtiêng) là một lễ hội của người đồng bào dân tộc Xtiêng. Là lễ hội rất quan trọng, do đó công việc chuẩn bị phải chu đáo": [
+      "Lễ hội Ok Om Bok hay Óóc om bóóc (Phiên âm: Ak Ambok, tiếng Khmer: អកអំបុក, IPA: ) hay hội đút cốm dẹp. Đút cốm dẹp trong lúc cúng trăng nên còn gọi là Lễ cúng trăng của người Khmer. Lễ hội được tổ chức vào khoảng Rằm tháng 10 Âm lịch hằng năm (do cách tính thời gian có sự chênh lệch), như là chấm dứt lễ hội Bon Om Touk. Đây là lúc kết thúc vụ mùa, người Khmer tổ chức lễ đút cốm dẹp ước nguyện những điều tốt đẹp trước khi nuốt với sự chứng kiến của người lớn tuổi và thần Mặt Trăng, vật cúng trăng là thành quả mùa vụ để tỏ lòng biết ơn đến Thần Mặt Trăng - vị thần đang mang đến cho họ một vụ mùa tốt tươi và những điều ước tốt đẹp.. Trong dịp Lễ hội có các hoạt động văn hóa chính như: lễ cúng trăng, thả đèn gió, đèn nước; hội đua Ghe Ngo. Lễ Óok om bóoc được tổ chức ở Campuchia cũng như tỉnh Sóc Trăng là lớn nhất vì nơi đây tổ chức Hội đua ghe Ngo lớn thu hút nhiều vận động viên và người xem cực đông. Lễ thường có nhiều chùa từ khắp nơi đến để đóng những chiếc bè có hình dáng như những ngôi chùa thu nhỏ và có các nhà sư đến để làm lễ và đọc kinh.": [
         2
       ]
     },
     "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_c%E1%BA%A7u_m%C6%B0a_(ng%C6%B0%E1%BB%9Di_Xti%C3%AAng)": [
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Ok_om_bok": [
         2
       ]
     }
   },
   {
-    "ten": "Festival hoa Đà Lạt 2012",
-    "diaDiem": {
-      "tại thành phố Đà Lạt": [
+    "ten": "Lễ hội gầu tào",
+    "thoiGian": {
+      "Thời gian mở hội thường trong khoảng từ ngày mồng một đến ngày 15 tháng giêng. Nếu hội tổ chức 3 năm liền thì mỗi năm tổ chức 3 ngày liền, hội làm gộp một năm sẽ tổ chức 9 ngày.": [
         2
       ]
     },
     "mieuTa": {
-      "Festival hoa Đà Lạt 2012 là sự kiện lễ hội diễn ra từ ngày 31 tháng 12 năm 2011 đến ngày 03 tháng 01 năm 2012 tại thành phố Đà Lạt, tỉnh Lâm Đồng. Sự kiện đã thu hút hơn 300.000 du khách trong và ngoài nước tham dự.": [
-        2
-      ]
-    },
-    "anh": {
-      "//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/3-1-2012_Xuan_Huong_2.JPG/220px-3-1-2012_Xuan_Huong_2.JPG": [
+      "Lễ hội Gầu tào là một lễ hội của người đồng bào dân tộc H\u0027Mông. Nội dung chính cho lễ hội là Cầu phúc hoặc cầu mệnh.": [
         2
       ]
     },
     "url": {
-      "https://vi.wikipedia.org/wiki/Festival_Hoa_%C4%90%C3%A0_L%E1%BA%A1t_2012": [
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_g%E1%BA%A7u_t%C3%A0o": [
         2
       ]
     }
   },
   {
     "ten": "Hội đánh cá Làng Me",
+    "diaDiem": {
+      "lễ hội này nằm ở xã Tích Giang, huyện Phúc Thọ - thành phố Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra trong khoảng thời gian từ ngày 2.2 đến ngày 10.2 âm lịch hằng năm, trong đó thời gian chính của lễ hội diễn ra vào ngày 4.2 âm lịch": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Lễ hội này diễn ra trong khoảng thời gian từ ngày 2.2 đến ngày 10.2 âm lịch hằng năm, trong đó thời gian chính của lễ hội diễn ra vào ngày 4.2 âm lịch. Địa điểm diễn ra lễ hội này nằm ở xã Tích Giang, huyện Phúc Thọ - thành phố Hà Nội. Một số hoạt động nổi bật của lễ hội: hát đúm, thi đánh cá tế thánh Tản Viên, đáo đĩa, làm tiệc cá...": [
+      "Một số hoạt động nổi bật của lễ hội: hát đúm, thi đánh cá tế thánh Tản Viên, đáo đĩa, làm tiệc cá.": [
         9
       ]
     }
   },
   {
     "ten": "Hội chùa Đậu",
+    "diaDiem": {
+      "hội chùa Đậu, đó là: Làng Gia Phúc, xã Nguyễn Trãi - Thường Tín - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra : từ ngày 8 đến hết ngày 10 tháng 1 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "- Thời gian lễ hội diễn ra: từ ngày 8 đến hết ngày 10 tháng 1 âm lịch hằng năm. - Địa điểm diễn ra hội chùa Đậu, đó là: Làng Gia Phúc, xã Nguyễn Trãi - Thường Tín - Hà Nội. - Hoạt động chính của lễ hội: lễ rước nước và lễ Lạp nguyệt.": [
+      "- Hoạt động chính của lễ hội: lễ rước nước và lễ Lạp nguyệt.": [
         9
       ]
     },
@@ -1886,8 +2077,18 @@
   },
   {
     "ten": "Hội phủ Tây Hồ",
+    "diaDiem": {
+      "phường Quảng An, Quận Tây Hồ - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra từ ngày 3 đến ngày 7 tháng 3 âm lịch": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Lễ hội này diễn ra từ ngày 3 đến ngày 7 tháng 3 âm lịch tại phường Quảng An, Quận Tây Hồ - Hà Nội. Hoạt động chính của hội phủ Tây Hồ là dâng hương và hát văn.": [
+      "Hoạt động chính của hội phủ Tây Hồ là dâng hương và hát văn.": [
         9
       ]
     },
@@ -2027,11 +2228,17 @@
     "diaDiem": {
       "Hà Nội, Hồ Tây": [
         2
+      ],
+      "đình Yên Phụ, phường Yên Phụ, Tây Hồ - Hà Nội": [
+        9
       ]
     },
     "thoiGian": {
       "10/2": [
         2
+      ],
+      "Diễn ra vào ngày 10 tháng 2 âm lịch hằng năm": [
+        9
       ]
     },
     "lanDauToChuc": {
@@ -2061,26 +2268,8 @@
       "Vương Duy"
     ],
     "mieuTa": {
-      "Lễ hội diễn ra vào ngày 10 tháng 2 âm lịch hằng năm tại đình Yên Phụ, phường Yên Phụ, Tây Hồ - Hà Nội. Hoạt động chính mà lễ hội mang lại, đó là cờ người, múa lân, múa rồng, bơi thuyền...": [
+      "Hoạt động chính mà lễ hội mang lại, đó là cờ người, múa lân, múa rồng, bơi thuyền.": [
         9
-      ]
-    }
-  },
-  {
-    "ten": "Lễ hội gội đầu",
-    "thoiGian": {
-      "Lễ gội đầu được tiến hành từ trưa ngày cuối cùng trong năm, người Thái đánh dấu ngày đó lại có lễ gội đầu": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Lễ hội gội đầu hay lễ hội Lúng ta là một lễ hội của đồng bào Thái trắng. Đánh dấu thời điểm qua năm, rũ bỏ cái cũ, đón nhận cái mới.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_G%E1%BB%99i_%C4%91%E1%BA%A7u": [
-        2
       ]
     }
   },
@@ -2152,6 +2341,24 @@
     ]
   },
   {
+    "ten": "Lễ hội cầu mưa (người Xtiêng)",
+    "thoiGian": {
+      "Vào cứ mùa khô, đầu mùa mưa. Các vị Già làng và trưởng làng quy định thời gian hành lễ, sau đó họp cả bon để phân công công việc.": [
+        2
+      ]
+    },
+    "mieuTa": {
+      "Lễ hội cầu mưa (người Xtiêng) là một lễ hội của người đồng bào dân tộc Xtiêng. Là lễ hội rất quan trọng, do đó công việc chuẩn bị phải chu đáo": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_c%E1%BA%A7u_m%C6%B0a_(ng%C6%B0%E1%BB%9Di_Xti%C3%AAng)": [
+        2
+      ]
+    }
+  },
+  {
     "ten": "Lễ Vu Lan, Tết Trung Nguyên",
     "diaDiem": {
       "Nhiều quốc gia": [
@@ -2184,16 +2391,36 @@
   },
   {
     "ten": "Hội chùa Hoa Lăng",
+    "diaDiem": {
+      "dịa chỉ quận Cầu Giấy - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào ngày 7/3 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Hội chùa này diễn ra vào ngày 7/3 âm lịch hằng năm tại dịa chỉ quận Cầu Giấy - Hà Nội. Hoạt động của hội chùa, đó là: lễ đấu thần.": [
+      "Hoạt động của hội chùa, đó là: lễ đấu thần.": [
         9
       ]
     }
   },
   {
     "ten": "Hội đền Nguyễn Trãi",
+    "diaDiem": {
+      "địa chỉ Làng Nhị Khê, xã Nhị Khê, Thường Tín - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào ngày 16.8 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Hội đền này diễn ra vào ngày 16.8 âm lịch hằng năm tại địa chỉ Làng Nhị Khê, xã Nhị Khê, Thường Tín - Hà Nội. Đền Nguyễn Trãi thờ ông Nguyễn Trãi - ông là một vị khai quốc công thần, một nhà chính trị, nhà đối ngoại tài ba và là nhà văn hóa lớn ở thế kỷ 15.": [
+      "Đền Nguyễn Trãi thờ ông Nguyễn Trãi - ông là một vị khai quốc công thần, một nhà chính trị, nhà đối ngoại tài ba và là nhà văn hóa lớn ở thế kỷ 15.": [
         9
       ]
     },
@@ -2240,24 +2467,6 @@
     ]
   },
   {
-    "ten": "Hội rước bánh giầy",
-    "diaDiem": {
-      "tại làng Bá Dương Nội": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Hội rước bánh giầy, hay Hội làng Bá, là lễ hội truyền thống được tổ chức ngày 3 Tết Nguyên đán hằng năm tại làng Bá Dương Nội, xã Hồng Hà, huyện Đan Phượng (thành phố Hà Nội), lễ được tổ chức để tỏ lòng biết ơn vị quan triều thái phó nhà Hậu Lê tên là Thiếu Khanh có công tu sửa chùa, tậu ruộng đất cho dân cày ruộng ở thế kỷ thứ 15. Hội rước bánh giầy là lễ hội quan trọng của làng Bá Dương Nội. Sau khi tưởng niệm ghi nhớ công của ông, dân làng đi đến đền thờ Gìa Lê, là nơi thờ cúng của vị quan thái phó. Phẩm vật chủ yếu của lễ hội này là bánh giầy vì bánh giầy là bánh không tốn kém nhiều nhưng lại rất có ý nghĩa với người Việt Nam, một đất nước lúa nước.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_r%C6%B0%E1%BB%9Bc_b%C3%A1nh_gi%E1%BA%A7y": [
-        2
-      ]
-    }
-  },
-  {
     "ten": "Hội chọi trâu Phù Ninh",
     "diaDiem": {
       "tại huyện cùng tên thuộc tỉnh Phú Thọ": [
@@ -2280,6 +2489,9 @@
     "diaDiem": {
       "Hà Nội, Đông Anh": [
         2
+      ],
+      "khu vực huyện Đông Anh, Hà Nội từ ngày 6 đến ngày 15 tháng 1 âm lịch hằng năm": [
+        9
       ]
     },
     "thoiGian": {
@@ -2314,16 +2526,31 @@
   },
   {
     "ten": "Hội Dịch Vọng Trung",
+    "diaDiem": {
+      "lễ hội ở thôn Trung, phường Dịch Vọng - Cầu Giấy - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra 5 năm 1 năm vào ngày 12.2 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Đây là một lễ hội lớn diễn ra 5 năm 1 năm vào ngày 12.2 âm lịch hằng năm. Ngoài ra ngày 15.1 cũng có tổ chức lễ hội này. Địa điểm diễn ra lễ hội ở thôn Trung, phường Dịch Vọng - Cầu Giấy - Hà Nội. Hoạt động mà lễ hội này mang lại, đó là: chọi gà, vật võ, đập nồi niêu, đu dây, hát chèo...": [
+      "Hoạt động mà lễ hội này mang lại, đó là: chọi gà, vật võ, đập nồi niêu, đu dây, hát chèo.": [
         9
       ]
     }
   },
   {
     "ten": "Lễ hội đình Nhật Tân",
+    "thoiGian": {
+      "Diễn ra lễ hội từ ngày 8 tháng 2 đến ngày 11 tháng 2 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Thời gian diễn ra lễ hội từ ngày 8 tháng 2 đến ngày 11 tháng 2 âm lịch hằng năm. Địa điểm: Đình Nhật Tân, đường Âu Cơ, phường Nhật Tân, Tây Hồ - Hà Nội. Hoạt động mà lễ hội đình Nhật Tân mang lại, đó là: rước kiệu, rước nước, dâng hương, biểu diễn chèo, đánh cờ...": [
+      "Hoạt động mà lễ hội đình Nhật Tân mang lại, đó là: rước kiệu, rước nước, dâng hương, biểu diễn chèo, đánh cờ.": [
         9
       ]
     },
@@ -2434,14 +2661,42 @@
   },
   {
     "ten": "Hội cướp cầu Viên Nội",
+    "diaDiem": {
+      ": nằm ở thôn Viên Nội, xã Vân Nội - Đông Anh, Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra : 8.1 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Thời gian diễn ra: 8.1 âm lịch hằng năm. Địa điểm diễn ra: nằm ở thôn Viên Nội, xã Vân Nội - Đông Anh, Hà Nội. Hoạt động trong hội cướp cầu Viên Nội đó là: trò chơi dùng \"ông Móc\" móc cầu và giành cầu.": [
+      "Hoạt động trong hội cướp cầu Viên Nội đó là: trò chơi dùng \"ông Móc\" móc cầu và giành cầu.": [
         9
       ]
     },
     "anh": {
       "https://www.vietfuntravel.com.vn/image/data/Ha-Noi/le-hoi-ha-noi/le-hoi-31-hoi-cuop-cau.JPG": [
         9
+      ]
+    }
+  },
+  {
+    "ten": "Lễ hội Cầu mưa (người Thái)",
+    "thoiGian": {
+      "Từ ngày 01/04 đến 28/04 Âm lịch, vào những đêm trăng có quầng đỏ quầng vàng - điềm báo trời đại hạn kéo dài.": [
+        2
+      ]
+    },
+    "mieuTa": {
+      "Lễ hội Cầu mưa hay lễ hội Xến Xó Phốn là một lẽ hội của người đồng bào dân tộc Thái, Mai Châu, tỉnh Hòa Bình. là lễ hôi giá trị về phong tục tập quán, tín ngưỡng cho mọi người trong bản.Mọi người đi hát cầu mưa ở khắp các nhà trong bản, rồi rước đuốc vòng quanh bản": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_C%E1%BA%A7u_m%C6%B0a_(ng%C6%B0%E1%BB%9Di_Th%C3%A1i)": [
+        2
       ]
     }
   },
@@ -2475,6 +2730,13 @@
         2
       ]
     },
+    "nhanVatLienQuan": [
+      "Công chúa Hùng vương Lâu nương",
+      "Lang Công",
+      "Cao Biền",
+      "Bảo Công",
+      "Lữ Gia"
+    ],
     "thoiGian": {
       "8/3": [
         2
@@ -2484,46 +2746,28 @@
       "Thế kỉ 2 trước CN": [
         2
       ]
-    },
-    "nhanVatLienQuan": [
-      "Công chúa Hùng vương Lâu nương",
-      "Lang Công",
-      "Bảo Công"
-    ]
+    }
   },
   {
     "ten": "Hội đình Nhật Tảo",
+    "diaDiem": {
+      "xã Đông Ngạc - Từ Liêm - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào ngày 11/2 âm lịch": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Diễn ra vào ngày 11/2 âm lịch tại xã Đông Ngạc - Từ Liêm - Hà Nội, hội đình Nhật Tảo có một số hoạt động thú vị cho các bạn trải nghiệm, đó là thi bánh giầy, chè kho...": [
+      "Diễn ra vào ngày 11/2 âm lịch tại xã Đông Ngạc - Từ Liêm - Hà Nội, hội đình Nhật Tảo có một số hoạt động thú vị cho các bạn trải nghiệm, đó là thi bánh giầy, chè kho.": [
         9
       ]
     },
     "anh": {
       "https://www.vietfuntravel.com.vn/image/data/Ha-Noi/le-hoi-ha-noi/le-hoi-8-hoi-dinh-nhat-tao.jpg": [
         9
-      ]
-    }
-  },
-  {
-    "ten": "Chol Chnam Thmay",
-    "thoiGian": {
-      "Thường tổ chức khoảng đầu tháng Chét của lịch Phật giáo Khmer (khoảng giữa tháng 4 dương lịch, tương đương với tháng 3 âm lịch). Kéo dài trong 3 ngày, năm nhuận kéo dài 4 ngày, tên gọi mỗi ngày tết khác nhau.": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Chol Chnam Thmay (hoặc Chaul Chnam Thmay) là lễ hội mừng năm mới theo lịch cổ truyền của dân tộc Khmer. Chôl nghĩa là Vào và Chnăm Thmay là Năm Mới. Lễ Chôl Chnăm Thmay cũng là những ngày Tết của Campuchia, Lào, Thái Lan, Myanmar, Sri Lanka. Ngoài tôn giáo chính là Phật giáo, người Khmer còn tin rằng mỗi năm có một vị thần trên trời (Têvôđa) được sai xuống để chăm lo cho cuộc sống và con người trong năm đó, hết năm lại về trời để vị thần khác xuống hạ giới. Những ngày này trở thành, lễ hội truyền thống của cả cộng đồng. Tổ chức nhiều trò vui như đốt đèn trời, đốt ông lói, đánh quay lửa... Các cụ già kể cổ tích, thần thoại, chuyện cũ cho con cháu nghe.": [
-        2
-      ]
-    },
-    "anh": {
-      "//upload.wikimedia.org/wikipedia/commons/thumb/1/12/Khmer_New_Year_GA2010-128.jpg/220px-Khmer_New_Year_GA2010-128.jpg": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Chol_Chnam_Thmay": [
-        2
       ]
     }
   },
@@ -2542,8 +2786,18 @@
   },
   {
     "ten": "Hội đình Kim Mã Hạ",
+    "diaDiem": {
+      "địa chỉ số 6 phố Kim Mã, phường Kim Mã - Ba Đình - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào ngày 10.1 âm lịch": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Diễn ra vào ngày 10.1 âm lịch, hội đình Kim Mã Hạ được tổ chức tại địa chỉ số 6 phố Kim Mã, phường Kim Mã - Ba Đình - Hà Nội. Một số hoạt động thú vị mà Kim Mã Hạ mang lại, đó là: thi thuyền nan, leo cầu...": [
+      "Một số hoạt động thú vị mà Kim Mã Hạ mang lại, đó là: thi thuyền nan, leo cầu.": [
         9
       ]
     },
@@ -2599,8 +2853,18 @@
   },
   {
     "ten": "Hội chùa Tây Phương",
+    "diaDiem": {
+      "lễ hội: xã Thạch Xá - Thạch Thất - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra : ngày 6.3 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "- Thời gian lễ hội diễn ra: ngày 6.3 âm lịch hằng năm. - Địa điểm diễn ra lễ hội: xã Thạch Xá - Thạch Thất - Hà Nội. Hoạt động hội chùa: tụng kinh niệm phật và hành hương lễ Phật.": [
+      "Hoạt động hội chùa: tụng kinh niệm phật và hành hương lễ Phật.": [
         9
       ]
     },
@@ -2612,8 +2876,18 @@
   },
   {
     "ten": "Hội Gióng đền Sóc",
+    "diaDiem": {
+      "xã Phù Linh, huyện Sóc Sơn, Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra từ ngày 6 đến ngày 8 tháng 1 âm lịch, trong đó ngày chính của lễ chính là ngày 7.1 (gọi là ngày thánh hóa)": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Lễ hội này diễn ra từ ngày 6 đến ngày 8 tháng 1 âm lịch, trong đó ngày chính của lễ chính là ngày 7.1 (gọi là ngày thánh hóa). Hội Gióng diễn ra ở xã Phù Linh, huyện Sóc Sơn, Hà Nội. Hoạt động nổi bật mà hội Gióng đền Sóc mang lại, đó là: cướp hoa tre và chém tướng giặc Ân.": [
+      "Hoạt động nổi bật mà hội Gióng đền Sóc mang lại, đó là: cướp hoa tre và chém tướng giặc Ân.": [
         9
       ]
     },
@@ -2695,8 +2969,18 @@
   },
   {
     "ten": "Hội đền Bà Tấm",
+    "diaDiem": {
+      "thôn Dương Đá, xã Dương Xá, Gia Lâm - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra trong 3 ngày, đó là ngày 19.2, ngày 22.2 và ngày 25.7 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Diễn ra trong 3 ngày, đó là ngày 19.2, ngày 22.2 và ngày 25.7 âm lịch hằng năm. Trong đó ngày chính thức của hội đền này là 19.2 âm lịch. Được biết đây là một hội đền khá lớn và thường thì 5 năm mới diễn ra 1 lần tại thôn Dương Đá, xã Dương Xá, Gia Lâm - Hà Nội.": [
+      "Được biết đây là một hội đền khá lớn và thường thì 5 năm mới diễn ra 1 lần tại thôn Dương Đá, xã Dương Xá, Gia Lâm - Hà Nội.": [
         9
       ]
     },
@@ -2798,8 +3082,18 @@
   },
   {
     "ten": "Lễ hội đình, đền Cao Sơn (Kim Liên)",
+    "diaDiem": {
+      "Làng Kim Liên cũ (Nay thuộc khu vực phường Phương Liên - quận Đống Đa - hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào tháng 3 âm lịch, cụ thể là ngày 15 và 16 tháng 3": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Diễn ra vào tháng 3 âm lịch, cụ thể là ngày 15 và 16 tháng 3 tại Làng Kim Liên cũ (Nay thuộc khu vực phường Phương Liên - quận Đống Đa - hà Nội. Đền thờ Cao Sơn Đại Vương - đây là một trong tứ trấn của Thăng Long. Một số hoạt động trong lễ hội: thi cắt tóc, nấu ăn, bày cỗ, rước kiệu, tế lễ, chọi chim...": [
+      "Một số hoạt động trong lễ hội: thi cắt tóc, nấu ăn, bày cỗ, rước kiệu, tế lễ, chọi chim.": [
         9
       ]
     },
@@ -2811,8 +3105,18 @@
   },
   {
     "ten": "Hội đền Đông Bộ Đầu",
+    "diaDiem": {
+      "hội đền: xã Thống Nhất, thuộc huyện Thường Tín - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra : vào ngày 8.1 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Thời gian diễn ra: vào ngày 8.1 âm lịch hằng năm. Địa điểm diễn ra hội đền: xã Thống Nhất, thuộc huyện Thường Tín - Hà Nội. Một số hoạt động thú vị mà hội đền mang lại: tổ chức trò chơi múa gậy thú vị, làm lễ tưởng niệm công ơn Ứng Thiên đã diệt trừ thuồng luồng, bảo vệ cuộc sống an bình cho người dân...": [
+      "Một số hoạt động thú vị mà hội đền mang lại: tổ chức trò chơi múa gậy thú vị, làm lễ tưởng niệm công ơn Ứng Thiên đã diệt trừ thuồng luồng, bảo vệ cuộc sống an bình cho người dân.": [
         9
       ]
     },
@@ -2824,14 +3128,37 @@
   },
   {
     "ten": "Hội đền Thụy Khuê",
+    "diaDiem": {
+      "địa chỉ số 251 đường Thụy Khuê, thuộc khu vực phường Thụy Khuê, Tây Hồ - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào ngày 10.2 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Diễn ra vào ngày 10.2 âm lịch hằng năm tại địa chỉ số 251 đường Thụy Khuê, thuộc khu vực phường Thụy Khuê, Tây Hồ - Hà Nội. Hoạt động chính mà hội đền Thụy Khuê mang lại, đó là rước kết chạ với Thủ Lệ.": [
+      "Hoạt động chính mà hội đền Thụy Khuê mang lại, đó là rước kết chạ với Thủ Lệ.": [
         9
       ]
     },
     "anh": {
       "https://www.vietfuntravel.com.vn/image/data/Ha-Noi/le-hoi-ha-noi/le-hoi-27-den-thuy-khue.jpg": [
         9
+      ]
+    }
+  },
+  {
+    "ten": "Lễ hội đâm trâu (người Ba Na)",
+    "mieuTa": {
+      "Lễ hội đâm trâu (người Ba Na gọi là x\u0027trǎng, người Cor gọi là xa-ố-piêu, người Gia Lai gọi là mnăm thu, người Lạch gọi là sa rơpu) là một lễ hội nhằm mục đích tế thần linh hoặc những người đã có công chủ trì thành lập buôn làng, ăn mừng chiến thắng, ăn mừng mùa màng bội thu hay ăn mừng các sự kiện quan trọng khác. Đây là một trong những lễ hội truyền thống của các dân tộc Tây Nguyên ở Việt Nam.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_%C4%91%C3%A2m_tr%C3%A2u_(ng%C6%B0%E1%BB%9Di_Ba_Na)": [
+        2
       ]
     }
   },
@@ -2872,6 +3199,24 @@
     },
     "url": {
       "https://vi.wikipedia.org/wiki/T%E1%BA%BFt_%C4%90oan_ng%E1%BB%8D": [
+        2
+      ]
+    }
+  },
+  {
+    "ten": "Lễ hội Cồng chiêng",
+    "diaDiem": {
+      "tại các tỉnh có văn hoá cồng chiêng trong đó Đắk Lắk là một điểm quan trọng và hay được chọn nhất do vị trí trung tâm văn hoá": [
+        2
+      ]
+    },
+    "mieuTa": {
+      "Lễ hội cồng chiêng là một lễ hội được tổ chức hàng năm theo hình thức luân phiên tại các tỉnh có văn hoá cồng chiêng trong đó Đắk Lắk là một điểm quan trọng và hay được chọn nhất do vị trí trung tâm văn hoá, chính trị, xã hội của khu vực Tây nguyên nơi có nhiều cồng chiêng nhất ở Việt Nam.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_C%E1%BB%93ng_chi%C3%AAng": [
         2
       ]
     }
@@ -2943,8 +3288,18 @@
   },
   {
     "ten": "Hội đình An Phú",
+    "diaDiem": {
+      "địa chỉ phường Nghĩa Đô, thuộc khu vực quận Cầu Giấy - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra trong ngày 13.2 âm lịch": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Hội đình An Phú diễn ra trong ngày 13.2 âm lịch tại địa chỉ phường Nghĩa Đô, thuộc khu vực quận Cầu Giấy - Hà Nội. Theo như tìm hiểu của Viet Fun Travel, đình An Phú thờ 2 vị thần là Thần Nguyễn Bông và Trần Toàn. Hội đình An Phú có một trò chơi khá thú vị, đó là trò chơi đi cầu noi nổi tiếng.": [
+      "Hội đình An Phú có một trò chơi khá thú vị, đó là trò chơi đi cầu noi nổi tiếng.": [
         9
       ]
     }
@@ -3010,19 +3365,14 @@
     ]
   },
   {
-    "ten": "Lễ hội Cầu mùa của người Thái",
-    "thoiGian": {
-      "Lễ cầu mùa được tổ chức vào đầu vụ lúa mới hoặc một số nơi tổ chức sau khi thu hoạch, khoảng trung tuần tháng 9 đến đầu tháng 11 hàng năm.": [
-        2
-      ]
-    },
+    "ten": "Sông nước Tam Giang",
     "mieuTa": {
-      "Lễ hội Cầu mùa của người Thái hay Lễ cơm mới, tiếng Thái: Lệ hạy, Kin khảu maứ, là một lễ hội của dân tộc Thái, miền tây Nghệ An, Việt Nam. Lễ này bày tỏ long thành kính của mình đối với những thế lực siêu nhiên thần linh, ma quỷ theo quan niệm của người Thái.": [
+      "Lễ hội Sông nước Tam Giang là một lễ hội văn hoá truyền thống của người dân vùng hạ lưu sông Tam Giang. Lễ hội thường được tổ chức vào mùng 5 và mùng 6 tháng Giêng (Âm lịch) trong đợt Tết Nguyên Đán, và diễn ra quanh khu vực sông Tam Giang, thuộc phường Xuân Đài, thị xã Sông Cầu, tỉnh Phú Yên.": [
         2
       ]
     },
     "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_C%E1%BA%A7u_m%C3%B9a_(ng%C6%B0%E1%BB%9Di_Th%C3%A1i)": [
+      "https://vi.wikipedia.org/wiki/S%C3%B4ng_n%C6%B0%E1%BB%9Bc_Tam_Giang": [
         2
       ]
     }
@@ -3066,24 +3416,6 @@
     "nhanVatLienQuan": [
       "Thánh Gióng"
     ]
-  },
-  {
-    "ten": "Lễ hội lập tịch",
-    "thoiGian": {
-      "Do các thầy mo và gia chủ quyết định. Lễ lập tịch của người Dao Họ ở Khe Mụ kéo dài tới ba ngày và có thể hơn nữa.": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Lễ hội lập tịch là một lễ hội của đồng bào dân tộc Dao Họ, bản Khe Mụ, Sơn Hà, Bảo Thắng, Lào Cai. Giống như lễ thành đinh của các dân tộc trên thế giới. Đó là nghi lễ đánh dấu một giai đoạn của cuộc đời con người, giai đoạn từ tuổi thiếu niên lên tuổi trưởng thành, được cộng đồng công nhận có vị trí trong đời sống và sinh hoạt. Là sự công nhận chính của cộng đồng, sự chấp nhận của thần linh cho chàng trai đó có đầy đủ mọi tiêu chuẩn của một thành viên chính thức của cộng đồng.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_l%E1%BA%ADp_t%E1%BB%8Bch_(ng%C6%B0%E1%BB%9Di_Dao)": [
-        2
-      ]
-    }
   },
   {
     "ten": "Lễ hội Ksaisatíp",
@@ -3158,23 +3490,6 @@
     }
   },
   {
-    "ten": "Lễ hội Tịch Điền Đọi Sơn",
-    "mieuTa": {
-      "Lễ hội Tịch Điền Đọi Sơn, xã Tiên Sơn, thị xã Duy Tiên, Hà Nam là một lễ hội mang ý nghĩa khuyến nông và là nét đẹp văn hóa trở về nguồn cội. Lần đầu tiên nghi thức lễ tịch điền này được diễn ra vào thế kỷ X ở Hà Nam, trên quê hương vua Lê Đại Hành và sau nhiều năm thất truyền, được khôi phục từ năm 2009 vào mùng 7 tháng Giêng .": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_T%E1%BB%8Bch_%C4%91i%E1%BB%81n_%C4%90%E1%BB%8Di_S%C6%A1n": [
-        2
-      ]
-    },
-    "nhanVatLienQuan": [
-      "Lê Đại Hành",
-      "Khải Định"
-    ]
-  },
-  {
     "ten": "Hội xuân Yên Tử",
     "diaDiem": {
       "Quảng Ninh, núi Yên Tử": [
@@ -3202,8 +3517,18 @@
   },
   {
     "ten": "Hội đình Gừng",
+    "diaDiem": {
+      "phương Khương Đình - quận Thanh Xuân - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra trong ngày 12.2 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Hội đình diễn ra trong ngày 12.2 âm lịch hằng năm tại phương Khương Đình - quận Thanh Xuân - Hà Nội. Hoạt động thú vị của hội đình Gừng là chơi cờ người, hát chèo, múa sư tử, múa rồng...": [
+      "Hoạt động thú vị của hội đình Gừng là chơi cờ người, hát chèo, múa sư tử, múa rồng.": [
         9
       ]
     }
@@ -3240,24 +3565,6 @@
     },
     "url": {
       "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Puh_H%C6%A1_Drih": [
-        2
-      ]
-    }
-  },
-  {
-    "ten": "Lễ hội cúng bản",
-    "thoiGian": {
-      "Hàng năm, cứ vào mùa tháng 3 âm lịch.": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Lễ hội cúng bản là một lễ hội của đồng bào dân tộc Cống, tỉnh Điện Biên. Đây là lễ cầu mùa màng tốt tươi, côn trùng và chim chóc không phá hoại mùa màng.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_C%C3%BAng_b%E1%BA%A3n": [
         2
       ]
     }
@@ -3307,72 +3614,43 @@
     }
   },
   {
-    "ten": "Hội đình Phú Diễn",
+    "ten": "Lễ hội Cúng bản",
+    "thoiGian": {
+      "Hàng năm, cứ vào mùa tháng 3 âm lịch.": [
+        2
+      ]
+    },
     "mieuTa": {
-      "Hội đình diễn ra vào ngày 7 đến ngày 9 tháng 3 âm lịch tại địa chỉ xã Phú Diễn, thuộc huyện Từ Liêm, Hà Nội. Một số hoạt động thú vị tại hội đình Phú Diễn cho các bạn trải nghiệm, đó là đấu vật, hát ca trù, múa rối nước, đấu roi, bịt mắt bắt dê...": [
+      "Lễ hội cúng bản là một lễ hội của đồng bào dân tộc Cống, tỉnh Điện Biên. Đây là lễ cầu mùa màng tốt tươi, côn trùng và chim chóc không phá hoại mùa màng.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_C%C3%BAng_b%E1%BA%A3n": [
+        2
+      ]
+    }
+  },
+  {
+    "ten": "Hội đình Phú Diễn",
+    "diaDiem": {
+      "địa chỉ xã Phú Diễn, thuộc huyện Từ Liêm, Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào ngày 7 đến ngày 9 tháng 3 âm lịch": [
+        9
+      ]
+    },
+    "mieuTa": {
+      "Một số hoạt động thú vị tại hội đình Phú Diễn cho các bạn trải nghiệm, đó là đấu vật, hát ca trù, múa rối nước, đấu roi, bịt mắt bắt dê.": [
         9
       ]
     },
     "anh": {
       "https://www.vietfuntravel.com.vn/image/data/Ha-Noi/le-hoi-ha-noi/le-hoi-12-dinh-phu-dien.jpg": [
         9
-      ]
-    }
-  },
-  {
-    "ten": "Lễ hội xăng khan",
-    "thoiGian": {
-      "Cứ 3 hoặc 5 năm một lần vào khoảng tháng 11 Âm lịch, khi xong mùa vụ trên nương sản phẩm đã thu về nhà. Hoặc tháng 2, tháng 3 Âm lịch của năm sau là tháng tốt, tháng lành. Thời gian mở hội từ 2 đến 3 ngày.": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Lễ hội xăng khan là lễ hội của người đồng bào dân tộc Thái. Một số nơi khác gọi là Kin chiêng boóc mạy, Hội Chá Chiêng... Mục đích và ý nghĩa của nó vẫn là ngày tạ ơn các ông mo đối với tổ tiên và những người thầy đã dạy cách bốc thuốc chữa bệnh cứu vớt chúng sinh. Là một lễ hội tín ngưỡng dân gian độc đáo của người Thái, góp phần thỏa mãn nhu cầu hưởng thụ văn hóa, nhất là văn hóa tâm linh của đồng bào các dân tộc thiểu số nói chung và người Thái nói riêng.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_xang_khan": [
-        2
-      ]
-    }
-  },
-  {
-    "ten": "Lễ hội Sông nước Tam Giang",
-    "mieuTa": {
-      "Lễ hội Sông nước Tam Giang là một lễ hội văn hoá truyền thống của người dân vùng hạ lưu sông Tam Giang. Lễ hội thường được tổ chức vào mùng 5 và mùng 6 tháng Giêng (Âm lịch) trong đợt Tết Nguyên Đán, và diễn ra quanh khu vực sông Tam Giang, thuộc phường Xuân Đài, thị xã Sông Cầu, tỉnh Phú Yên.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/S%C3%B4ng_n%C6%B0%E1%BB%9Bc_Tam_Giang": [
-        2
-      ]
-    }
-  },
-  {
-    "ten": "Lễ hội kéo chày",
-    "mieuTa": {
-      "Lễ hội kéo chày là một lễ hội của đồng bào dân tộc Pà Thẻn sinh sống chủ yếu ở vùng núi tỉnh Hà Giang, Việt Nam. Lễ hội này diễn ra vào ngày 16 tháng 10 âm lịch hàng năm. Lễ hội này cũng đi kèm với Lễ hội nhảy lửa.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_k%C3%A9o_ch%C3%A0y_(ng%C6%B0%E1%BB%9Di_P%C3%A0_Th%E1%BA%BBn)": [
-        2
-      ]
-    }
-  },
-  {
-    "ten": "Lễ hội đại phan",
-    "mieuTa": {
-      "Lễ hội đại phan hay cầu mùa là một lễ hội của người đồng bào dân tộc Sán Dìu và Ngái. Trong tín ngưỡng, tâm linh có ý nghĩa là một lễ cầu an, cầu mùa, xua đuổi tà ma, dịch bệnh. Đại phan tích hợp nhiều yếu tố văn hóa đặc trưng về phong tục, tập quán, nghi thức thờ cúng, ca - múa - nhạc, mỹ thuật.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_%C4%90%E1%BA%A1i_phan": [
-        2
       ]
     }
   },
@@ -3403,6 +3681,19 @@
     },
     "url": {
       "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_%C4%90%C3%A2m_%C4%91u%E1%BB%91ng": [
+        2
+      ]
+    }
+  },
+  {
+    "ten": "Lễ hội Đại phan",
+    "mieuTa": {
+      "Lễ hội đại phan hay cầu mùa là một lễ hội của người đồng bào dân tộc Sán Dìu và Ngái. Trong tín ngưỡng, tâm linh có ý nghĩa là một lễ cầu an, cầu mùa, xua đuổi tà ma, dịch bệnh. Đại phan tích hợp nhiều yếu tố văn hóa đặc trưng về phong tục, tập quán, nghi thức thờ cúng, ca - múa - nhạc, mỹ thuật.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_%C4%90%E1%BA%A1i_phan": [
         2
       ]
     }
@@ -3460,6 +3751,24 @@
     }
   },
   {
+    "ten": "Lễ hội dâng hoa măng (người La Ha)",
+    "thoiGian": {
+      "Vào dịp đầu xuân năm mới, việc trên nương chưa nhiều, để con cháu, bà con bản dưới mường trên gặp nhau giao lưu văn hóa, văn nghệ. Trước ngày rằm hằng tháng trong ba tháng mùa xuân.": [
+        2
+      ]
+    },
+    "mieuTa": {
+      "Lễ hội dâng hoa mănglà một lễ hội của đồng bào dân tộc người La Ha (Việt Nam), là để tỏ lòng cảm tạ, tri ân thầy lang có công vì sức khỏe cộng đồng, tổng kết khả năng cứu chữa bệnh tật của thầy lang, rồi truyền lại cách thờ cúng tổ tiên cho con cháu.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_d%C3%A2ng_hoa_m%C4%83ng_(ng%C6%B0%E1%BB%9Di_La_Ha)": [
+        2
+      ]
+    }
+  },
+  {
     "ten": "Lễ hội cúng thần rừng",
     "diaDiem": {
       "tại miền núi phía Bắc Việt Nam như người người Pu Péo": [
@@ -3478,46 +3787,19 @@
     }
   },
   {
-    "ten": "Lễ hội nhảy lửa",
+    "ten": "Lễ hội lập tịch (người Dao)",
     "thoiGian": {
-      "Thường từ mồng 2 đến mồng 5 tháng giêng âm lịch. Các ngày tổ chức lễ hội cố định, mà phụ thuộc vào ngày đẹp, giờ đẹp được các già làng, trưởng họ hay thầy tào định ngày.": [
-        2
-      ],
-      "Lễ nhảy lửa thường được tổ chức vào cuối năm, khi thời tiết đang bước vào thời kỳ khắc nghiệt nhất của mùa đông.": [
+      "Do các thầy mo và gia chủ quyết định. Lễ lập tịch của người Dao Họ ở Khe Mụ kéo dài tới ba ngày và có thể hơn nữa.": [
         2
       ]
     },
     "mieuTa": {
-      "Lễ hội nhảy lửa là một lễ hội của đồng bào dân tộc Dao đỏ, Hà Giang. Những người xa quê chuyến đi đầu xuân trở về quê hương, dự lễ hội khai xuân.": [
-        2
-      ],
-      "Lễ hội nhảy lửa là một lễ hội của đồng bào dân tộc Pà Thẻn. Một sinh hoạt văn hóa mang tính tâm linh, có sức mạnh phi thường dám đương đầu với nguy hiểm, xua đuổi tà ma, bệnh tật.": [
+      "Lễ hội lập tịch là một lễ hội của đồng bào dân tộc Dao Họ, bản Khe Mụ, Sơn Hà, Bảo Thắng, Lào Cai. Giống như lễ thành đinh của các dân tộc trên thế giới. Đó là nghi lễ đánh dấu một giai đoạn của cuộc đời con người, giai đoạn từ tuổi thiếu niên lên tuổi trưởng thành, được cộng đồng công nhận có vị trí trong đời sống và sinh hoạt. Là sự công nhận chính của cộng đồng, sự chấp nhận của thần linh cho chàng trai đó có đầy đủ mọi tiêu chuẩn của một thành viên chính thức của cộng đồng.": [
         2
       ]
     },
     "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_nh%E1%BA%A3y_l%E1%BB%ADa_(ng%C6%B0%E1%BB%9Di_Dao)": [
-        2
-      ],
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_nh%E1%BA%A3y_l%E1%BB%ADa_(ng%C6%B0%E1%BB%9Di_P%C3%A0_Th%E1%BA%BBn)": [
-        2
-      ]
-    }
-  },
-  {
-    "ten": "Lễ hội cồng chiêng",
-    "diaDiem": {
-      "tại các tỉnh có văn hoá cồng chiêng trong đó Đắk Lắk là một điểm quan trọng và hay được chọn nhất do vị trí trung tâm văn hoá": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Lễ hội cồng chiêng là một lễ hội được tổ chức hàng năm theo hình thức luân phiên tại các tỉnh có văn hoá cồng chiêng trong đó Đắk Lắk là một điểm quan trọng và hay được chọn nhất do vị trí trung tâm văn hoá, chính trị, xã hội của khu vực Tây nguyên nơi có nhiều cồng chiêng nhất ở Việt Nam.": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_C%E1%BB%93ng_chi%C3%AAng": [
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_l%E1%BA%ADp_t%E1%BB%8Bch_(ng%C6%B0%E1%BB%9Di_Dao)": [
         2
       ]
     }
@@ -3553,8 +3835,18 @@
   },
   {
     "ten": "Lễ hội Kén Rễ",
+    "diaDiem": {
+      "làng Đường Yên, xã Xuân Nộn, huyện Đông Anh - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào ngày 2 tháng 2 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Lễ hội này diễn ra vào ngày 2 tháng 2 âm lịch hằng năm tại làng Đường Yên, xã Xuân Nộn, huyện Đông Anh - Hà Nội. Hoạt động chính của lễ hội nhằm chọn rể tài giỏi, đức độ cho nữ tướng Lê Hoa.": [
+      "Hoạt động chính của lễ hội nhằm chọn rể tài giỏi, đức độ cho nữ tướng Lê Hoa.": [
         9
       ]
     },
@@ -3565,51 +3857,7 @@
     }
   },
   {
-    "ten": "Lễ hội Cầu mưa",
-    "thoiGian": {
-      "Từ ngày 01/04 đến 28/04 Âm lịch, vào những đêm trăng có quầng đỏ quầng vàng - điềm báo trời đại hạn kéo dài.": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Lễ hội Cầu mưa hay lễ hội Xến Xó Phốn là một lẽ hội của người đồng bào dân tộc Thái, Mai Châu, tỉnh Hòa Bình. là lễ hôi giá trị về phong tục tập quán, tín ngưỡng cho mọi người trong bản.Mọi người đi hát cầu mưa ở khắp các nhà trong bản, rồi rước đuốc vòng quanh bản": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_C%E1%BA%A7u_m%C6%B0a_(ng%C6%B0%E1%BB%9Di_Th%C3%A1i)": [
-        2
-      ]
-    }
-  },
-  {
-    "ten": "Hội làng Đại Lan",
-    "mieuTa": {
-      "Hội làng này diễn ra trong khoảng thời gian từ ngày 6.1 đến ngày 8.1 âm lịch hằng năm. Địa điểm diễn ra hội làng nằm ở Thôn Đại Lan, xã Duyên Hà - Huyện Thanh Trì - Hà Nội. Hội làng Đại Lan sẽ có một số hoạt động, đó là: đánh gậy, múa roi, hội vật, rước và làm cỗ cá lăng...": [
-        9
-      ]
-    },
-    "anh": {
-      "https://www.vietfuntravel.com.vn/image/data/Ha-Noi/le-hoi-ha-noi/le-hoi-38-hoi-lang-dai-lan.jpg": [
-        9
-      ]
-    }
-  },
-  {
-    "ten": "Hội đền Ghềnh",
-    "mieuTa": {
-      "Diễn ra vào ngày 20.8 âm lịch hằng năm tại thôn Ái Mộ, phường Bồ Đề - Long Biên - Hà Nội. Một số hoạt động hay, thú vị mà hội đình Ghềnh mang lại: Hát văn ca ngợi công đức của Thánh Mẫu.": [
-        9
-      ]
-    },
-    "anh": {
-      "https://www.vietfuntravel.com.vn/image/data/Ha-Noi/le-hoi-ha-noi/le-hoi-20-hoi-den-ghenh.jpg": [
-        9
-      ]
-    }
-  },
-  {
-    "ten": "Lễ hội cầu mùa của người Khơ Mú",
+    "ten": "Lễ hội Cầu mùa (người Khơ Mú)",
     "thoiGian": {
       "Lễ hội Pa Sưm (cầu mùa) thường diễn ra trước lúc tra hạt trên nương rẫy.": [
         2
@@ -3623,6 +3871,52 @@
     "url": {
       "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_C%E1%BA%A7u_m%C3%B9a_(ng%C6%B0%E1%BB%9Di_Kh%C6%A1_M%C3%BA)": [
         2
+      ]
+    }
+  },
+  {
+    "ten": "Hội làng Đại Lan",
+    "diaDiem": {
+      "hội làng nằm ở Thôn Đại Lan, xã Duyên Hà - Huyện Thanh Trì - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra trong khoảng thời gian từ ngày 6.1 đến ngày 8.1 âm lịch hằng năm": [
+        9
+      ]
+    },
+    "mieuTa": {
+      "Hội làng Đại Lan sẽ có một số hoạt động, đó là: đánh gậy, múa roi, hội vật, rước và làm cỗ cá lăng.": [
+        9
+      ]
+    },
+    "anh": {
+      "https://www.vietfuntravel.com.vn/image/data/Ha-Noi/le-hoi-ha-noi/le-hoi-38-hoi-lang-dai-lan.jpg": [
+        9
+      ]
+    }
+  },
+  {
+    "ten": "Hội đền Ghềnh",
+    "diaDiem": {
+      "thôn Ái Mộ, phường Bồ Đề - Long Biên - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào ngày 20.8 âm lịch hằng năm": [
+        9
+      ]
+    },
+    "mieuTa": {
+      "Một số hoạt động hay, thú vị mà hội đình Ghềnh mang lại: Hát văn ca ngợi công đức của Thánh Mẫu.": [
+        9
+      ]
+    },
+    "anh": {
+      "https://www.vietfuntravel.com.vn/image/data/Ha-Noi/le-hoi-ha-noi/le-hoi-20-hoi-den-ghenh.jpg": [
+        9
       ]
     }
   },
@@ -3685,8 +3979,18 @@
   },
   {
     "ten": "Hội Đại Mỗ",
+    "diaDiem": {
+      "địa chỉ xã Đại Mỗ, huyện Từ Liêm, Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra trong khoảng thời gian 3 ngày, từ ngày 6 đến ngày 8 tháng 1 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Lễ hội này diễn ra trong khoảng thời gian 3 ngày, từ ngày 6 đến ngày 8 tháng 1 âm lịch hằng năm tại địa chỉ xã Đại Mỗ, huyện Từ Liêm, Hà Nội. Một số hoạt động chính trong lễ hội là: hát ả đào, thi thổi xôi, cờ người...": [
+      "Một số hoạt động chính trong lễ hội là: hát ả đào, thi thổi xôi, cờ người.": [
         9
       ]
     },
@@ -3698,8 +4002,18 @@
   },
   {
     "ten": "Hội đền Cai Công",
+    "diaDiem": {
+      "làng Thượng Thanh, xã Thanh Cao - Thanh Oai - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra trong những khoảng thời gian: từ ngày 10 đến ngày 12 tháng 2 âm lịch và ngày 7.7 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Hội đền này được diễn ra trong những khoảng thời gian: từ ngày 10 đến ngày 12 tháng 2 âm lịch và ngày 7.7 âm lịch hằng năm tại làng Thượng Thanh, xã Thanh Cao - Thanh Oai - Hà Nội. Một số hoạt động mà hội đền mang lại, đó là: chọi gà, đấu vật, cúng cỗ chay, cờ tướng...": [
+      "Một số hoạt động mà hội đền mang lại, đó là: chọi gà, đấu vật, cúng cỗ chay, cờ tướng.": [
         9
       ]
     }
@@ -3736,27 +4050,9 @@
     }
   },
   {
-    "ten": "Tết Nguyên Tiêu",
-    "mieuTa": {
-      "Tết Nguyên Tiêu (Chữ Nho: 節元宵), Tết Thượng Nguyên, Rằm Tháng Giêng là ngày lễ hội truyền thống của Việt Nam và Trung Quốc . Lễ hội trăng rằm từ giữa đêm 14 (đêm trước trăng rằm) trọn ngày 15 (ngày rằm) cho đến nửa đêm 15 (đêm trăng rằm) của tháng giêng Âm lịch.": [
-        2
-      ]
-    },
-    "anh": {
-      "//upload.wikimedia.org/wikipedia/commons/thumb/4/45/ShijiazhuangLanternFestval.jpg/300px-ShijiazhuangLanternFestval.jpg": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/T%E1%BA%BFt_Nguy%C3%AAn_ti%C3%AAu": [
-        2
-      ]
-    }
-  },
-  {
     "ten": "Hội đền Hát Môn",
     "mieuTa": {
-      "Hội đền này kéo dài xuyên suốt năm vào những khoảng thời gian: - Từ ngày 4 đến ngày 7 tháng 3 âm lịch. - Ngày 4 tháng 9 âm lịch. - Ngày 24 tháng 12 âm lịch hằng năm. Trong số này thì chính hội là ngày 6.3 âm lịch.": [
+      "3 âm lịch.": [
         9
       ]
     },
@@ -3780,9 +4076,37 @@
     }
   },
   {
-    "ten": "lễ hội Đống Đa",
+    "ten": "Lễ hội Gội đầu",
+    "thoiGian": {
+      "Lễ gội đầu được tiến hành từ trưa ngày cuối cùng trong năm, người Thái đánh dấu ngày đó lại có lễ gội đầu": [
+        2
+      ]
+    },
     "mieuTa": {
-      "Đây là một lễ hội khá lớn ở Hà Nội, diễn ra vào đúng ngày 5 tháng 1 âm lịch hằng năm tại Gò Đống Đa, quận Đống Đa, Hà Nội. Hoạt động chính mà lễ hội Đống Đa tổ chức là rước rồng lửa Thăng Long cực kỳ hoành tráng.": [
+      "Lễ hội gội đầu hay lễ hội Lúng ta là một lễ hội của đồng bào Thái trắng. Đánh dấu thời điểm qua năm, rũ bỏ cái cũ, đón nhận cái mới.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_G%E1%BB%99i_%C4%91%E1%BA%A7u": [
+        2
+      ]
+    }
+  },
+  {
+    "ten": "lễ hội Đống Đa",
+    "diaDiem": {
+      "Gò Đống Đa, quận Đống Đa, Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào đúng ngày 5 tháng 1 âm lịch hằng năm": [
+        9
+      ]
+    },
+    "mieuTa": {
+      "Hoạt động chính mà lễ hội Đống Đa tổ chức là rước rồng lửa Thăng Long cực kỳ hoành tráng.": [
         9
       ]
     },
@@ -3817,26 +4141,113 @@
   },
   {
     "ten": "Hội Hoa Sơn",
+    "diaDiem": {
+      "hội Hoa Sơn: xã Hoa Sơn, huyện Ứng Hòa - Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra : ngày 6.1 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "- Thời gian lễ hội diễn ra: ngày 6.1 âm lịch hằng năm. - Địa điểm diễn ra hội Hoa Sơn: xã Hoa Sơn, huyện Ứng Hòa - Hà Nội. - Hoạt động chính trong lễ hội Hoa Sơn: Hội cầu mùa.": [
+      "- Hoạt động chính trong lễ hội Hoa Sơn: Hội cầu mùa.": [
         9
       ]
     }
   },
   {
-    "ten": "Lễ hội cầu mưa người Lô Lô",
+    "ten": "Lễ hội Cầu mùa (người Tà Ôi)",
     "thoiGian": {
-      "Lễ cầu mưa thông thường được tổ chức vào tháng ba âm lịch, vào các ngày 15, 17 hoặc 19. Việc cầu mưa không thể làm tùy tiện, không phải năm nào cũng làm lễ, mà chỉ vào những năm thời tiết khắc nghiệt, khô hạn, người dân trong vùng mới tập trung lại, mời người làm lễ (là trưởng xóm hoặc người cao tuổi có uy tín trong khu vực).": [
+      "Tổ chức theo chu kỳ từ 2 đến 3 năm một lần. Thời gian tổ chức cho lễ hội này là sau Tết Âm lịch.": [
         2
       ]
     },
     "mieuTa": {
-      "Lễ hội cầu mưa người Lô Lô là một lễ hội của dân tộc người Lô Lô, Mèo Vạc, Hà Giang. Với những nghi thức đặc sắc, độc đáo, lễ cầu mưa được lưu truyền từ đời này tới đời khác, đến nay không chỉ là một sự kiện mang tính tín ngưỡng, mà còn là dịp để mọi người gặp gỡ, bàn chuyện làm ăn, cầu may, bày tỏ lòng thành kính với đất trời, trai gái giao duyên...": [
+      "Lễ hội Cầu mùa là một lễ hội của người đồng bào dân tộc Tà Ôi, để cầu mong Giàng làm cho họ một mùa màng bội thu, cộng đồng luôn dồi dào sức khỏe.": [
         2
       ]
     },
     "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_c%E1%BA%A7u_m%C6%B0a_(ng%C6%B0%E1%BB%9Di_L%C3%B4_L%C3%B4)": [
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_C%E1%BA%A7u_m%C3%B9a_(ng%C6%B0%E1%BB%9Di_T%C3%A0_%C3%94i)": [
+        2
+      ]
+    }
+  },
+  {
+    "ten": "Lễ hội nhảy lửa (người Dao)",
+    "thoiGian": {
+      "Thường từ mồng 2 đến mồng 5 tháng giêng âm lịch. Các ngày tổ chức lễ hội cố định, mà phụ thuộc vào ngày đẹp, giờ đẹp được các già làng, trưởng họ hay thầy tào định ngày.": [
+        2
+      ]
+    },
+    "mieuTa": {
+      "Lễ hội nhảy lửa là một lễ hội của đồng bào dân tộc Dao đỏ, Hà Giang. Những người xa quê chuyến đi đầu xuân trở về quê hương, dự lễ hội khai xuân.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_nh%E1%BA%A3y_l%E1%BB%ADa_(ng%C6%B0%E1%BB%9Di_Dao)": [
+        2
+      ]
+    }
+  },
+  {
+    "ten": "Lễ hội xang khan",
+    "thoiGian": {
+      "Cứ 3 hoặc 5 năm một lần vào khoảng tháng 11 Âm lịch, khi xong mùa vụ trên nương sản phẩm đã thu về nhà. Hoặc tháng 2, tháng 3 Âm lịch của năm sau là tháng tốt, tháng lành. Thời gian mở hội từ 2 đến 3 ngày.": [
+        2
+      ]
+    },
+    "mieuTa": {
+      "Lễ hội xăng khan là lễ hội của người đồng bào dân tộc Thái. Một số nơi khác gọi là Kin chiêng boóc mạy, Hội Chá Chiêng... Mục đích và ý nghĩa của nó vẫn là ngày tạ ơn các ông mo đối với tổ tiên và những người thầy đã dạy cách bốc thuốc chữa bệnh cứu vớt chúng sinh. Là một lễ hội tín ngưỡng dân gian độc đáo của người Thái, góp phần thỏa mãn nhu cầu hưởng thụ văn hóa, nhất là văn hóa tâm linh của đồng bào các dân tộc thiểu số nói chung và người Thái nói riêng.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_xang_khan": [
+        2
+      ]
+    }
+  },
+  {
+    "ten": "Lễ hội tết nhảy",
+    "thoiGian": {
+      "hàng năm cứ đến ngày 15.12 âm lịch": [
+        2
+      ]
+    },
+    "mieuTa": {
+      "Lễ tết nhảy là lễ hội của đồng bào dân tộc Dao Quần Chẹt, nhằm hậu tạ tổ tiên và chuẩn bị làm lễ hứa đầu năm mới. Theo quan niệm của người Dao Quần Chẹt, trong cuộc sống con người phải trải qua nhiều trắc trở, rủi ro, hàng năm phải khấn trời đất, thần linh, tổ tiên để được cứu giúp, trừ giải những oan trái, bất hạnh, ban cho những điều may mắn, hạnh phúc.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_t%E1%BA%BFt_nh%E1%BA%A3y": [
+        2
+      ]
+    }
+  },
+  {
+    "ten": "Lễ hội Ramưwan",
+    "diaDiem": {
+      "tại Nam Trung Bộ": [
+        2
+      ]
+    },
+    "thoiGian": {
+      "Do tôn giáo Chăm Bani có ảnh hưởng của Hồi Giáo, nên Ramưwan trùng ngày với Ramadan của Hồi Giáo. Lưu ý rằng, chỉ trùng ngày tháng, ngoài ra không giống gì khác.": [
+        2
+      ]
+    },
+    "mieuTa": {
+      "Lễ hội Ramưwan (Ramâwan) của người đồng bào dân tộc Chăm Bà ni tại Nam Trung Bộ. Được xem giống như là tết của người Việt Nam hay giáng sinh của phương Tây.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Ranuwan": [
         2
       ]
     }
@@ -4015,6 +4426,24 @@
     }
   },
   {
+    "ten": "Lễ hội Văn hóa Ẩm thực Thế giới 2010 (Vũng Tàu)",
+    "diaDiem": {
+      "tại thành phố Vũng Tàu": [
+        2
+      ]
+    },
+    "mieuTa": {
+      "Lễ hội Văn hóa Ẩm thực Thế giới 2010 (tiếng Anh: World Food Festival) là một lễ hội được tổ chức trong vòng 5 ngày (từ ngày 21 tháng 7 đến ngày 25 tháng 7 năm 2010) tại thành phố Vũng Tàu, Việt Nam. Lễ hội có sự tham gia của 40 quốc gia và các vùng lãnh thổ trên thế giới (Úc, Hoa Kỳ, Canada, Tây Ban Nha, Đức, Iran, Hàn Quốc, CHDCND Triều Tiên, Nga, Trung Quốc, Ấn Độ, Lào,...) cùng 40 tỉnh thành của Việt Nam. Không gian lễ hội kéo dài dọc theo 3 km tuyến đường trước bãi biển Thùy Vân, Bãi Sau với những khu chợ đặc sản và quầy thức ăn dựng lên dưới dạng lều được trang trí theo màu sắc của từng quốc gia, vùng miền.": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_V%C4%83n_h%C3%B3a_%E1%BA%A8m_th%E1%BB%B1c_Th%E1%BA%BF_gi%E1%BB%9Bi_2010_(V%C5%A9ng_T%C3%A0u)": [
+        2
+      ]
+    }
+  },
+  {
     "ten": "Lễ hội đền Choọng",
     "diaDiem": {
       "Bản Choọng Bùng, xã Châu Lý, huyện Quỳ Hợp.": [
@@ -4028,9 +4457,37 @@
     }
   },
   {
-    "ten": "Hội đình Gia Thụy",
+    "ten": "Lễ hội cầu mưa (người Lô Lô)",
+    "thoiGian": {
+      "Lễ cầu mưa thông thường được tổ chức vào tháng ba âm lịch, vào các ngày 15, 17 hoặc 19. Việc cầu mưa không thể làm tùy tiện, không phải năm nào cũng làm lễ, mà chỉ vào những năm thời tiết khắc nghiệt, khô hạn, người dân trong vùng mới tập trung lại, mời người làm lễ (là trưởng xóm hoặc người cao tuổi có uy tín trong khu vực).": [
+        2
+      ]
+    },
     "mieuTa": {
-      "Hội đình Gia Thụy diễn ra vào ngày 10.2 âm lịch tại địa chỉ đình Gia Thụy, thuộc phường Gia Thụy. Ngoài ra còn 1 địa điểm tổ chức nữa là đền Yên Tân, thuộc phường Ngọc Thụy - quận Long Biên - Hà Nội. Đình Gia Thụy tôn thờ Đồng Lương, Quý Nương, Trung Thành, Thung Vinh... Một số hoạt động chính của đình là đu bay, cờ người và ca trù...": [
+      "Lễ hội cầu mưa người Lô Lô là một lễ hội của dân tộc người Lô Lô, Mèo Vạc, Hà Giang. Với những nghi thức đặc sắc, độc đáo, lễ cầu mưa được lưu truyền từ đời này tới đời khác, đến nay không chỉ là một sự kiện mang tính tín ngưỡng, mà còn là dịp để mọi người gặp gỡ, bàn chuyện làm ăn, cầu may, bày tỏ lòng thành kính với đất trời, trai gái giao duyên...": [
+        2
+      ]
+    },
+    "url": {
+      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_c%E1%BA%A7u_m%C6%B0a_(ng%C6%B0%E1%BB%9Di_L%C3%B4_L%C3%B4)": [
+        2
+      ]
+    }
+  },
+  {
+    "ten": "Hội đình Gia Thụy",
+    "diaDiem": {
+      "địa chỉ đình Gia Thụy, thuộc phường Gia Thụy": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào ngày 10.2 âm lịch": [
+        9
+      ]
+    },
+    "mieuTa": {
+      "Một số hoạt động chính của đình là đu bay, cờ người và ca trù.": [
         9
       ]
     }
@@ -4117,31 +4574,27 @@
     ]
   },
   {
-    "ten": "Lễ hội Cầu mùa",
+    "ten": "Tết Nguyên tiêu",
     "mieuTa": {
-      "Lễ hội Cầu mùa là một lễ hội của người Dao Tuyển. Đây là nét văn hóa truyền thống tốt đẹp của người Dao Tuyển, không cầu kỳ nhưng mang nhiều yếu tố tâm linh sâu sắc của cả cộng đồng.": [
+      "Tết Nguyên Tiêu (Chữ Nho: 節元宵), Tết Thượng Nguyên, Rằm Tháng Giêng là ngày lễ hội truyền thống của Việt Nam và Trung Quốc . Lễ hội trăng rằm từ giữa đêm 14 (đêm trước trăng rằm) trọn ngày 15 (ngày rằm) cho đến nửa đêm 15 (đêm trăng rằm) của tháng giêng Âm lịch.": [
+        2,
+        2
+      ]
+    },
+    "anh": {
+      "//upload.wikimedia.org/wikipedia/commons/thumb/4/45/ShijiazhuangLanternFestval.jpg/300px-ShijiazhuangLanternFestval.jpg": [
         2
       ],
-      "Lễ hội Cầu mùa là một lễ hội của người đồng bào dân tộc Tà Ôi, để cầu mong Giàng làm cho họ một mùa màng bội thu, cộng đồng luôn dồi dào sức khỏe.": [
+      "//upload.wikimedia.org/wikipedia/commons/thumb/2/23/V%C3%A2n_C%C3%B4n%2C_r%C6%B0%E1%BB%9Bc_Th%C3%A1nh_qua_ao_l%C3%A0ng.JPG/220px-V%C3%A2n_C%C3%B4n%2C_r%C6%B0%E1%BB%9Bc_Th%C3%A1nh_qua_ao_l%C3%A0ng.JPG": [
         2
       ]
     },
     "url": {
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_C%E1%BA%A7u_m%C3%B9a_(ng%C6%B0%E1%BB%9Di_Dao)": [
-        2
-      ],
-      "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_C%E1%BA%A7u_m%C3%B9a_(ng%C6%B0%E1%BB%9Di_T%C3%A0_%C3%94i)": [
+      "https://vi.wikipedia.org/wiki/T%E1%BA%BFt_Nguy%C3%AAn_ti%C3%AAu": [
+        2,
         2
       ]
     },
-    "thoiGian": {
-      "Tổ chức theo chu kỳ từ 2 đến 3 năm một lần. Thời gian tổ chức cho lễ hội này là sau Tết Âm lịch.": [
-        2
-      ]
-    }
-  },
-  {
-    "ten": "Tết Nguyên tiêu",
     "diaDiem": {
       "Nhiều quốc gia": [
         2
@@ -4149,21 +4602,6 @@
     },
     "thoiGian": {
       "15/1": [
-        2
-      ]
-    },
-    "mieuTa": {
-      "Tết Nguyên Tiêu (Chữ Nho: 節元宵), Tết Thượng Nguyên, Rằm Tháng Giêng là ngày lễ hội truyền thống của Việt Nam và Trung Quốc . Lễ hội trăng rằm từ giữa đêm 14 (đêm trước trăng rằm) trọn ngày 15 (ngày rằm) cho đến nửa đêm 15 (đêm trăng rằm) của tháng giêng Âm lịch.": [
-        2
-      ]
-    },
-    "anh": {
-      "//upload.wikimedia.org/wikipedia/commons/thumb/2/23/V%C3%A2n_C%C3%B4n%2C_r%C6%B0%E1%BB%9Bc_Th%C3%A1nh_qua_ao_l%C3%A0ng.JPG/220px-V%C3%A2n_C%C3%B4n%2C_r%C6%B0%E1%BB%9Bc_Th%C3%A1nh_qua_ao_l%C3%A0ng.JPG": [
-        2
-      ]
-    },
-    "url": {
-      "https://vi.wikipedia.org/wiki/T%E1%BA%BFt_Nguy%C3%AAn_ti%C3%AAu": [
         2
       ]
     }
@@ -4193,8 +4631,18 @@
   },
   {
     "ten": "Lễ hội Làng Bát Tràng",
+    "diaDiem": {
+      "lễ hội: Đình Bát Tràng, xã Bát Tràng, Gia Lâm, Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra lễ hội: từ ngày 14 đến hết ngày 16.2 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "- Thời gian diễn ra lễ hội: từ ngày 14 đến hết ngày 16.2 âm lịch hằng năm. - Địa điểm diễn ra lễ hội: Đình Bát Tràng, xã Bát Tràng, Gia Lâm, Hà Nội. - Hoạt động chính của lễ hội: tắm bài vị, rước nước, thi sáng tác ca trù...": [
+      "- Hoạt động chính của lễ hội: tắm bài vị, rước nước, thi sáng tác ca trù.": [
         9
       ]
     },
@@ -4206,8 +4654,18 @@
   },
   {
     "ten": "Hội đền Sái",
+    "diaDiem": {
+      "hội đền Sái nằm ở thôn Thụy Lôi, xã Thụy Lâm, huyện Đông Anh, Hà Nội": [
+        9
+      ]
+    },
+    "thoiGian": {
+      "Diễn ra vào ngày 12 tháng 1 âm lịch hằng năm": [
+        9
+      ]
+    },
     "mieuTa": {
-      "Hội đền này còn được biết với tên là hội rước vua sống diễn ra vào ngày 12 tháng 1 âm lịch hằng năm. Địa điểm tổ chức hội đền Sái nằm ở thôn Thụy Lôi, xã Thụy Lâm, huyện Đông Anh, Hà Nội. Hoạt động mà hội đền Sái mang lại, đó là: diễn trò rước Vua sống do 1 cụ già lâu năm đóng vai vua.": [
+      "Hoạt động mà hội đền Sái mang lại, đó là: diễn trò rước Vua sống do 1 cụ già lâu năm đóng vai vua.": [
         9
       ]
     },
