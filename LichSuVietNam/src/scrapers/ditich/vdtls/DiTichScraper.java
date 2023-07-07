@@ -50,8 +50,7 @@ public class DiTichScraper {
 		String imageLink = image.attr("src");
 		String replacedImageLink = imageLink.replace("\\", "/");
 		// line = line.replace("\u003d", "=").replace("\u0026", "&");
-		
-		
+
 		if (locations.isEmpty()) System.out.println("Empty location"); else {
 			Element location = locations.get(0);
 			String diaDiem = location.ownText();
@@ -65,41 +64,13 @@ public class DiTichScraper {
 			ditich.setTen(miniHeading);
 		}
 		
-		if (!buildFroms1.isEmpty()) {
-			Element buildFrom = buildFroms1.get(0);
-			String khoiLap = buildFrom.ownText();
-			ditich.setKhoiLap(khoiLap);
-		} else if (!buildFroms2.isEmpty()) {
-			Element buildFrom = buildFroms2.get(0);
-			String khoiLap = buildFrom.ownText();
-			ditich.setKhoiLap(khoiLap);
-		} else System.out.println("Empty khoiLap");
-		
-		if (nvlqList.size() == 0) { System.out.println("Empty nvlq");} else {
-			ditich.setNhanVatLienQuan(nvlqList);	
-		}
-			
-		if (rankingType.isEmpty()) System.out.println("Empty ranking"); else {
-			Element xepHang = rankingType.get(0);
-			String xH = xepHang.ownText();
-			ditich.setPhanLoai(xH);
-		}
-		
-
-		
-		ditich.setNguon(4);
-			ditich.setUrl(escapeJsonCharacters(line));
-		ditich.setAnh("http://ditich.vn"+ replacedImageLink);
-	    if (ditich.getTen().equals("Đình Đốc Hậu") || ditich.getTen().equals(
-	    		"Đền Phù Sa")|| ditich.getTen().equals("Đình Cổ Lão (Đình Cả)") || ditich.getTen().equals("Đình Cả (Đình Khuân)")|| ditich.getTen().equals("Đình Quan Xuyên")){
-	    						DiTichs.add(ditich);
-	    				    	return;
-	    				    } ;
 		for (Element element : nhanVatLienQuans) {
 			
 		    String textContent = element.text();
 		    if (ditich.getTen().equals("Đình Đốc Hậu") || ditich.getTen().equals(
 		    		"Đền Phù Sa")|| ditich.getTen().equals("Đình Cổ Lão (Đình Cả)") || ditich.getTen().equals("Đình Cả (Đình Khuân)")){
+		    	
+		    						textContent = textContent.substring(14);
 		    				    	nvlqList.add(textContent);
 		    				    	ditich.setNhanVatLienQuan(nvlqList);
 		    				    	continue;
@@ -131,6 +102,33 @@ public class DiTichScraper {
 		        }
 		    }
 		}
+		
+		
+		if (!buildFroms1.isEmpty()) {
+			Element buildFrom = buildFroms1.get(0);
+			String khoiLap = buildFrom.ownText();
+			ditich.setKhoiLap(khoiLap);
+		} else if (!buildFroms2.isEmpty()) {
+			Element buildFrom = buildFroms2.get(0);
+			String khoiLap = buildFrom.ownText();
+			ditich.setKhoiLap(khoiLap);
+		} else System.out.println("Empty khoiLap");
+		
+		if (nvlqList.size() == 0) { System.out.println("Empty nvlq");} else {
+			ditich.setNhanVatLienQuan(nvlqList);	
+		}
+			
+		if (rankingType.isEmpty()) System.out.println("Empty ranking"); else {
+			Element xepHang = rankingType.get(0);
+			String xH = xepHang.ownText();
+			ditich.setPhanLoai(xH);
+		}
+		
+
+		
+		ditich.setNguon(4);
+			ditich.setUrl(escapeJsonCharacters(line));
+		ditich.setAnh("http://ditich.vn"+ replacedImageLink);
 		DiTichs.add(ditich);
 	}
 	
@@ -138,7 +136,7 @@ public class DiTichScraper {
 
 	public static void main(String args[]) {
 		try {
-			reader = new BufferedReader(new FileReader("file\\ditich.txt"));
+			reader = new BufferedReader(new FileReader("file\\site-source-4.txt"));
 			String line = reader.readLine();
 			while (line != null) {
 				try {
@@ -165,7 +163,7 @@ public class DiTichScraper {
 		Gson gson1 = new GsonBuilder().setPrettyPrinting().create();
 		String json1;
 		json1 = gson1.toJson(DiTichs);
-		String outputFile1 = "file\\site-source-4.json";
+		String outputFile1 = "C:\\Users\\admin\\Desktop\\OOPBigProject\\LichSuVietNam\\file\\site-source-4.json";
 		
 		try (FileWriter writer = new FileWriter(outputFile1)){
 			writer.write(json1);
