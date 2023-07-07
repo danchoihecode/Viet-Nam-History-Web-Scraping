@@ -5,16 +5,25 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 
 import nhanvat.LanhDaoQuocGia;
 import nhanvat.NhanVat;
+import thoiky.ThoiKy;
 
 
 public class NhanVatScraper {
@@ -31,13 +40,30 @@ public class NhanVatScraper {
 		return false;
 	}
 	
+	public static boolean stringContains(String inputStr, String[] items) {
+		
+	    return Arrays.stream(items).anyMatch(inputStr::contains);
+	}
+	
 	public static void scrapeDetail(NhanVat nhanVat, Document doc) {
+		
+		// Mieu ta
+		String text = doc.select("div#toc ~ p:first-of-type").html().replaceAll("(?s)<sup.*?</sup>", "");
+		String mieuTa = Jsoup.parse(text).text();
+		String[] mieuTaItems = {"thụy hiệu của một số vị quân chủ", "Triều Tiên", "Xiêm", "có thể là", "Đài Loan", "là một triều đại", "là triều đại", "là một vọng tộc", "là nơi ở", 
+				"là các tên gọi", "diễn viên", "một trong các dân tộc", "là kết hợp thứ", "là một giai đoạn", "văn bản lịch sử", "là một huyện", "là một thành phố", "một trong mười nước",
+				"có thể đề cập", "là thủ phủ"};
+		if(stringContains(mieuTa, mieuTaItems)) {
+			return;
+		}
+		if(mieuTa.length() != 0) nhanVat.setMieuTa(mieuTa);
+		
 		// Que quan
 		String queQuan = doc.select("div.infobox").select("th:containsOwn(Quê quán) + td").html().replaceAll("(?s)<sup.*?</sup>", "");
 		if(queQuan.length() != 0) nhanVat.setQueQuan(Jsoup.parse(queQuan).text());
 		
 		// Ten
-		String ten = doc.select("div.page-header>h2[itemprop=\"headline\"]").text();
+		String ten = doc.select("div.page-header>h2").text();
 		nhanVat.setTen(ten);
 		
 		// Nam Sinh & Noi Sinh
@@ -82,10 +108,6 @@ public class NhanVatScraper {
 			tacPhams.add(Jsoup.parse(tacPham2Split[i]).text());
 		}
 		if(!tacPhams.isEmpty()) nhanVat.setTacPham(tacPhams);
-		
-		// Mieu ta
-		String mieuTa = doc.select("div#toc ~ p:first-of-type").html().replaceAll("(?s)<sup.*?</sup>", "");
-		if(mieuTa.length() != 0) nhanVat.setMieuTa(Jsoup.parse(mieuTa).text());
 
 	}
 	
@@ -128,7 +150,7 @@ public class NhanVatScraper {
 	public static void main(String[] args) {
 
 		try {
-			reader = new BufferedReader(new FileReader("C:\\Users\\My Computer\\Downloads\\nhanvat.txt"));
+			reader = new BufferedReader(new FileReader("file\\figure-source-3.txt"));
 			String line = reader.readLine();
 			while (line != null) {
 				try {
@@ -146,19 +168,20 @@ public class NhanVatScraper {
 			e.printStackTrace();
 		}
 	
+//		String url = "https://nguoikesu.com/nhan-vat/nguyen-trai";
 //		try {
-//			doc = Jsoup.connect("https://nguoikesu.com/nhan-vat/nguyen-trai").get();
+//			doc = Jsoup.connect(url).get();
+//			scrape(url);
 //		} catch (IOException e) {
 //			System.out.println("Không thể kết nối tới trang web.");
 //			return;
 //		}
-//		scrape("https://nguoikesu.com/nhan-vat/nguyen-trai");	
 		
 		// Luu Nhan Vat
 		Gson gson1 = new GsonBuilder().setPrettyPrinting().create();
 		String json1;
 		json1 = gson1.toJson(nhanVats);
-		String outputFile1 = "C:\\Users\\My Computer\\Downloads\\NhanVatLichSu.json";
+		String outputFile1 = "file\\figure-source-3-1.json";
 		try (FileWriter writer = new FileWriter(outputFile1)) {
 			writer.write(json1);
 			System.out.println("Dữ liệu đã được ghi vào file " + outputFile1);
@@ -171,7 +194,7 @@ public class NhanVatScraper {
 		Gson gson2 = new GsonBuilder().setPrettyPrinting().create();
 		String json2;
 		json2 = gson2.toJson(lanhDaos);
-		String outputFile2 = "C:\\Users\\My Computer\\Downloads\\LanhDaoQuocGia.json";
+		String outputFile2 = "file\\figure-source-3-2.json";
 		try (FileWriter writer = new FileWriter(outputFile2)) {
 			writer.write(json2);
 			System.out.println("Dữ liệu đã được ghi vào file " + outputFile2);

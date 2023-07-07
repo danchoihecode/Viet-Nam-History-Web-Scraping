@@ -24,15 +24,16 @@ public class WebCrawler {
             Elements headings = doc.select("h2 a");
             for (Element heading : headings) {
                 String ref = heading.attr("href");          
-                stringBuffer.append("https://nguoikesu.com").append(ref).append("\n");             
+                stringBuffer.append("https://nguoikesu.com").append(ref).append("\n");       
+                System.out.println(heading.text());
             }
         }
 
-        try (FileWriter writer = new FileWriter("C:\\Users\\My Computer\\Downloads\\nhanvat.txt")) {
+        try (FileWriter writer = new FileWriter("file\\figure-source-3.txt")) {
             writer.write(stringBuffer.toString());
-            System.out.println("Đã ghi dữ liệu vào tệp tin nhanvat.txt");
+            System.out.println("Đã ghi dữ liệu vào tệp tin");
         } catch (IOException e) {
-            System.out.println("Lỗi khi ghi dữ liệu vào tệp tin nhanvat.txt: " + e.getMessage());
+            System.out.println("Lỗi khi ghi dữ liệu vào tệp tin: " + e.getMessage());
         }
     }
 }
