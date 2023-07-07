@@ -133,5 +133,6 @@ public class ScraperVua {
 			e.printStackTrace();
 		}
 
+
 	}
 }

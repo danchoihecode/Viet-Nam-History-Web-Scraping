@@ -12,21 +12,21 @@ import java.util.Set;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
 
+import nhanvat.LanhDaoQuocGia;
 import nhanvat.NhanVat;
 import sukien.SuKien;
 
 public class AddEvent {
 	public static void main(String[] args) {
+
 		// Đọc dữ liệu từ file figure-source-2.json
-		List<NhanVat> nhanVatList = readNhanVatFromJson(
-				"file\\figure-source-2.json"
-				);
+		List<NhanVat> nhanVatList = readNhanVatFromJson("file\\figure-source-2.json");
 
 		// Tạo map<String, ArrayList<String>> từ file event-source-2.json
-		Map<String, ArrayList<String>> eventMap = readEventMapFromFile(
-				"file\\event-source-2.json");
+		Map<String, ArrayList<String>> eventMap = readEventMapFromFile("file\\event-source-2.json");
 
 		// Duyệt qua danh sách nhanVat và kiểm tra sự kiện liên quan
 		for (NhanVat nhanVat : nhanVatList) {
@@ -56,9 +56,19 @@ public class AddEvent {
 		List<NhanVat> nhanVatList = new ArrayList<>();
 		try (FileReader reader = new FileReader(filename)) {
 			Gson gson = new Gson();
-			Type type = new TypeToken<List<NhanVat>>() {
+			Type type = new TypeToken<List<JsonObject>>() {
 			}.getType();
-			nhanVatList = gson.fromJson(reader, type);
+			List<JsonObject> jsonObjectList = gson.fromJson(reader, type);
+
+			for (JsonObject jsonObject : jsonObjectList) {
+				if (jsonObject.has("thoiGianTaiVi") || jsonObject.has("theThu")) {
+					LanhDaoQuocGia lanhDaoQuocGia = gson.fromJson(jsonObject, LanhDaoQuocGia.class);
+					nhanVatList.add(lanhDaoQuocGia);
+				} else {
+					NhanVat nhanVat = gson.fromJson(jsonObject, NhanVat.class);
+					nhanVatList.add(nhanVat);
+				}
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -101,4 +111,3 @@ public class AddEvent {
 
 	}
 }
-
