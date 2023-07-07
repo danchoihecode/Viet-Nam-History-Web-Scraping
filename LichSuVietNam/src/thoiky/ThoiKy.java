@@ -11,6 +11,7 @@ public class ThoiKy {
 	private ArrayList<String> lanhDaoQuocGia;
 	private String mieuTa;
 	private int nguon;
+	private ArrayList<String> tenNuoc;
 
 	public void setTen(String ten) {
 		this.ten = ten;
@@ -38,6 +39,10 @@ public class ThoiKy {
 
 	public void setNguon(int nguon) {
 		this.nguon = nguon;
+	}
+	
+	public void setTenNuoc(ArrayList<String> tenNuoc) {
+		this.tenNuoc = tenNuoc;
 	}
 
 }
