@@ -1967,6 +1967,7 @@ Nhà Nguyễn|https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_V%C4%83n_Xu%C3%A2n_(t
 https://vi.wikipedia.org/wiki/C%E1%BB%AD_%C4%90a
 https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_B%C3%A0nh
 https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_V%C4%83n_Ch%C3%A1nh
+Nhà Trần|https://vi.wikipedia.org/wiki/Ph%E1%BA%A1m_%E1%BB%A8ng_M%E1%BB%99ng
 Nhà Nguyễn|https://vi.wikipedia.org/wiki/Ho%C3%A0ng_%C4%90%E1%BA%A1o_Th%C3%A0nh
 https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Th%E1%BB%8B_%C4%90%E1%BB%8Bnh_(T%C3%A0i_nh%C3%A2n)
 https://vi.wikipedia.org/wiki/V%C5%A9_Y%C3%AAn
@@ -2727,3 +2728,19 @@ https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Quang_T%C3%B9y
 Nhà Hồ|https://vi.wikipedia.org/wiki/%C4%90%E1%BA%B7ng_T%E1%BA%A5t
 Nước Việt Nam từ 1945 – 1976|https://vi.wikipedia.org/wiki/%C4%90%E1%BB%97_V%C4%83n_Ninh_(%C4%91%E1%BA%A1i_t%C3%A1)
 Nước Việt Nam từ 1945 – 1976|https://vi.wikipedia.org/wiki/D%C6%B0%C6%A1ng_Minh_Ch%C3%A2u
+https://vi.wikipedia.org/wiki/B%C3%A0_Tri%E1%BB%87u
+https://vi.wikipedia.org/wiki/L%C3%AA_Du%E1%BA%A9n
+https://vi.wikipedia.org/wiki/Ph%E1%BA%A1m_H%C3%B9ng
+https://vi.wikipedia.org/wiki/Ung_V%C4%83n_Khi%C3%AAm
+https://vi.wikipedia.org/wiki/V%C3%B5_V%C4%83n_Ki%E1%BB%87t
+https://vi.wikipedia.org/wiki/T%E1%BB%AB_%C4%90%E1%BA%A1o_H%E1%BA%A1nh
+https://vi.wikipedia.org/wiki/Tu%E1%BB%87_T%C4%A9nh
+https://vi.wikipedia.org/wiki/Tr%C6%B0ng_Tr%E1%BA%AFc
+https://vi.wikipedia.org/wiki/Tr%C6%B0ng_Nh%E1%BB%8B
+https://vi.wikipedia.org/wiki/S%E1%BA%A7m_Nghi_%C4%90%E1%BB%91ng
+https://vi.wikipedia.org/wiki/Ph%C3%A1p_Loa
+https://vi.wikipedia.org/wiki/Huy%E1%BB%81n_Quang
+https://vi.wikipedia.org/wiki/Vua_H%C3%B9ng
+https://vi.wikipedia.org/wiki/Cao_Bi%E1%BB%81n
+https://vi.wikipedia.org/wiki/Lang_C%C3%B4ng
+https://vi.wikipedia.org/wiki/L%E1%BB%AF_Gia
