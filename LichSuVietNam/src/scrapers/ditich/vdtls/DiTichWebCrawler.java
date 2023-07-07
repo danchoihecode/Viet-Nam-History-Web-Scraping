@@ -20,7 +20,7 @@ public class DiTichWebCrawler{
                 doc = Jsoup.connect(url).get();
             } catch (IOException e) {
                 System.out.println("Không thể kết nối tới trang web " + url);
-                return;
+                continue;
             }
             Elements headings = doc.select("section section section div section a");
             for (Element heading : headings) {
@@ -29,11 +29,11 @@ public class DiTichWebCrawler{
             }
         }
 
-        try (FileWriter writer = new FileWriter("file\\ditich.txt")) {
+        try (FileWriter writer = new FileWriter("file\\site-source-4.txt")) {
             writer.write(stringBuffer.toString());
-            System.out.println("Đã ghi dữ liệu vào tệp tin ditich.txt");
+            System.out.println("Đã ghi dữ liệu vào tệp tin site-source-4.txt");
         } catch (IOException e) {
-            System.out.println("Lỗi khi ghi dữ liệu vào tệp tin ditich.txt: " + e.getMessage());
+            System.out.println("Lỗi khi ghi dữ liệu vào tệp tin site-source-4.txt: " + e.getMessage());
         }
     }
 }

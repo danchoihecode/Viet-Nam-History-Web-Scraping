@@ -14,11 +14,11 @@ public class JsonFileConcatenation {
 
     public static void main(String[] args) {
         List<String> inputFiles = new ArrayList<>();
-        inputFiles.add("file\\festival-source-2.json");
-        inputFiles.add("file\\festival-source-8.json");
-        inputFiles.add("file\\festival-source-9.json");
-        inputFiles.add("file\\festival-source-10.json");
-        String outputFile = "file\\festival-concatenated.json";
+        inputFiles.add("file\\site-source-2.json");
+        inputFiles.add("file\\site-source-3.json");
+        inputFiles.add("file\\site-source-4.json");
+        
+        String outputFile = "file\\site-concatenated.json";
         jsonFileConcatenation(inputFiles, outputFile);
     }
 
