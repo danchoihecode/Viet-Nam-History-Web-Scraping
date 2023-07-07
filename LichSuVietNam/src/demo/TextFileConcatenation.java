@@ -4,8 +4,8 @@ import java.io.*;
 
 public class TextFileConcatenation {
     public static void main(String[] args) {
-        String sourceFile = "file\\figure-source-2.txt";
-        String additionalFile = "file\\figure-source-2-add.txt";
+        String sourceFile = "file\\festival-source-2.txt";
+        String additionalFile = "file\\festival-source-2-add.txt";
 
         try {
             FileWriter fileWriter = new FileWriter(sourceFile, true); // true để bổ sung vào cuối tệp

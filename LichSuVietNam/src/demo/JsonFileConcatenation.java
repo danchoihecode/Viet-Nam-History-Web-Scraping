@@ -17,6 +17,7 @@ public class JsonFileConcatenation {
         inputFiles.add("file\\site-source-2.json");
         inputFiles.add("file\\site-source-3.json");
         inputFiles.add("file\\site-source-4.json");
+      
         
         String outputFile = "file\\site-concatenated.json";
         jsonFileConcatenation(inputFiles, outputFile);

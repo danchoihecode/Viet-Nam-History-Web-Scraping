@@ -26,8 +26,7 @@ public class Scraper {
 		HashSet<String> nhanVat = new HashSet<>();
 		HashSet<String> diTich = new HashSet<>();
 
-		try (FileReader reader = new FileReader(
-				"file\\figure-source-2.json")) {
+		try (FileReader reader = new FileReader("file\\figure-source-2.json")) {
 
 			JsonArray jsonArray = JsonParser.parseReader(reader).getAsJsonArray();
 
@@ -38,8 +37,7 @@ public class Scraper {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		try (FileReader reader = new FileReader(
-				"file\\site-source-2.json")) {
+		try (FileReader reader = new FileReader("file\\site-source-2.json")) {
 
 			JsonArray jsonArray = JsonParser.parseReader(reader).getAsJsonArray();
 
@@ -56,8 +54,7 @@ public class Scraper {
 //		int i = 0;
 		ArrayList<LeHoi> leHois = new ArrayList<LeHoi>();
 		try {
-			reader = new BufferedReader(new FileReader(
-					"file\\festival-source-2.txt"));
+			reader = new BufferedReader(new FileReader("file\\festival-source-2.txt"));
 			String line = reader.readLine();
 			while (line != null) {
 //				if (i < 75) {
@@ -79,17 +76,15 @@ public class Scraper {
 
 				Element name = doc.selectFirst("p b");
 				Element p;
-				String ten;
+				String ten = (doc.title().split(" – "))[0];
+				leHoi.setTen(ten);
 				if (name == null || name.text().equals("·")) {
 
-					ten = (doc.title().split(" – "))[0];
 					p = doc.selectFirst("p");
 				} else {
 
-					ten = name.text();
 					p = name.parent();
 				}
-				leHoi.setTen(ten);
 
 				String suKienLienQuan = null;
 				ArrayList<String> nhanVatLienQuan = new ArrayList<>();

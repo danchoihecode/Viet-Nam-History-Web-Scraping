@@ -21,7 +21,7 @@ public class DiTich {
 	}
 
 	public String getTen() {
-		return ten;
+		return this.ten;
 	}
 
 	public void setDiaChi(String diaChi) {
@@ -63,5 +63,8 @@ public class DiTich {
 	public void setNguon(int nguon) {
 		this.nguon = nguon;
 	}
-
+	
+	public String getDiaChi(){
+		return this.diaChi;
+	}
 }
