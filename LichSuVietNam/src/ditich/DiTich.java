@@ -65,6 +65,6 @@ public class DiTich {
 	}
 	
 	public String getDiaChi(){
-		return DiaChi;
+		return this.diaChi;
 	}
 }
