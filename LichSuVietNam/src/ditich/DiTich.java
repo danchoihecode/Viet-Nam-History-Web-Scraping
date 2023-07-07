@@ -21,7 +21,7 @@ public class DiTich {
 	}
 
 	public String getTen() {
-		return ten;
+		return this.ten;
 	}
 
 	public void setDiaChi(String diaChi) {
