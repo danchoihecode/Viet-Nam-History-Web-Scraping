@@ -5,6 +5,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 //import java.util.HashSet;
 //import java.util.Set;
+import java.util.HashSet;
+import java.util.Set;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -14,7 +16,8 @@ import org.jsoup.select.Elements;
 public class Crawler {
 	public static void main(String[] args) {
 
-		StringBuilder str = new StringBuilder();
+		Set<String> set = new HashSet<String>();
+		StringBuilder str;
 		Document doc;
 
 		try {
@@ -32,15 +35,19 @@ public class Crawler {
 
 			if (!ul.attr("title").contains("không tồn tại")) {
 
-				str.append("https://vi.wikipedia.org").append(ul.attr("href")).append("\n");
+				str = new StringBuilder();
+				str.append("https://vi.wikipedia.org").append(ul.attr("href"));
+				set.add(str.toString());
 
 			}
 		}
 
-		try (BufferedWriter writer = new BufferedWriter(new FileWriter(
-				"file\\festival-source-2.txt"))) {
+		try (BufferedWriter writer = new BufferedWriter(new FileWriter("file\\festival-source-2.txt"))) {
 
-			writer.write(str.toString());
+			for (String element : set) {
+				writer.write(element);
+				writer.newLine();
+			}
 			System.out.println("Ghi thành công vào file.");
 		} catch (IOException e) {
 			e.printStackTrace();
