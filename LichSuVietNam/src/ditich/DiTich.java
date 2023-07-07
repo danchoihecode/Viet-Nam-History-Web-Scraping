@@ -16,10 +16,6 @@ public class DiTich {
 	private String url;
 	private int nguon;
 
-	public String getDiaChi(){
-		return DiaChi;
-	}
-
 	public void setTen(String ten) {
 		this.ten = ten;
 	}
@@ -67,5 +63,8 @@ public class DiTich {
 	public void setNguon(int nguon) {
 		this.nguon = nguon;
 	}
-
+	
+	public String getDiaChi(){
+		return DiaChi;
+	}
 }
