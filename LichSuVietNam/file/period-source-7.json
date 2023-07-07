@@ -3,18 +3,18 @@
     "ten": "CHÚA TRỊNH",
     "thoiGian": "1545-1788",
     "lanhDaoQuocGia": [
-      "1. Minh Khang Thái Vương",
-      "2. Bình An Vương",
-      "3. Thanh Đô Vương",
-      "4. Tây Đô Vương",
-      "5. Định Vương",
-      "6. An Đô Vương",
-      "7. UY Nam Vương",
-      "8. Minh Đô Vương",
-      "9. Tinh Đô Vương",
-      "10. Định Đô Vương",
-      "11. Đoan Nam Vương",
-      "12. Ân Đô Vương"
+      "Minh Khang Thái Vương",
+      "Bình An Vương",
+      "Thanh Đô Vương",
+      "Tây Đô Vương",
+      "Định Vương",
+      "An Đô Vương",
+      "UY Nam Vương",
+      "Minh Đô Vương",
+      "Tinh Đô Vương",
+      "Định Đô Vương",
+      "Đoan Nam Vương",
+      "Ân Đô Vương"
     ],
     "nguon": 7
   },
@@ -117,8 +117,7 @@
       "Ngô Vương",
       "Dương Bình Vương",
       "Ngô Lâm Tấn Vương",
-      "Ngô Thiên Sách Vương",
-      "12 sứ quân"
+      "Ngô Thiên Sách Vương"
     ],
     "nguon": 7,
     "tenNuoc": [
