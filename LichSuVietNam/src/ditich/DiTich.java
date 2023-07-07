@@ -16,6 +16,10 @@ public class DiTich {
 	private String url;
 	private int nguon;
 
+	public String getDiaChi(){
+		return DiaChi;
+	}
+
 	public void setTen(String ten) {
 		this.ten = ten;
 	}
