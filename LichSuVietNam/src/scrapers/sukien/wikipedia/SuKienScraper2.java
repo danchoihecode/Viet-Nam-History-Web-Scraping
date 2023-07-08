@@ -23,7 +23,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import entities.sukien.SuKien;
+import suKien.SuKien;
 
 public class SuKienScraper2 extends Scraper implements GetData {
 	
@@ -58,6 +58,7 @@ public class SuKienScraper2 extends Scraper implements GetData {
 //			System.out.println("Không thể kết nối tới trang web." + line);
 //			return;
 //		}	
+		save("file\\event-source-2-2.json");
 	}
 	
 	
@@ -66,7 +67,6 @@ public class SuKienScraper2 extends Scraper implements GetData {
 		SuKienScraper2 scraper = new SuKienScraper2();
 		
 		scraper.getData();
-		scraper.save("file\\event-source-2-2.json");
 	}
-	
+
 }

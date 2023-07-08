@@ -24,10 +24,9 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import entities.sukien.SuKien;
+import suKien.SuKien;
 
 public class Scraper {
-	
 	protected ArrayList<SuKien> suKiens = new ArrayList<>();
 	protected HashMap<String, String> nhanVatJson = new HashMap<>();
 	protected HashSet<String> suKienJson = new HashSet<>();
@@ -38,9 +37,14 @@ public class Scraper {
 	}
 	
 	public void scrape(String line, Document doc) {	
+		for(SuKien suKien:suKiens) {
+			if(suKien.getUrl()!=null && suKien.getUrl().equals(line)) {
+				return;
+			}
+		}
+		
 		SuKien suKien = new SuKien();
 		Elements e = doc.select("table.vevent");
-		
 		if(e.isEmpty()) {
 			return;
 		}
