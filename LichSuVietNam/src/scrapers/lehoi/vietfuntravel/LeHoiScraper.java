@@ -15,7 +15,7 @@ import org.jsoup.select.Elements;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import lehoi.LeHoi;
+import entities.lehoi.LeHoi;
 
 
 public class LeHoiScraper {

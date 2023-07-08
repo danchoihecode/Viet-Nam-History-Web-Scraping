@@ -20,7 +20,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import ditich.DiTich;
+import entities.ditich.DiTich;
 
 
 

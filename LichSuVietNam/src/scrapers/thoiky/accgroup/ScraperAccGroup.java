@@ -1,12 +1,13 @@
 package scrapers.thoiky.accgroup;
 
-import thoiky.ThoiKy;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 import org.jsoup.nodes.Element;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+
+import entities.thoiky.ThoiKy;
 
 import java.io.FileWriter;
 import java.io.IOException;

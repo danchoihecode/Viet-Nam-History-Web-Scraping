@@ -18,7 +18,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 
-import lehoi.LeHoi;
+import entities.lehoi.LeHoi;
 
 public class Scraper {
 

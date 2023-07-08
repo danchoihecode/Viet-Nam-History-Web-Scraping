@@ -14,8 +14,8 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
-import ditich.DiTich;
-import lehoi.LeHoi;
+import entities.ditich.DiTich;
+import entities.lehoi.LeHoi;
 
 public class AddFestival {
 	public static void main(String[] args) {

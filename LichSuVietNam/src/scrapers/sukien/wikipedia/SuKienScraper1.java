@@ -22,7 +22,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import sukien.SuKien;
+import entities.sukien.SuKien;
 
 public class SuKienScraper1 extends Scraper implements GetData {
 

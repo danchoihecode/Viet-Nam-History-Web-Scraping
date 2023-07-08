@@ -14,7 +14,7 @@ import org.jsoup.select.Elements;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import nhanvat.NhanVat;
+import entities.nhanvat.NhanVat;
 
 public class ScraperNhanVat {
 	public static void main(String[] args) {

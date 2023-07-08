@@ -17,7 +17,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 
-import nhanvat.LanhDaoQuocGia;
+import entities.nhanvat.LanhDaoQuocGia;
 
 public class ScraperVua {
 	public static void main(String[] args) {

@@ -11,7 +11,7 @@ import org.jsoup.select.Elements;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import nhanvat.LanhDaoQuocGia;
+import entities.nhanvat.LanhDaoQuocGia;
 
 public class ScraperCanTho {
 

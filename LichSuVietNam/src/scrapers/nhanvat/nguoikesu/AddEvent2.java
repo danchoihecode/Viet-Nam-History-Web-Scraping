@@ -14,8 +14,8 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
-import nhanvat.LanhDaoQuocGia;
-import sukien.SuKien;
+import entities.nhanvat.LanhDaoQuocGia;
+import entities.sukien.SuKien;
 
 public class AddEvent2 {
 	public static void main(String[] args) {

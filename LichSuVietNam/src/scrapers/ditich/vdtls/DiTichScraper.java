@@ -8,7 +8,7 @@ import org.jsoup.select.Elements;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import ditich.DiTich;
+import entities.ditich.DiTich;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

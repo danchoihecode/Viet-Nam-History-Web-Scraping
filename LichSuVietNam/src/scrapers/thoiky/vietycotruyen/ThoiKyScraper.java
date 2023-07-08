@@ -12,7 +12,7 @@ import org.jsoup.select.Elements;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import thoiky.ThoiKy;
+import entities.thoiky.ThoiKy;
 
 public class ThoiKyScraper {
 	private static ArrayList<ThoiKy> thoiKys = new ArrayList<>();

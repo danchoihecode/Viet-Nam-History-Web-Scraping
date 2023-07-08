@@ -21,9 +21,9 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import nhanvat.LanhDaoQuocGia;
-import nhanvat.NhanVat;
-import thoiky.ThoiKy;
+import entities.nhanvat.LanhDaoQuocGia;
+import entities.nhanvat.NhanVat;
+import entities.thoiky.ThoiKy;
 
 
 public class NhanVatScraper {
