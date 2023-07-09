@@ -6,6 +6,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -19,7 +21,9 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import entities.sukien.SuKien;
+import nhanvat.LanhDaoQuocGia;
+import nhanvat.NhanVat;
+import suKien.SuKien;
 
 public class SuKienScraper {
 	
@@ -155,10 +159,10 @@ public class SuKienScraper {
 				try {
 					doc = Jsoup.connect(line).get();
 					System.out.println(line);
+					scrape(line);
 				} catch (IOException e) {
 					System.out.println("Không thể kết nối tới trang web "+line);
 				}
-				scrape(line);
 				
 				line = reader.readLine();
 			}
