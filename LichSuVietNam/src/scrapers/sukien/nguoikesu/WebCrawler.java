@@ -22,18 +22,18 @@ public class WebCrawler {
                 System.out.println("Không thể kết nối tới trang web " + url);
                 return;
             }
-            Elements headings = doc.select("h2[itemprop=\"name\"] a");
+            Elements headings = doc.select("h2 a");
             for (Element heading : headings) {
-                String ref = heading.attr("href");          
-                stringBuffer.append("https://nguoikesu.com").append(ref).append("\n");             
+                String ref = heading.attr("href");       
+                if(!ref.contains("1979") && !ref.contains("1988")) stringBuffer.append("https://nguoikesu.com").append(ref).append("\n");             
             }
         }
 
         try (FileWriter writer = new FileWriter("file\\event-source-3.txt")) {
             writer.write(stringBuffer.toString());
-            System.out.println("Đã ghi dữ liệu vào tệp tin sukien.txt");
+            System.out.println("Đã ghi dữ liệu vào tệp tin");
         } catch (IOException e) {
-            System.out.println("Lỗi khi ghi dữ liệu vào tệp tin sukien.txt: " + e.getMessage());
+            System.out.println("Lỗi khi ghi dữ liệu vào tệp tin: " + e.getMessage());
         }
     }
 }
