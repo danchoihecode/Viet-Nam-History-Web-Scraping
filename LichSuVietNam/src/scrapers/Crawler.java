@@ -24,7 +24,7 @@ public abstract class Crawler extends DataCollector {
 				writer.write(element);
 				writer.newLine();
 			}
-			System.out.println("Ghi thành công vào file.");
+			System.out.println("Ghi thành công vào file " + filePath);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

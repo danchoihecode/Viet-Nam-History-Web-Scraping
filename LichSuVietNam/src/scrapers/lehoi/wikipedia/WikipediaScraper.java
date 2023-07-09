@@ -215,8 +215,7 @@ public class WikipediaScraper {
 
 		ArrayList<Document> docs = scraper.connectToUrls("file\\festival-source-2.txt");
 		for (Document doc : docs) {
-			if (doc != null)
-				scraper.scrape(doc);
+			scraper.scrape(doc);
 		}
 		scraper.getJsonString();
 		scraper.saveToFile("file\\festival-source-2.json");

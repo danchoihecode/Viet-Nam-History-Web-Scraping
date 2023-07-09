@@ -1,192 +1,163 @@
 package scrapers.ditich.vdtls;
 
-import org.jsoup.Jsoup;
+import java.util.ArrayList;
+import java.util.Hashtable;
+
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-
 import entities.ditich.DiTich;
-
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Hashtable;
+import scrapers.ditich.SiteScraper;
 
 public class DiTichScraper {
 
-    private static BufferedReader reader;
-    private static Document doc;
-    static ArrayList<DiTich> DiTichs = new ArrayList<>();
-    static Hashtable<String, DiTich> diTichHashtable = new Hashtable<>();
-    static int count = 0;
+	private static Hashtable<String, DiTich> diTichHashtable = new Hashtable<>();
 
-    private static String escapeJsonCharacters(String input) {
-        return input
-                .replace("\\", "\\\\")  // Escape backslashes
-                .replace("\"", "\\\"")  // Escape double quotes
-                .replace("\b", "\\b")   // Escape backspace
-                .replace("\f", "\\f")   // Escape form feed
-                .replace("\n", "\\n")   // Escape newline
-                .replace("\r", "\\r")   // Escape carriage return
-                .replace("\t", "\\t");  // Escape tab
-    }
+	private static String escapeJsonCharacters(String input) {
+		return input.replace("\\", "\\\\") // Escape backslashes
+				.replace("\"", "\\\"") // Escape double quotes
+				.replace("\b", "\\b") // Escape backspace
+				.replace("\f", "\\f") // Escape form feed
+				.replace("\n", "\\n") // Escape newline
+				.replace("\r", "\\r") // Escape carriage return
+				.replace("\t", "\\t"); // Escape tab
+	}
 
-    public static void scrape(String line) {
-        DiTich ditich = new DiTich();
-        Elements headings = doc.select("h2.hl__comp-heading.hl__comp_heading_custom");
-        Elements images = doc.select("img.sp-large");
-        Elements locations = doc.select("span.address-line1");
-        Elements buildFroms1 = doc.select("span").select(":containsOwn(Niên đại tuyệt đối)");
-        Elements buildFroms2 = doc.select("span").select(":containsOwn(Niên đại chủ đạo)");
-        String[] wordsToExclude = {"Ngọc hoàng", "Ngọc Hòang", "thành hòang làng", "Thành hòang làng", "Tổ", "Tướng có công đánh giặc ngoại xâm", "Tổ tiên", "Đền thờ của xóm", "Thành hoàng", "thành hoàng", "Thành Hoàng", "Đối tượng thờ", "Ngọc Hoàng", "Thần", "thần", "Tiên Thiên", "Địa Thiên", "phật", "Phật"};
-        Elements nhanVatLienQuans = doc.select("span:containsOwn(Đối tượng thờ)");
-        ArrayList<String> nvlqList = new ArrayList<>();
+	public static void main(String args[]) {
 
-        Elements rankingType = doc.select("span").select(":containsOwn(Loại hình xếp hạng)");
+		SiteScraper scraper = new SiteScraper() {
 
-        Element image = images.get(0);
+			@Override
+			public void scrape(Document doc) {
+				DiTich ditich = new DiTich();
+				Elements headings = doc.select("h2.hl__comp-heading.hl__comp_heading_custom");
+				Elements images = doc.select("img.sp-large");
+				Elements locations = doc.select("span.address-line1");
+				Elements buildFroms1 = doc.select("span").select(":containsOwn(Niên đại tuyệt đối)");
+				Elements buildFroms2 = doc.select("span").select(":containsOwn(Niên đại chủ đạo)");
+				String[] wordsToExclude = { "Ngọc hoàng", "Ngọc Hòang", "thành hòang làng", "Thành hòang làng", "Tổ",
+						"Tướng có công đánh giặc ngoại xâm", "Tổ tiên", "Đền thờ của xóm", "Thành hoàng", "thành hoàng",
+						"Thành Hoàng", "Đối tượng thờ", "Ngọc Hoàng", "Thần", "thần", "Tiên Thiên", "Địa Thiên", "phật",
+						"Phật" };
+				Elements nhanVatLienQuans = doc.select("span:containsOwn(Đối tượng thờ)");
+				ArrayList<String> nvlqList = new ArrayList<>();
 
-        String imageLink = image.attr("src");
-        String replacedImageLink = imageLink.replace("\\", "/");
+				Elements rankingType = doc.select("span").select(":containsOwn(Loại hình xếp hạng)");
 
-        if (locations.isEmpty()) {
-            System.out.println("Empty location");
-        } else {
-            Element location = locations.get(0);
-            String diaDiem = location.ownText();
-            ditich.setDiaChi(diaDiem);
-        }
+				Element image = images.get(0);
 
-        if (headings.isEmpty()) {
-            System.out.println("Empty array");
-        } else {
-            Element heading = headings.get(0);
-            String miniHeading = heading.ownText();
-            System.out.println(miniHeading);
-            ditich.setTen(miniHeading);
-        }
+				String imageLink = image.attr("src");
+				String replacedImageLink = imageLink.replace("\\", "/");
 
-        for (Element element : nhanVatLienQuans) {
-            String textContent = element.text();
-            if (ditich.getTen().equals("Đình Đốc Hậu") || ditich.getTen().equals("Đền Phù Sa") || ditich.getTen().equals("Đình Cổ Lão (Đình Cả)") || ditich.getTen().equals("Đình Cả (Đình Khuân)")) {
-                textContent = textContent.substring(14);
-                nvlqList.add(textContent);
-                ditich.setNhanVatLienQuan(nvlqList);
-                continue;
-            }
-            if (ditich.getTen().equals("Đình Quan Xuyên")) {
-                continue;
-            }
+				if (locations.isEmpty()) {
+					System.out.println("Empty location");
+				} else {
+					Element location = locations.get(0);
+					String diaDiem = location.ownText();
+					ditich.setDiaChi(diaDiem);
+				}
 
-            textContent = textContent.replaceAll(";", ",");
-            String[] values = textContent.split(":");
+				if (headings.isEmpty()) {
+					System.out.println("Empty array");
+				} else {
+					Element heading = headings.get(0);
+					String miniHeading = heading.ownText();
+					System.out.println(miniHeading);
+					ditich.setTen(miniHeading);
+				}
 
-            for (String value : values) {
-                String[] values2 = value.split(",");
+				for (Element element : nhanVatLienQuans) {
+					String textContent = element.text();
+					if (ditich.getTen().equals("Đình Đốc Hậu") || ditich.getTen().equals("Đền Phù Sa")
+							|| ditich.getTen().equals("Đình Cổ Lão (Đình Cả)")
+							|| ditich.getTen().equals("Đình Cả (Đình Khuân)")) {
+						textContent = textContent.substring(14);
+						nvlqList.add(textContent);
+						ditich.setNhanVatLienQuan(nvlqList);
+						continue;
+					}
+					if (ditich.getTen().equals("Đình Quan Xuyên")) {
+						continue;
+					}
 
-                for (String value1 : values2) {
-                    boolean shouldExclude = false;
-                    for (String exclude : wordsToExclude) {
-                        if (value1.contains(exclude)) {
-                            shouldExclude = true;
-                            break;
-                        }
-                    }
+					textContent = textContent.replaceAll(";", ",");
+					String[] values = textContent.split(":");
 
-                    if (!shouldExclude) {
-                        nvlqList.add(value1.trim());
-                    }
-                }
-            }
-        }
+					for (String value : values) {
+						String[] values2 = value.split(",");
 
-        if (!buildFroms1.isEmpty()) {
-            Element buildFrom = buildFroms1.get(0);
-            String khoiLap = buildFrom.ownText();
-            ditich.setKhoiLap(khoiLap);
-        } else if (!buildFroms2.isEmpty()) {
-            Element buildFrom = buildFroms2.get(0);
-            String khoiLap = buildFrom.ownText();
-            ditich.setKhoiLap(khoiLap);
-        } else {
-            System.out.println("Empty khoiLap");
-        }
+						for (String value1 : values2) {
+							boolean shouldExclude = false;
+							for (String exclude : wordsToExclude) {
+								if (value1.contains(exclude)) {
+									shouldExclude = true;
+									break;
+								}
+							}
 
-        if (nvlqList.size() == 0) {
-            System.out.println("Empty nvlq");
-        } else {
-            ditich.setNhanVatLienQuan(nvlqList);
-        }
+							if (!shouldExclude) {
+								nvlqList.add(value1.trim());
+							}
+						}
+					}
+				}
 
-        if (rankingType.isEmpty()) {
-            System.out.println("Empty ranking");
-        } else {
-            Element xepHang = rankingType.get(0);
-            String xH = xepHang.ownText();
-            ditich.setPhanLoai(xH);
-        }
+				if (!buildFroms1.isEmpty()) {
+					Element buildFrom = buildFroms1.get(0);
+					String khoiLap = buildFrom.ownText();
+					ditich.setKhoiLap(khoiLap);
+				} else if (!buildFroms2.isEmpty()) {
+					Element buildFrom = buildFroms2.get(0);
+					String khoiLap = buildFrom.ownText();
+					ditich.setKhoiLap(khoiLap);
+				} else {
+					System.out.println("Empty khoiLap");
+				}
 
-        ditich.setNguon(4);
-        ditich.setUrl(escapeJsonCharacters(line));
-        ditich.setAnh("http://ditich.vn" + replacedImageLink);
+				if (nvlqList.size() == 0) {
+					System.out.println("Empty nvlq");
+				} else {
+					ditich.setNhanVatLienQuan(nvlqList);
+				}
 
-        if (diTichHashtable.get(ditich.getTen().toLowerCase()) != null) {
-            System.out.println("Object with the name '" + ditich.getTen() + "' already exists. Modifying object name...");
-            if (ditich.getDiaChi().lastIndexOf(',') == ditich.getDiaChi().length() - 1) 
-            	ditich.setDiaChi(ditich.getDiaChi().substring(0, ditich.getDiaChi().lastIndexOf(',')));
-            String newName = ditich.getTen() + " " + ditich.getDiaChi().substring(ditich.getDiaChi().lastIndexOf(',') + 2, ditich.getDiaChi().length());
-            ditich.setTen(newName);
-            System.out.println("New name: " + newName);
-            diTichHashtable.put(newName, ditich);
-            DiTichs.add(ditich);
-            return;
-        }
-        diTichHashtable.put(ditich.getTen().toLowerCase(), ditich);
-        DiTichs.add(ditich);
-    }
+				if (rankingType.isEmpty()) {
+					System.out.println("Empty ranking");
+				} else {
+					Element xepHang = rankingType.get(0);
+					String xH = xepHang.ownText();
+					ditich.setPhanLoai(xH);
+				}
 
-    public static void main(String args[]) {
-        try {
-            reader = new BufferedReader(new FileReader("file\\site-source-4.txt"));
-            String line = reader.readLine();
-            while (line != null) {
-                try {
-                    line = "http://" + line;
-                    doc = Jsoup.connect(line).get();
-                    System.out.println(line);
-                    count++;
-                } catch (IOException e) {
-                    System.out.println("Không thể kết nối tới trang web " + line);
-                    line = reader.readLine();
-                    continue;
-                }
-                scrape(line);
+				ditich.setNguon(4);
+				ditich.setUrl(escapeJsonCharacters(doc.baseUri()));
+				ditich.setAnh("http://ditich.vn" + replacedImageLink);
 
-                line = reader.readLine();
-            }
-            reader.close();
-            count++;
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+				if (diTichHashtable.get(ditich.getTen().toLowerCase()) != null) {
+					System.out.println(
+							"Object with the name '" + ditich.getTen() + "' already exists. Modifying object name...");
+					if (ditich.getDiaChi().lastIndexOf(',') == ditich.getDiaChi().length() - 1)
+						ditich.setDiaChi(ditich.getDiaChi().substring(0, ditich.getDiaChi().lastIndexOf(',')));
+					String newName = ditich.getTen() + " " + ditich.getDiaChi()
+							.substring(ditich.getDiaChi().lastIndexOf(',') + 2, ditich.getDiaChi().length());
+					ditich.setTen(newName);
+					System.out.println("New name: " + newName);
+					diTichHashtable.put(newName, ditich);
+					addDiTich(ditich);
+					return;
+				}
+				diTichHashtable.put(ditich.getTen().toLowerCase(), ditich);
+				addDiTich(ditich);
 
-        // Save di tich Info
-        Gson gson1 = new GsonBuilder().setPrettyPrinting().create();
-        String json1;
-        json1 = gson1.toJson(new ArrayList<>(diTichHashtable.values()));
-        String outputFile1 = "C:\\Users\\admin\\Desktop\\OOPBigProject\\LichSuVietNam\\file\\site-source-4.json";
+			}
+		};
+		ArrayList<Document> docs = scraper.connectToUrls("file\\site-source-4.txt");
+		for (Document doc:docs) {
+			scraper.scrape(doc);
+		}
+		scraper.getJsonString();
+		scraper.saveToFile("file\\site-source-4.json");
 
-        try (FileWriter writer = new FileWriter(outputFile1)) {
-            writer.write(json1);
-            System.out.println("Dữ liệu đã được ghi vào file " + outputFile1);
-            System.out.println(count + " bản ghi.");
-        } catch (IOException e) {
-            System.out.println("Ghi dữ liệu vào file thất bại.");
-        }
-    }
+		
+	}
 }

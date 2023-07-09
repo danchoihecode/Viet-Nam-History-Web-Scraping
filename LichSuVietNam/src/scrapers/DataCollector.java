@@ -26,11 +26,17 @@ public abstract class DataCollector {
 	public ArrayList<Document> connectToUrls(String filePath) {
 		BufferedReader reader;
 		ArrayList<Document> docs = new ArrayList<>();
+		Document doc;
 		try {
 			reader = new BufferedReader(new FileReader(filePath));
 			String line = reader.readLine();
 			while (line != null) {
-				docs.add(connectToUrl(line));
+				doc = connectToUrl(line);
+				if (doc == null) {
+					line = reader.readLine();
+					continue;
+				} else
+					docs.add(doc);
 				line = reader.readLine();
 			}
 			reader.close();
@@ -40,21 +46,28 @@ public abstract class DataCollector {
 		return docs;
 	}
 
-	public HashMap<Document, String[]> connectToUrls(String filePath, boolean b) {
+	public HashMap<Document, String[]> connectToUrls(String filePath, boolean bool) {
 		BufferedReader reader;
 		HashMap<Document, String[]> docs = new HashMap<>();
 		String[] tmp;
+		Document doc;
 		try {
 			reader = new BufferedReader(new FileReader(filePath));
 			String line = reader.readLine();
 			while (line != null) {
 				tmp = line.split("\\|");
 				if (tmp.length == 3)
-					docs.put(connectToUrl(tmp[2]), tmp);
+					doc = connectToUrl(tmp[2]);
 				else if (tmp.length == 2)
-					docs.put(connectToUrl(tmp[1]), tmp);
-				else 
-					docs.put(connectToUrl(tmp[0]), tmp);
+					doc = connectToUrl(tmp[1]);
+				else
+					doc = connectToUrl(tmp[0]);
+				if (doc == null) {
+					line = reader.readLine();
+					continue;
+				} else
+					docs.put(doc, tmp);
+
 				line = reader.readLine();
 			}
 			reader.close();
