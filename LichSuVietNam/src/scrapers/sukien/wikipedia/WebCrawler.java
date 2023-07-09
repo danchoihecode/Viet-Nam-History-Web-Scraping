@@ -49,8 +49,6 @@ public class WebCrawler {
     public static void main(String[] args) {
         
         String url = "https://vi.wikipedia.org/wiki/Th%E1%BB%83_lo%E1%BA%A1i:Chi%E1%BA%BFn_tranh_li%C3%AAn_quan_t%E1%BB%9Bi_Vi%E1%BB%87t_Nam";
-        Document doc;
-        
         Crawl(url);
         
         try (FileWriter writer = new FileWriter("file\\event-source-2.txt")) {

@@ -1,6 +1,5 @@
 package scrapers.lehoi.vietfuntravel;
 
-import java.io.BufferedReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -22,7 +21,6 @@ public class LeHoiScraper {
 	
 	private static ArrayList<LeHoi> leHois = new ArrayList<>();
 	private static Document doc;
-	private static BufferedReader reader;
 	private static int count = 0;
 
 	public static void scrape() {
