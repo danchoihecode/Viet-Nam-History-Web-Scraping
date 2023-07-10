@@ -51,7 +51,7 @@ public class MergeFigure {
 						tenKhac.add(ten);
 						firstMergedMap.put(ten, jsonObject);
 						firstMergedList.add(jsonObject);
-						System.out.print(firstMergedMap.get(ten).get("ten"));
+						// System.out.print(firstMergedMap.get(ten).get("ten"));
 						// Store the JSON object directly using "ten" as the key
 
 						for (int j = 0; j < tenKhacArray.size(); j++) {
@@ -75,26 +75,17 @@ public class MergeFigure {
 	                    }
 					}
 				} catch (NullPointerException e) {
-					System.out.printf("There is a NullPointerException at id" /* + count */);
+					//System.out.printf("There is a NullPointerException at id" /* + count */);
 
 				}
 				;
-				/*
-				 * if (tenKhacArray != null) { for (int j = 0; j < tenKhacArray.size(); j++) {
-				 * String value = tenKhacArray.get(j).getAsString(); tenKhac.add(value); } }
-				 * ArrayList<String> tenKhac = new ArrayList<>(); tenKhac.add(ten);
-				 * firstMergedMap.put(tenKhac.get(0), jsonObject); for (int j = 0; j <
-				 * tenKhacArray.size(); j++) { String value = tenKhacArray.get(j).getAsString();
-				 * tenKhac.add(value); firstMergedMap.put(value, jsonObject); }
-				 */
-				// use the firstMergedMap to create the finalMergedMap
 			}
 
 			for (int i = 0; i < firstMergedList.size(); i++) {
-				System.out.printf("i = " + i);
+				//System.out.printf("i = " + i);
 				// get the object from the data
 				JsonObject finalJsonObject = firstMergedList.get(i);
-				System.out.println(firstMergedList.get(i));
+				//System.out.println(firstMergedList.get(i));
 				// get the ten and nguon from the data
 				String ten = finalJsonObject.get("ten").getAsString();
 				int nguon = finalJsonObject.get("nguon").getAsInt();
@@ -103,15 +94,15 @@ public class MergeFigure {
 				ArrayList<String> finalTenKhac = new ArrayList<>();
 				try {
 					JsonArray finalTenKhacArray = finalJsonObject.get("tenKhac").getAsJsonArray();
-					System.out.println(finalTenKhacArray);
+					//System.out.println(finalTenKhacArray);
 					finalTenKhac.add(ten);
-					System.out.println(finalTenKhac);
+					//System.out.println(finalTenKhac);
 
 					for (int j = 0; j < finalTenKhacArray.size(); j++) {
 						String value = finalTenKhacArray.get(j).getAsString();
 						finalTenKhac.add(value);
 					}
-					System.out.println(finalTenKhac);
+					//System.out.println(finalTenKhac);
 					ArrayList<String> tenKhacHash = finalTenKhac;
 					tenKhacHash.add(ten);
 					// loop through the array to check if it exists in the finalMergedMap
@@ -140,10 +131,10 @@ public class MergeFigure {
 						else {
 							JsonObject newObject = new JsonObject();
 							for (int k = 0; k < finalTenKhac.size(); k++) {
-								System.out.println(finalTenKhac + " " + k);
+								//System.out.println(finalTenKhac + " " + k);
 								JsonObject newObjectKhac = new JsonObject();
 								newObjectKhac.addProperty("ten", finalTenKhac.get(k));
-								System.out.println("FINAL:" + finalJsonObject);
+								//System.out.println("FINAL:" + finalJsonObject);
 								mergeAttributes(newObjectKhac, finalJsonObject, nguon);
 								// firstMergedMap.put(finalTenKhac.get(k), newObjectKhac);
 							}
@@ -155,7 +146,7 @@ public class MergeFigure {
 						}
 
 				} catch (NullPointerException e) {
-					System.out.println("This one doesn't have tenKhac");
+					//System.out.println("This one doesn't have tenKhac");
 					JsonObject newObject = new JsonObject();
 					newObject.addProperty("ten", ten);
 					mergeAttributes(newObject, finalJsonObject, nguon);
@@ -199,8 +190,8 @@ public class MergeFigure {
 		for (String attribute : ATTRIBUTES) {
 			if (sourceObject.has(attribute)) {
 				JsonElement attributeValue = sourceObject.get(attribute);
-				System.out.println(targetObject);
-				System.out.println(attributeValue);
+				//System.out.println(targetObject);
+				//System.out.println(attributeValue);
 				if (attribute.equals("tenKhac") || attribute.equals("tacPham") || attribute.equals("suKienLienQuan")) {
 					mergeArrayListAttribute(targetObject, attribute, attributeValue);
 				} else {
@@ -235,14 +226,14 @@ public class MergeFigure {
 
 	private static void mergeAttributeValue(JsonObject targetObject, String attribute, JsonElement attributeValue,
 			int nguon) {
-		int count = 0;
+		//int count = 0;
 		if (targetObject.has(attribute)) {
-			count++;
-			System.out.println(count);
+			//count++;
+			//System.out.println(count);
 			JsonElement existingValue = targetObject.get(attribute);
 			if (existingValue.isJsonObject()) {
 				JsonObject attributeObject = existingValue.getAsJsonObject();
-				System.out.println(attributeObject);
+				//System.out.println(attributeObject);
 				mergeAttributeValue(attributeObject, attributeValue, nguon);
 			} else {
 				// Handle case where the attribute value is a JsonPrimitive
