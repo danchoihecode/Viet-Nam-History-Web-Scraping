@@ -16,19 +16,14 @@ import scrapers.sukien.EventScraper;
 import utilities.EntityUrl;
 
 public abstract class SuKienWiki extends EventScraper {
-	HashMap<String, String> nhanVatJson = EntityUrl.getEntityUrlAndName("file\\figure-source-2.json");
-	HashSet<String> suKienJson =  EntityUrl.getEntityUrl("file\\event-source-2.json");
 	
 	public boolean stringContains(String inputStr, String[] items) {
 	    return Arrays.stream(items).anyMatch(inputStr::contains);
 	}
 	
-	public void scrapeWiki(Document doc) {	
-		String line = doc.baseUri();
-		for(SuKien suKien:suKiens) {
-			if(suKien.getUrl()!=null && suKien.getUrl().equals(line)) {
-				return;
-			}
+	public void scrapeWiki(Document doc, HashMap<String, String> nhanVatJson, HashSet<String> suKienJson) {	
+		if(isAdded(doc) || suKienJson.contains(doc.baseUri())) {
+			return;
 		}
 		
 		SuKien suKien = new SuKien();
@@ -38,7 +33,7 @@ public abstract class SuKienWiki extends EventScraper {
 		}
 		else {
 			// Url
-			suKien.setUrl(line);
+			suKien.setUrl(doc.baseUri());
 			
 			// Ten
 			String ten = doc.select("h1#firstHeading").text();

@@ -4,9 +4,13 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+
+import utilities.EntityUrl;
 
 public class SuKienScraper2{
 	
@@ -47,11 +51,12 @@ public class SuKienScraper2{
 	
 	
 	public static void main(String[] args) {
+		HashMap<String, String> nhanVatJson = EntityUrl.getEntityUrlAndName("file\\figure-source-2.json");
+		HashSet<String> suKienJson =  EntityUrl.getEntityUrl("file\\event-source-2.json");
 		SuKienWiki scraper = new SuKienWiki() {
 			@Override
 			public void scrape(Document doc) {
-				scrapeWiki(doc);
-				System.out.println(doc.baseUri());
+				scrapeWiki(doc, nhanVatJson, suKienJson);
 			}
 		};
 		ArrayList<Document> docs = scraper.connectToUrls("file\\event-source-2.txt");

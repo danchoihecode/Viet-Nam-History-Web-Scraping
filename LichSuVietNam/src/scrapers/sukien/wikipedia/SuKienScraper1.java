@@ -3,6 +3,7 @@ package scrapers.sukien.wikipedia;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -16,7 +17,8 @@ import utilities.EntityUrl;
 public class SuKienScraper1 {
 	
 	public static void main(String[] args) {
-		
+		HashMap<String, String> nhanVatJson = EntityUrl.getEntityUrlAndName("file\\figure-source-2.json");
+		HashSet<String> suKienJson =  EntityUrl.getEntityUrl("file\\event-source-2.json");
 		SuKienWiki scraper = new SuKienWiki() {
 			@Override
 			public void scrape(Document doc) {
@@ -90,7 +92,7 @@ public class SuKienScraper1 {
 					Document document = Jsoup.connect(url).get();
 					Elements event = document.select("table.vevent");
 					if(!event.isEmpty()) {
-						scrapeWiki(document);
+						scrapeWiki(document, nhanVatJson, suKienJson);
 						return;
 					}
 				} catch (IOException e) {

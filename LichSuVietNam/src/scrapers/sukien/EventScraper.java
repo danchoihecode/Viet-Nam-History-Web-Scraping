@@ -2,6 +2,8 @@ package scrapers.sukien;
 
 import java.util.ArrayList;
 
+import org.jsoup.nodes.Document;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -21,4 +23,13 @@ public abstract class EventScraper extends Scraper {
 		setJson(json);
 	}
 
+	public boolean isAdded(Document doc) {
+		String url = doc.baseUri();
+		for(SuKien suKien:suKiens) {
+			if(suKien.getUrl()!=null && suKien.getUrl().equals(url)) {
+				return true;
+			}
+		}
+		return false;
+	}
 }
