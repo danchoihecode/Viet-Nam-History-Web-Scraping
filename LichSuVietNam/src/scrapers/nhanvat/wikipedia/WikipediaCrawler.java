@@ -44,10 +44,12 @@ public class WikipediaCrawler {
 							|| ul.text().equals("Quỳnh Đôi") || ul.text().equals("Tân Phú Tây")
 							|| ul.text().equals("Tân Thành Bình") || ul.text().equals("Thượng Kiệm")
 							|| ul.text().equals("Vũ Thắng (xã)")
+							|| containUrl("https://vi.wikipedia.org" + ul.attr("href")))
 
-					) {
+					{
 						continue;
 					} else {
+
 						str = new StringBuilder();
 						if (tmp.length == 3) {
 
