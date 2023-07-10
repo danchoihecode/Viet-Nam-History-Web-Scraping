@@ -1,33 +1,71 @@
 package gui;
 
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.StackPane;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 
 public class AppDemo extends Application {
-	@Override
-	public void start(Stage primaryStage) {
-		Button btn = new Button();
-		btn.setText("Say 'Hello World'");
-		btn.setOnAction(new EventHandler<ActionEvent>() {
-			@Override
-			public void handle(ActionEvent event) {
-				System.out.println("Hello World!");
-			}
-		});
-		StackPane root = new StackPane();
-		root.getChildren().add(btn);
-		Scene scene = new Scene(root, 300, 250);
-		primaryStage.setTitle("Hello World!");
-		primaryStage.setScene(scene);
-		primaryStage.show();
-	}
 
-	public static void main(String[] args) {
-		launch(args);
-	}
+    public static void main(String[] args) {
+        launch(args);
+    }
+
+    @Override
+    public void start(Stage primaryStage) {
+        TableView<PersonProperty> tableView = new TableView<>();
+
+        TableColumn<PersonProperty, String> propertyColumn = new TableColumn<>("Property");
+        TableColumn<PersonProperty, String> valueColumn = new TableColumn<>("Value");
+
+        propertyColumn.setCellValueFactory(new PropertyValueFactory<>("property"));
+        valueColumn.setCellValueFactory(new PropertyValueFactory<>("value"));
+
+        tableView.getColumns().addAll(propertyColumn, valueColumn);
+
+        ObservableList<PersonProperty> data = FXCollections.observableArrayList(
+                new PersonProperty("Name", "John Doe"),
+                new PersonProperty("Age", "25"),
+                new PersonProperty("Email", "johndoe@example.com")
+        );
+
+        tableView.setItems(data);
+
+        tableView.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
+
+        Scene scene = new Scene(tableView, 400, 300);
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+
+    public static class PersonProperty {
+        private SimpleStringProperty property;
+        private SimpleStringProperty value;
+
+        public PersonProperty(String property, String value) {
+            this.property = new SimpleStringProperty(property);
+            this.value = new SimpleStringProperty(value);
+        }
+
+        public String getProperty() {
+            return property.get();
+        }
+
+        public void setProperty(String property) {
+            this.property.set(property);
+        }
+
+        public String getValue() {
+            return value.get();
+        }
+
+        public void setValue(String value) {
+            this.value.set(value);
+        }
+    }
 }
