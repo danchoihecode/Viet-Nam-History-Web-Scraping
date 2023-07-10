@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.net.*?>
 <?import javafx.scene.text.*?>
 <?import de.jensd.fx.glyphs.fontawesome.*?>
 <?import javafx.geometry.*?>
@@ -73,7 +74,7 @@
           <RowConstraints maxHeight="433.0" minHeight="10.0" prefHeight="418.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <TableView prefHeight="365.0" prefWidth="889.0" stylesheets="@../../../../style.css" GridPane.rowIndex="1">
+            <TableView prefHeight="365.0" prefWidth="889.0" stylesheets="@style.css" GridPane.rowIndex="1">
               <columns>
                 <TableColumn prefWidth="75.0" text="Thuộc tính" />
                 <TableColumn prefWidth="75.0" text="Thông tin" />
@@ -89,7 +90,7 @@
                         <Insets left="20.0" top="8.0" />
                      </HBox.margin></FontAwesomeIcon>
                   <TextField prefHeight="39.0" prefWidth="401.0" style="-fx-border-color: #3f2b63;" />
-                  <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="157.0" stylesheets="@../../../../style.css" text="Tìm kiếm" textFill="LIGHTGRAY" />
+                  <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="157.0" stylesheets="@style.css" text="Tìm kiếm" textFill="LIGHTGRAY" />
                </children>
             </HBox>
          </children>
