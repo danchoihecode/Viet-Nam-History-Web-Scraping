@@ -15,7 +15,7 @@ import java.util.*;
 public class MergeFigure {
 
 	private static final String[] ATTRIBUTES = { "namSinh", "namMat", "tenKhac", "queQuan", "thoiKy", "mieuTa",
-			"suKienLienQuan", "tacPham", "anh", "nguon", "url", "theThu", "thoiGianTaiVi"};
+			"suKienLienQuan", "tacPham", "anh", "url", "theThu", "thoiGianTaiVi"};
 
 	public static void main(String[] args) {
 		// Đường dẫn tới file input và output
