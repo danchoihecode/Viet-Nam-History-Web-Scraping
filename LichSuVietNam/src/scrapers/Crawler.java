@@ -16,6 +16,14 @@ public abstract class Crawler extends DataCollector {
 		set.add(str);
 	}
 
+	public boolean containUrl(String str) {
+		for (String s : set) {
+			if (s.contains(str))
+				return true;
+		}
+		return false;
+	}
+
 	@Override
 	public void saveToFile(String filePath) {
 
