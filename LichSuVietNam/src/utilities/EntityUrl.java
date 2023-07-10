@@ -7,6 +7,7 @@ import java.util.HashSet;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 public class EntityUrl {
@@ -17,8 +18,11 @@ public class EntityUrl {
 			JsonArray jsonArray = JsonParser.parseReader(reader).getAsJsonArray();
 
 			for (JsonElement jsonElement : jsonArray) {
-				String url = jsonElement.getAsJsonObject().get("url").getAsString();
-				entity.add(url);
+				JsonObject jsonObject = jsonElement.getAsJsonObject();
+				if(jsonObject.has("url")) {
+					String url = jsonObject.get("url").getAsString();
+					entity.add(url);
+				}
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
