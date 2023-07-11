@@ -1,0 +1,293 @@
+[
+  {
+    "ten": "Truyền thuyết Kinh Dương Vương và Hồng Bàng Thị",
+    "thoiGian": "2879-258 TCN",
+    "nguon": 6
+  },
+  {
+    "ten": "Nước Văn Lang và các vua Hùng",
+    "nguon": 6
+  },
+  {
+    "ten": "Nhà Thục và nước Âu Lạc",
+    "lanhDaoQuocGia": [
+      "An Dương Vương (Thục Phán) (257 - 207 TCN)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Nhà Triệu và nước Nam Việt",
+    "lanhDaoQuocGia": [
+      "Triệu Vũ Vương (207 - 137 TCN)",
+      "Triệu Văn Vương (137 - 125 TCN)",
+      "Triệu Ai Vương (113 - 112 TCN)",
+      "Triệu Dương Vương (112 - 111 TCN)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Giao Chỉ và nhà Tây Hán",
+    "thoiGian": "111 TCN - 39",
+    "nguon": 6
+  },
+  {
+    "ten": "Nhà Đông Hán",
+    "thoiGian": "25 - 220",
+    "nguon": 6
+  },
+  {
+    "ten": "Hai Bà Trưng",
+    "lanhDaoQuocGia": [
+      "Trưng Trắc - Trưng Nhị (40 - 43)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Nhà Đông Ngô",
+    "thoiGian": "222 - 280",
+    "nguon": 6
+  },
+  {
+    "ten": "Bà Triệu",
+    "lanhDaoQuocGia": [
+      "Triệu Thị Trinh (248)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Nhà Tiền Lý",
+    "lanhDaoQuocGia": [
+      "Lý Nam Đế (Lý Bí) (544 - 548)",
+      "Triệu Việt Vương (Triệu Quang Phục) (549 - 571)",
+      "Hậu Lý Nam Đế (Lý Phật Tử ) (571 - 602)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Nhà Tùy Đường",
+    "thoiGian": "603 - 939",
+    "lanhDaoQuocGia": [
+      "Mai Hắc Đế (Mai Thúc Loan) (722)",
+      "Bố Cái Đại Vương (Phùng Hưng) (766 - 791)",
+      "Dương Thanh (819 - 820)",
+      "Khúc Thừa Dụ (906 - 907)",
+      "Khúc Hạo (907 - 917)",
+      "Khúc Thừa Mỹ (917 - 923)",
+      "Dương Đình Nghệ - Kiều Công Tiễn (931 - 938)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Triều Ngô",
+    "thoiGian": "939 - 965",
+    "lanhDaoQuocGia": [
+      "Ngô Quyền (939 - 944)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Hậu Ngô Vương",
+    "lanhDaoQuocGia": [
+      "- Ngô Xương Ngập - Ngô Xương Văn - Ngô Xương Xí (950 - 965)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Nhà Đinh",
+    "lanhDaoQuocGia": [
+      "Đinh Tiên Hoàng (Đinh Bộ Lĩnh) (968 - 979)",
+      "Phế Đế (Đinh Toàn) (979 - 980)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Nhà Tiền Lê",
+    "thoiGian": "980 - 1009 ",
+    "lanhDaoQuocGia": [
+      "Lê Đại Hành (Lê Hoàn) (980 - 1005)",
+      "Lê Trung Tông (Long Việt) (1005)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Triều Lý",
+    "thoiGian": "1010 - 1225",
+    "lanhDaoQuocGia": [
+      "Lý Thái Tổ (Lý Công Uẩn) (1010 - 1028)",
+      "Lý Thái Tông (Lý Phật Mã) (1028 - 1054)",
+      "Lý Thánh Tông (Lý Nhật Tông) (1054 - 1072)",
+      "Lý Nhân Tông (Lý Càn Đức) (1072 - 1127)",
+      "Lý Thần Tông (Dương Hoán) (1128 - 1138)",
+      "Lý Anh Tông (Lý Thiên Tộ) (1138 - 1175)",
+      "Lý Cao Tông (Lý Long Cán) (1176 - 1210)",
+      "Lý Huệ Tông (Lý Sảm) (1211 - 1224)",
+      "Lý Chiêu Hoàng (Lý Phật Kim) (1224 - 1225)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Triều Trần",
+    "thoiGian": "1225 - 1400",
+    "lanhDaoQuocGia": [
+      "Trần Thái Tông (Trần Cảnh) (1225 - 1258)",
+      "Trần Thánh Tông (Trần Hoảng) (1258 - 1278)",
+      "Trần Nhân Tông (Trần Khâm) (1279 - 1293)",
+      "Trần Anh Tông (Trần Thuyên) (1293 - 1314)",
+      "Trần Minh Tông (Trần Mạnh) (1314 - 1329)",
+      "Trần Hiến Tông (Trần Vượng) (1329 - 1341)",
+      "Trần Dụ Tông (Trần Hạo) (1341 - 1369)",
+      "Trần Nghệ Tông (Cung Tĩnh Vương) (1370 - 1372)",
+      "Trần Duệ Tông (Trần Kính) (1372 - 1377)",
+      "Trần Phế Đế (Trần Hiền) (1377 - 1388)",
+      "Trần Thuận Tông (Chiêu Định Vương) (1388 - 1398)",
+      "Trần Thiếu Đế (1398 - 1400)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Triều Hồ",
+    "thoiGian": "1400 - 1407",
+    "lanhDaoQuocGia": [
+      "Hồ Quý Ly (1400)",
+      "Hồ Hán Thương (1401 - 1407)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Triều Hậu Trần",
+    "thoiGian": "1407 - 1413",
+    "lanhDaoQuocGia": [
+      "Giản Định Đế (Trần Quỹ) (1407 - 1409)",
+      "Trần Quang Đế (Trần Quý Khoáng) (1409 - 1413)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Kỷ Thuộc Minh",
+    "thoiGian": "1414 - 1417",
+    "nguon": 6
+  },
+  {
+    "ten": "Triều Lê Sơ",
+    "thoiGian": "1428 - 1527",
+    "lanhDaoQuocGia": [
+      "Lê Thái Tổ (Lê Lợi) (1428 - 1433)",
+      "Lê Thái Tông (Lê Nguyên Long) (434 - 1442)",
+      "Lê Nhân Tông (Lê Bang Cơ) (1443 - 1459)",
+      "Trần Nghi Dân (1459-1460)",
+      "Lê Thánh Tông (Lê Tư Thành) (1460 - 1497)",
+      "Lê Hiến Tông (Lê Tranh) (1497 - 1504)",
+      "Lê Túc Tông (Lê Thuần) (1504)",
+      "Lê Uy Mục (Lê Tuấn) (1505 - 1509)",
+      "Lê Tương Dực (Lê Dinh) (1510 - 1516)",
+      "Lê Chiêu Tông (Lê Y) (1516 - 1522)",
+      "Lê Cung Hoàng (Lê Xuân) (1522 - 1527)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Triều Mạc",
+    "thoiGian": "1527 - 1592",
+    "lanhDaoQuocGia": [
+      "Mạc Đăng Dung (1527 - 1529)",
+      "Mạc Đăng Doanh (1530 - 1540)",
+      "Mạc Phúc Hải (1541 - 1546)",
+      "Mạc Phúc Nguyên (1546 - 1561)",
+      "Mạc Mậu Hợp (1562 - 1592)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Triều Hậu Lê (Lê Trung Hưng) Nam - Bắc Triều",
+    "lanhDaoQuocGia": [
+      "Lê Trang Tông (Lê Duy Ninh) (1533 - 1543)",
+      "Lê Trung Tông (Lê Huyên) (1548 - 1556)",
+      "Lê Anh Tông (Lê Duy Bang) (1556 - 1573)",
+      "Lê Thế Tông (Lê Duy Đàm) (1573 - 1599)",
+      "Lê Kính Tông (Lê Duy Tân) (1600 - 1619)",
+      "Lê Thần Tông (Lê Duy Kỳ) (1619 - 1643)",
+      "Lê Chân Tông (Lê Duy Hiệu) (1643 - 1649)",
+      "Lê Thần Tông (Lê Duy Kỳ) (1649 - 1662)",
+      "Lê Huyền Tông (Lê Duy Vũ) (1663 - 1671)",
+      "Lê Gia Tông (Lê Duy Khoái) (1672 - 1675)",
+      "Lê Hy Tông (Lê Duy Hợp) (1676 - 1704)",
+      "Lê Dụ Tông (Lê Duy Đường) (1705 - 1728)",
+      "Hôn Đức Công (1729 - 1732)",
+      "Lê Thuần Tông (Lê Duy Phương) (1732 - 1735)",
+      "Lê Ý Tông (Lê Duy Thận) (1735 - 1740)",
+      "Lê Hiển Tông (Lê Duy Diên) (1740 - 1786)",
+      "Lê Chiêu Thống (Lê Mẫn Đế) (1787 - 1789)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Triều Tây Sơn",
+    "lanhDaoQuocGia": [
+      "Thái Đức Hoàng đế (Nguyễn Nhạc) (1778 - 1793)",
+      "Quang Trung Hoàng đế (Nguyễn Huệ) (1789 - 1792)",
+      "Cảnh Thịnh Hoàng đế (Nguyễn Quang Toản) (1792 - 1802)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Chúa Trịnh",
+    "thoiGian": "1545 - 1786",
+    "lanhDaoQuocGia": [
+      "Trịnh Kiểm (1545 - 1570)",
+      "Trịnh Tùng (1570 - 1623)",
+      "Trịnh Tráng (1623 - 1652)",
+      "Trịnh Tạc (1653 - 1682)",
+      "Trịnh Căn (1682 - 1709)",
+      "Trịnh Cương (1709 - 1729)",
+      "Trịnh Giang (1729 - 1740)",
+      "Trịnh Doanh (1740 - 1767)",
+      "Trịnh Sâm (1767 - 1782)",
+      "Trịnh Tông (1782 - 1786)",
+      "Trịnh Bồng (1786 - 1787)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Chúa Nguyễn",
+    "thoiGian": "1600 - 1802",
+    "lanhDaoQuocGia": [
+      "Nguyễn Hoàng (1600 - 1613)",
+      "Nguyễn Phúc Nguyên (1613 - 1635)",
+      "Nguyễn Phúc Lan (1635 - 1648)",
+      "Nguyễn Phúc Tần (1648 - 1687)",
+      "Nguyễn Phúc Trăn (1687 - 1691)",
+      "Nguyễn Phúc Chu (1691 - 1725)",
+      "Nguyễn Phúc Chú (1725 - 1738)",
+      "Nguyễn Phúc Khoát (1738 - 1765)",
+      "Nguyễn Phúc Thuần (1765 - 1777)",
+      "Nguyễn Phúc Ánh (1781 - 1802)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Triều Nguyễn thời kỳ độc lập",
+    "thoiGian": "1802 - 1883",
+    "lanhDaoQuocGia": [
+      "Gia Long Hoàng Đế (Nguyễn Ánh) (1802 - 1819)",
+      "Minh Mệnh Hoàng đế (Nguyễn Phước Đảm) (1820 - 1840)",
+      "Thiệu Trị Hoàng đế (Miên Tông) (1841 - 1847)",
+      "Tự Đức Hoàng đế (Hồng Nhậm) (1848 - 1883)"
+    ],
+    "nguon": 6
+  },
+  {
+    "ten": "Thời kỳ bắt đầu thuộc Pháp",
+    "lanhDaoQuocGia": [
+      "Dục Đức (Ưng Chân) (1883 (làm vua 3 ngày))",
+      "Hiệp Hòa (Hồng Dật) (6/1883 - 11/1883)",
+      "Kiến Phúc (Ưng Đăng) (12/1883 - 8/1884)",
+      "Hàm Nghi (Ưng Lịch) (8/1884 - 8/1885)",
+      "Đồng Khánh (Ưng Đường) (1885 - 1888)",
+      "Thành Thái (Bửu Lân) (1889 - 1907)",
+      "Duy Tân (Vĩnh San) (1907 - 1916)",
+      "Khải Định (Bửu Đảo) (1916 - 1925)",
+      "Bảo Đại (Vĩnh Thụy) (1926 - 1945)"
+    ],
+    "nguon": 6
+  }
+]

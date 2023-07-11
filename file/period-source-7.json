@@ -1,0 +1,312 @@
+[
+  {
+    "ten": "CHÚA TRỊNH",
+    "thoiGian": "1545-1788",
+    "lanhDaoQuocGia": [
+      "Minh Khang Thái Vương",
+      "Bình An Vương",
+      "Thanh Đô Vương",
+      "Tây Đô Vương",
+      "Định Vương",
+      "An Đô Vương",
+      "UY Nam Vương",
+      "Minh Đô Vương",
+      "Tinh Đô Vương",
+      "Định Đô Vương",
+      "Đoan Nam Vương",
+      "Ân Đô Vương"
+    ],
+    "nguon": 7
+  },
+  {
+    "ten": "HỒNG BÀNG",
+    "thoiGian": "2879-258 TCN",
+    "lanhDaoQuocGia": [
+      "Kinh Dương Vương",
+      "Lạc Long Quân",
+      "Hùng Vương"
+    ],
+    "nguon": 7,
+    "tenNuoc": [
+      "Văn Lang"
+    ]
+  },
+  {
+    "ten": "NHÀ THỤC",
+    "thoiGian": "257-208 TCN",
+    "lanhDaoQuocGia": [
+      "Thục Phán"
+    ],
+    "nguon": 7,
+    "tenNuoc": [
+      "Âu Lạc"
+    ]
+  },
+  {
+    "ten": "NHÀ TRIỆU ĐÔ HỘ",
+    "thoiGian": "207-111 TCN",
+    "nguon": 7
+  },
+  {
+    "ten": "NHÀ HÁN ĐÔ HỘ",
+    "thoiGian": "111TCN -40",
+    "nguon": 7
+  },
+  {
+    "ten": "KHỞI NGHĨA MÊ LINH",
+    "thoiGian": "40-43",
+    "lanhDaoQuocGia": [
+      "Hai Bà Trưng"
+    ],
+    "nguon": 7,
+    "tenNuoc": []
+  },
+  {
+    "ten": "PHƯƠNG BẮC ĐÔ HỘ LẦN 2",
+    "thoiGian": "43-543",
+    "lanhDaoQuocGia": [
+      "Khởi nghĩa Bà Triệu"
+    ],
+    "nguon": 7,
+    "tenNuoc": []
+  },
+  {
+    "ten": "NHÀ LÝ – NHÀ TRIỆU",
+    "thoiGian": "544-602",
+    "lanhDaoQuocGia": [
+      "Lý Nam Đế (Lý Bôn)",
+      "Lý Đào Lan Vương",
+      "Triệu Việt Vương",
+      "Hậu Lý Nam Đế"
+    ],
+    "nguon": 7,
+    "tenNuoc": [
+      "Vạn Xuân"
+    ]
+  },
+  {
+    "ten": "THỜI KỲ ĐÔ HỘ LẦN 3",
+    "thoiGian": "603-938",
+    "lanhDaoQuocGia": [
+      "Mai Hắc Đế",
+      "Bố Cái Đại Vương"
+    ],
+    "nguon": 7,
+    "tenNuoc": [
+      "An Nam"
+    ]
+  },
+  {
+    "ten": "THỜI KỲ TỰ CHỦ",
+    "thoiGian": "906-938",
+    "lanhDaoQuocGia": [
+      "Khúc Thừa Dụ",
+      "Khúc Hạo",
+      "Khúc Thừa Mỹ",
+      "Dương Đình Nghệ"
+    ],
+    "nguon": 7,
+    "tenNuoc": [
+      "An Nam"
+    ]
+  },
+  {
+    "ten": "NHÀ NGÔ",
+    "thoiGian": "939-968",
+    "lanhDaoQuocGia": [
+      "Ngô Vương",
+      "Dương Bình Vương",
+      "Ngô Lâm Tấn Vương",
+      "Ngô Thiên Sách Vương"
+    ],
+    "nguon": 7,
+    "tenNuoc": [
+      "Vạn Xuân"
+    ]
+  },
+  {
+    "ten": "NHÀ ĐINH",
+    "thoiGian": "968-980",
+    "lanhDaoQuocGia": [
+      "Đinh Tiên Hoàng",
+      "Đinh Phế Đế"
+    ],
+    "nguon": 7,
+    "tenNuoc": [
+      "Đại Cồ Việt"
+    ]
+  },
+  {
+    "ten": "NHÀ TIỀN LÊ",
+    "thoiGian": "980-1009",
+    "lanhDaoQuocGia": [
+      "Lê Đại Hành",
+      "Lê Trung Tông",
+      "Lê Long Đỉnh"
+    ],
+    "nguon": 7,
+    "tenNuoc": []
+  },
+  {
+    "ten": "NHÀ LÝ",
+    "thoiGian": "1010-1225",
+    "lanhDaoQuocGia": [
+      "Lý Thái Tổ",
+      "Lý Thái Tông",
+      "Lý Thánh Tông",
+      "Lý Nhân Tông",
+      "Lý Thần Tông",
+      "Lý Anh Tông",
+      "Lý Cao Tông",
+      "Lý Huệ Tông",
+      "Lý Chiêu Hoàng"
+    ],
+    "nguon": 7,
+    "tenNuoc": [
+      "Đại Việt"
+    ]
+  },
+  {
+    "ten": "NHÀ TRẦN",
+    "thoiGian": "1225-1400",
+    "lanhDaoQuocGia": [
+      "Trần Thái Tông",
+      "Trần Thánh Tông",
+      "Trần Nhân Tông",
+      "Trần Anh Tông",
+      "Trần Minh Tông",
+      "Trần Hiến Tông",
+      "Trần Dụ Tông",
+      "Trần Nghệ Tông",
+      "Trần Duệ Tông",
+      "Trần Phế Đế",
+      "Trần Thuận Tông",
+      "Trần Thiếu Đế"
+    ],
+    "nguon": 7,
+    "tenNuoc": [
+      "Đại Việt"
+    ]
+  },
+  {
+    "ten": "NHÀ HỒ",
+    "thoiGian": "1400-1407",
+    "lanhDaoQuocGia": [
+      "Hồ Quý Ly",
+      "Hồ Hán Thương"
+    ],
+    "nguon": 7,
+    "tenNuoc": [
+      "Đại Ngu"
+    ]
+  },
+  {
+    "ten": "NHÀ HẬU TRẦN",
+    "thoiGian": "1407-1414",
+    "lanhDaoQuocGia": [
+      "Trần Giản Định",
+      "rần Quý Kháng"
+    ],
+    "nguon": 7,
+    "tenNuoc": [
+      "Đại Việt"
+    ]
+  },
+  {
+    "ten": "NHÀ LÊ (Lê Sơ)",
+    "thoiGian": "1428-1527",
+    "lanhDaoQuocGia": [
+      "Lê Thái Tổ",
+      "Lê Thái Tông",
+      "Lê Nhân Tông",
+      "Lê Thánh Tông",
+      "Lê Hiến Tông",
+      "Lê Túc Tông",
+      "Lê Uy Mục",
+      "Lê Tương Dực",
+      "Lê Chiêu Tông",
+      "Lê Cung Hoàng"
+    ],
+    "nguon": 7,
+    "tenNuoc": [
+      "Đại Việt"
+    ]
+  },
+  {
+    "ten": "NHÀ MẠC",
+    "thoiGian": "1527-1592",
+    "lanhDaoQuocGia": [
+      "Mạc Đăng Dung",
+      "Mạc Đăng Doanh",
+      "Mạc Phúc Hải",
+      "Mạc Phúc Nguyên",
+      "Mạc Hậu Hợp"
+    ],
+    "nguon": 7,
+    "tenNuoc": [
+      "Đại Việt"
+    ]
+  },
+  {
+    "ten": "NHÀ HẬU LÊ",
+    "thoiGian": "1533-1788",
+    "lanhDaoQuocGia": [
+      "Lê Trang Tông",
+      "Lê Trung Tông",
+      "Lê Anh Tông",
+      "Lê Thế Tông",
+      "Lê Kinh Tông",
+      "Lê Thần Tông",
+      "Lê Chân Tông",
+      "Lê Huyền Tông",
+      "Lê Gia Tông",
+      "Lê Hy Tông",
+      "Lê Dụ Tông",
+      "Lê Duy Phường",
+      "Lê Thuần Tông",
+      "Lê Ý Tông",
+      "Lê Hiển Tông",
+      "Lê Mẫn Đế"
+    ],
+    "nguon": 7,
+    "tenNuoc": [
+      "Đại Việt"
+    ]
+  },
+  {
+    "ten": "NGUYỄN TÂY SƠN",
+    "thoiGian": "1778-1802",
+    "lanhDaoQuocGia": [
+      "Nguyễn Nhạc",
+      "Nguyễn Huệ",
+      "Nguyễn Quang Toản"
+    ],
+    "nguon": 7,
+    "tenNuoc": [
+      "Đại Việt"
+    ]
+  },
+  {
+    "ten": "NHÀ NGUYỄN",
+    "thoiGian": "1802-1945",
+    "lanhDaoQuocGia": [
+      "Nguyễn Phúc Ánh",
+      "Nguyễn Phúc Đảm",
+      "Nguyễn Miên Tông",
+      "Nguyễn Hồng Nhiệm",
+      "Nguyễn Ưng Chân",
+      "Nguyễn Hồng Dật",
+      "Nguyễn Ưng Đăng",
+      "Nguyễn Ưng Lịch",
+      "Nguyễn Ưng Xụy",
+      "Nguyễn Bửu Lân",
+      "Nguyễn Vĩnh San",
+      "Nguyễn Bửu Đảo",
+      "Nguyễn Vĩnh Thụy"
+    ],
+    "nguon": 7,
+    "tenNuoc": [
+      "Việt Nam"
+    ]
+  }
+]
