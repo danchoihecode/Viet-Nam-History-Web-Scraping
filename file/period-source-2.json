@@ -1,0 +1,146 @@
+[
+  {
+    "ten": "Hồng Bàng thị",
+    "nguoiSangLap": "Lộc Tục, tức Kinh Dương Vương",
+    "thuDo": "Hùng Vương thứ nhất định đô ở Phong Châu (nay là huyện Bạch Hạc, tỉnh Phú Thọ)",
+    "nguon": 2
+  },
+  {
+    "ten": "Nhà Thục",
+    "nguoiSangLap": "Thục Phán, tức An Dương Vương",
+    "thuDo": "Phong Khê (nay là thành Cổ Loa, huyện Đông Anh, Hà Nội)",
+    "nguon": 2
+  },
+  {
+    "ten": "Nhà Triệu",
+    "nguoiSangLap": "Triệu Đà, tức Triệu Vũ Đế",
+    "thuDo": "Cung điện Phiên Ngung (thành phố Quảng Châu, tỉnh Quảng Đông, Trung Quốc)",
+    "nguon": 2
+  },
+  {
+    "ten": "Họ Trưng",
+    "nguoiSangLap": "Trưng Trắc, tức Trưng Nữ Vương",
+    "thuDo": "Huyện Mê Linh, Hà Nội",
+    "nguon": 2
+  },
+  {
+    "ten": "Nhà Tiền Lý",
+    "nguoiSangLap": "Lý Bí, tức Lý Nam Đế",
+    "thuDo": "Long Uyên (nay thuộc quận Long Biên, Hà Nội hoặc Bắc Ninh)",
+    "nguon": 2
+  },
+  {
+    "ten": "Họ Triệu",
+    "nguoiSangLap": "Triệu Quang Phục, tức Triệu Việt Vương (xen giữa Tiền Lý Nam Đế và Hậu Lý Nam Đế)",
+    "thuDo": "Long Uyên (nay thuộc quận Long Biên, Hà Nội hoặc Bắc Ninh)... sau dời sang Vũ Ninh (nay là huyện Quế Võ, tỉnh Bắc Ninh)",
+    "nguon": 2
+  },
+  {
+    "ten": "Họ Mai",
+    "nguoiSangLap": "Mai Thúc Loan, tức Mai Hắc Đế",
+    "thuDo": "Vạn An (nay thuộc huyện Nam Đàn, Nghệ An)",
+    "nguon": 2
+  },
+  {
+    "ten": "Họ Phùng",
+    "nguoiSangLap": "Phùng Hưng, tức Bố Cái Đại Vương",
+    "thuDo": "Tống Bình (nay thuộc Hà Nội)",
+    "nguon": 2
+  },
+  {
+    "ten": "Họ Khúc",
+    "nguoiSangLap": "Khúc Thừa Dụ, tức Khúc Tiên Chủ",
+    "thuDo": "Đại La (nay thuộc Hà Nội)",
+    "nguon": 2
+  },
+  {
+    "ten": "Họ Dương",
+    "nguoiSangLap": "Dương Đình Nghệ, tức Dương Chính Công (giai đoạn tự chủ) Dương Tam Kha, tức Dương Bình Vương (xen giữa Tiền Ngô Vương và Hậu Ngô Vương)",
+    "thuDo": "Dương Đình Nghệ đóng đô ở Đại La (nay thuộc Hà Nội) còn Dương Tam Kha đóng đô ở thành Cổ Loa (huyện Đông Anh, Hà Nội)",
+    "nguon": 2
+  },
+  {
+    "ten": "Họ Kiều",
+    "nguoiSangLap": "Kiều Công Tiễn",
+    "thuDo": "Đại La (nay thuộc Hà Nội)",
+    "nguon": 2
+  },
+  {
+    "ten": "Nhà Ngô",
+    "nguoiSangLap": "Ngô Quyền, tức Tiền Ngô Vương",
+    "thuDo": "Cổ Loa (huyện Đông Anh, Hà Nội)",
+    "nguon": 2
+  },
+  {
+    "ten": "Nhà Đinh",
+    "nguoiSangLap": "Đinh Bộ Lĩnh, tức Đinh Tiên Hoàng",
+    "thuDo": "Hoa Lư (nay thuộc tỉnh Ninh Bình)",
+    "nguon": 2
+  },
+  {
+    "ten": "Nhà Tiền Lê",
+    "nguoiSangLap": "Lê Hoàn, tức Lê Đại Hành",
+    "thuDo": "Hoa Lư (nay thuộc tỉnh Ninh Bình)",
+    "nguon": 2
+  },
+  {
+    "ten": "Nhà Lý",
+    "nguoiSangLap": "Lý Công Uẩn, tức Lý Thái Tổ",
+    "thuDo": "Thăng Long (Hà Nội)",
+    "nguon": 2
+  },
+  {
+    "ten": "Nhà Trần",
+    "nguoiSangLap": "Trần Thủ Độ (người sáng lập thực tế) Trần Cảnh, tức Trần Thái Tông (hoàng đế đầu tiên)",
+    "thuDo": "Thăng Long (Hà Nội)",
+    "nguon": 2
+  },
+  {
+    "ten": "Nhà Hồ",
+    "nguoiSangLap": "Hồ Quý Ly",
+    "thuDo": "Tây Đô (huyện Vĩnh Lộc, Thanh Hoá)",
+    "nguon": 2
+  },
+  {
+    "ten": "Nhà Hậu Trần",
+    "nguoiSangLap": "Trần Ngỗi, tức Giản Định Đế",
+    "thuDo": "Mô Độ (huyện Yên Mô - Ninh Bình",
+    "nguon": 2
+  },
+  {
+    "ten": "Nhà Hậu Lê",
+    "nguoiSangLap": "Lê Lợi, tức Lê Thái Tổ (giai đoạn Lê sơ) Lê Duy Ninh, tức Lê Trang Tông (giai đoạn Lê Trung hưng)",
+    "thuDo": "Đông Kinh (Hà Nội)",
+    "nguon": 2
+  },
+  {
+    "ten": "Nhà Mạc",
+    "nguoiSangLap": "Mạc Đăng Dung, tức Mạc Thái Tổ",
+    "thuDo": "Đông Kinh (Hà Nội)",
+    "nguon": 2
+  },
+  {
+    "ten": "Chúa Trịnh",
+    "nguoiSangLap": "Trịnh Kiểm (tức Trịnh Thế Tổ - người sáng lập thực tế) Trịnh Tùng (tức Trịnh Thành Tổ - chúa Trịnh chính thức đầu tiên)",
+    "thuDo": "Đông Kinh (Hà Nội)",
+    "nguon": 2
+  },
+  {
+    "ten": "Chúa Nguyễn",
+    "nguoiSangLap": "Nguyễn Kim (tức Nguyễn Triệu Tổ - người sáng lập thực tế) Nguyễn Hoàng (tức Nguyễn Thái Tổ - chúa Nguyễn chính thức đầu tiên)",
+    "thuDo": "Phú Xuân (thành phố Huế - tỉnh Thừa Thiên Huế)",
+    "nguon": 2
+  },
+  {
+    "ten": "Nhà Tây Sơn",
+    "nguoiSangLap": "Nguyễn Nhạc, tức Thái Đức Đế",
+    "thuDo": "Quy Nhơn (thị xã An Nhơn, Bình Định)",
+    "nguon": 2
+  },
+  {
+    "ten": "Nhà Nguyễn",
+    "nguoiSangLap": "Nguyễn Ánh, tức Nguyễn Thế Tổ",
+    "thuDo": "Huế (thành phố Huế - tỉnh Thừa Thiên Huế)",
+    "nguon": 2
+  }
+]
