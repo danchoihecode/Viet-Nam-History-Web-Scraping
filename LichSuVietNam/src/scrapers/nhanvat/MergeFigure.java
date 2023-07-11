@@ -67,8 +67,7 @@ public class MergeFigure {
 		for (String attribute : ATTRIBUTES) {
 			if (sourceObject.has(attribute)) {
 				JsonElement attributeValue = sourceObject.get(attribute);
-				if (attribute.equals("leHoiLienQuan") || attribute.equals("nhanVatLienQuan")
-						|| attribute.equals("suKienLienQuan")) {
+				if (attribute.equals("leHoiLienQuan") || attribute.equals("suKienLienQuan")) {
 					mergeArrayListAttribute(targetObject, attribute, attributeValue);
 				} else {
 					mergeAttributeValue(targetObject, attribute, attributeValue, nguon);
