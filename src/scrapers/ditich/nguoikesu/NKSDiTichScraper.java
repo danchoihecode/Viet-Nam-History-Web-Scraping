@@ -12,7 +12,7 @@ import entities.ditich.DiTich;
 import scrapers.ditich.SiteScraper;
 import utilities.EntityUrl;
 
-public class DiTichScraper {
+public class NKSDiTichScraper {
 
 	public static void main(String[] args) {
 
