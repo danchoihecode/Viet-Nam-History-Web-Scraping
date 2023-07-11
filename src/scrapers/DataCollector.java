@@ -47,6 +47,8 @@ public abstract class DataCollector {
 	}
 
 	public HashMap<Document, String[]> connectToUrls(String filePath, boolean bool) {
+		if (bool = false)
+			return null;
 		BufferedReader reader;
 		HashMap<Document, String[]> docs = new HashMap<>();
 		String[] tmp;

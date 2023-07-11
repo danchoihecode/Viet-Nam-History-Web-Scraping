@@ -13,7 +13,6 @@ import org.jsoup.select.Elements;
 
 import entities.sukien.SuKien;
 import scrapers.sukien.EventScraper;
-import utilities.EntityUrl;
 
 public abstract class SuKienWiki extends EventScraper {
 	

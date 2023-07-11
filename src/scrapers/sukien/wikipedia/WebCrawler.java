@@ -1,16 +1,15 @@
 package scrapers.sukien.wikipedia;
 
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import scrapers.Crawler;
-
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
 
 public class WebCrawler {
 	

@@ -10,7 +10,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import entities.thoiky.ThoiKy;
-import scrapers.thoiky.PeriodScraper;
+import utilities.PeriodScraper;
 
 public class ScraperLeLoi {
 	public static List<String> extractNumbers(String input) {

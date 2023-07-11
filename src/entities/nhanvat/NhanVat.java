@@ -65,25 +65,6 @@ public class NhanVat {
 		this.nguon = nguon;
 	}
 
-//	@Override
-//	public boolean equals(Object v) {
-//        boolean retVal = false;
-//
-//        if (v instanceof NhanVat){
-//        	NhanVat ptr = (NhanVat) v;
-//        	if(this.mieuTa != null && ptr.mieuTa != null) retVal = ptr.mieuTa.equals(this.mieuTa);
-//        }
-//
-//        return retVal;
-//	}
-//
-//    @Override
-//    public int hashCode() {
-//        int hash = 31;
-//        hash = 31 + (this.mieuTa != null ? this.mieuTa.hashCode() : 0);
-//        return hash;
-//    }
-
 	public String getNamSinh() {
 		return namSinh;
 	}

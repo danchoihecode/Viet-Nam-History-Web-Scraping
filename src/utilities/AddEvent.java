@@ -22,13 +22,13 @@ import entities.sukien.SuKien;
 public class AddEvent {
 	public static void main(String[] args) {
 		
-		String outputFile = "file\\figure-source-3.json";
+		String outputFile = "file\\figure-source-2.json";
 
 		// Đọc dữ liệu từ file figure-source-3.json
 		List<NhanVat> nhanVatList = readNhanVatFromJson(outputFile);
 
 		// Tạo map<String, ArrayList<String>> từ file event-source-3.json
-		Map<String, ArrayList<String>> eventMap = readEventMapFromFile("file\\event-source-3.json");
+		Map<String, ArrayList<String>> eventMap = readEventMapFromFile("file\\event-source-2.json");
 
 		// Duyệt qua danh sách nhanVat và kiểm tra sự kiện liên quan
 		for (NhanVat nhanVat : nhanVatList) {
